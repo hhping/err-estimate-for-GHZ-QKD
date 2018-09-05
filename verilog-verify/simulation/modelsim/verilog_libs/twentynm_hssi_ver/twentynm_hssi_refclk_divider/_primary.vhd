@@ -1,0 +1,65 @@
+library verilog;
+use verilog.vl_types.all;
+entity twentynm_hssi_refclk_divider is
+    generic(
+        enable_debug_info: string  := "true";
+        clk_divider     : string  := "div2_off";
+        clkbuf_sel      : string  := "high_vcm";
+        core_clk_lvpecl : string  := "core_clk_lvpecl_off";
+        enable_lvpecl   : string  := "lvpecl_enable";
+        iostandard      : string  := "lvpecl";
+        optimal         : string  := "true";
+        powerdown_mode  : string  := "powerup";
+        sel_pldclk      : string  := "iqclk_sel_lvpecl";
+        silicon_rev     : string  := "20nm5es";
+        sup_mode        : string  := "user_mode";
+        term_tristate   : string  := "tristate_off";
+        vcm_pup         : string  := "pup_off"
+    );
+    port(
+        avmmaddress     : in     vl_logic_vector(8 downto 0);
+        avmmclk         : in     vl_logic;
+        avmmread        : in     vl_logic;
+        avmmrstn        : in     vl_logic;
+        avmmwrite       : in     vl_logic;
+        avmmwritedata   : in     vl_logic_vector(7 downto 0);
+        ac_mode         : in     vl_logic;
+        atb_0_bidir_in  : in     vl_logic;
+        atb_1_bidir_in  : in     vl_logic;
+        atbsel_lvpecl   : in     vl_logic;
+        clkbuf_b50      : in     vl_logic_vector(5 downto 0);
+        highz           : in     vl_logic;
+        hotsckt         : in     vl_logic;
+        mem_init        : in     vl_logic;
+        mode            : in     vl_logic;
+        pldclk          : in     vl_logic;
+        refclk_inn      : in     vl_logic;
+        refclk_inp      : in     vl_logic;
+        refclk_n        : in     vl_logic;
+        refclk_p        : in     vl_logic;
+        rjdrv_sel       : in     vl_logic_vector(1 downto 0);
+        rjhys_sel       : in     vl_logic;
+        rjtaglp         : in     vl_logic;
+        vlprxn          : in     vl_logic;
+        vlprxp          : in     vl_logic;
+        avmmreaddata    : out    vl_logic_vector(7 downto 0);
+        blockselect     : out    vl_logic;
+        bsrefclkn       : out    vl_logic;
+        bsrefclkp       : out    vl_logic;
+        refclk_a        : out    vl_logic
+    );
+    attribute mti_svvh_generic_type : integer;
+    attribute mti_svvh_generic_type of enable_debug_info : constant is 1;
+    attribute mti_svvh_generic_type of clk_divider : constant is 1;
+    attribute mti_svvh_generic_type of clkbuf_sel : constant is 1;
+    attribute mti_svvh_generic_type of core_clk_lvpecl : constant is 1;
+    attribute mti_svvh_generic_type of enable_lvpecl : constant is 1;
+    attribute mti_svvh_generic_type of iostandard : constant is 1;
+    attribute mti_svvh_generic_type of optimal : constant is 1;
+    attribute mti_svvh_generic_type of powerdown_mode : constant is 1;
+    attribute mti_svvh_generic_type of sel_pldclk : constant is 1;
+    attribute mti_svvh_generic_type of silicon_rev : constant is 1;
+    attribute mti_svvh_generic_type of sup_mode : constant is 1;
+    attribute mti_svvh_generic_type of term_tristate : constant is 1;
+    attribute mti_svvh_generic_type of vcm_pup : constant is 1;
+end twentynm_hssi_refclk_divider;

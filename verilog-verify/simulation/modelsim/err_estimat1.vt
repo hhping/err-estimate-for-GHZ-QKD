@@ -1,0 +1,194 @@
+// Copyright (C) 1991-2014 Altera Corporation. All rights reserved.
+// Your use of Altera Corporation's design tools, logic functions
+// and other software and tools, and its AMPP partner logic
+// functions, and any output files from any of the foregoing
+// (including device programming or simulation files), and any
+// associated documentation or information are expressly subject
+// to the terms and conditions of the Altera Program License
+// Subscription Agreement, the Altera Quartus II License Agreement,
+// the Altera MegaCore Function License Agreement, or other
+// applicable license agreement, including, without limitation,
+// that your use is for the sole purpose of programming logic
+// devices manufactured by Altera and sold by Altera or its
+// authorized distributors.  Please refer to the applicable
+// agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench template that is freely editable to
+// suit user's needs .Comments are provided in each section to help the user
+// fill out necessary details.
+// *****************************************************************************
+// Generated on "06/13/2018 11:06:56"
+
+// Verilog Test Bench template for design : err_estimat
+//
+// Simulation tool : ModelSim-Altera (Verilog)
+//
+
+`timescale 1 ns/ 1 ns
+module err_estimat_vlg_tst();
+// constants
+// general purpose registers
+
+// test vector input registers
+reg clk;
+reg [20:0] i_mo;
+reg [20:0] i_mv;
+reg [31:0] i_nleak;
+reg [20:0] i_no;
+reg [24:0] i_nu;
+reg [20:0] i_nv;
+reg i_start;
+reg rst;
+// wires
+wire [31:0]  o_err_value;
+wire o_err_value_vld;
+wire o_err_cal_busy;
+wire [31:0] s1,e1,l;
+wire        s1_vld,e1_vld,l_vld;
+
+// assign statements (if any)
+err_estimat i1 (
+// port map - connection between master ports and signals/registers
+  .rst(rst),
+  .clk (clk),
+  .i_nleak(i_nleak),
+  .i_mo(i_mo),
+  .i_mv(i_mv),
+  .i_no(i_no),
+  .i_nu(i_nu),
+  .i_nv(i_nv),
+  .i_start(i_start),
+  .o_err_value(o_err_value),
+  .o_err_value_vld(o_err_value_vld),
+  .o_err_cal_busy(o_err_cal_busy)
+//  .s1(s1),
+//  .s1_vld(s1_vld),
+//  .e1(e1),
+//  .e1_vld(e1_vld),
+//  .l(l),
+//  .l_vld(l_vld)
+);
+
+
+initial
+begin
+    #0
+    clk = 1'b0;
+    rst = 1'b1;
+    i_nv = 0;
+    i_nu = 0;
+    i_no = 0;
+    i_mv = 0;
+    i_mo = 0;
+    i_start = 0;
+    #100
+    rst = 1'b0;
+
+    // 参数1
+    #20
+    @(posedge clk)
+    i_nleak = 21'h01d60c; //120332
+    i_nu    = 25'h00f4240;//1000000
+    i_nv    = 21'h008c8d;//35981
+    i_no    = 21'h000023;//35
+    i_mv    = 21'h0001ef;//495
+    i_mo    = 21'h000011;//17
+    i_start = 1;
+    @(posedge clk); i_start = 0;
+
+    // 参数2
+    @(negedge o_err_cal_busy)
+    @(posedge clk)
+    @(posedge clk)
+    i_nleak = 21'h01dc98 ; //122008
+    i_nu    = 25'h00f4240;//1000000
+    i_nv    = 21'h008c79 ;//35961
+    i_no    = 21'h000047 ;//71
+    i_mv    = 21'h000211 ;//529
+    i_mo    = 21'h000023 ;//35
+    i_start = 1;
+    @(posedge clk);i_start = 0;
+
+    @(negedge o_err_cal_busy)
+    @(posedge clk)
+    @(posedge clk)  
+    i_nleak = 21'd127038 ;
+    i_nu    = 25'd1000000;
+    i_nv    = 21'd36081 ;
+    i_no    = 21'd178 ;
+    i_mv    = 21'd635 ;
+    i_mo    = 21'd89 ;
+    i_start = 1;
+    @(posedge clk);i_start = 0;
+
+
+    @(negedge o_err_cal_busy)
+    @(posedge clk)
+    @(posedge clk)  
+    i_nleak = 21'd135200 ;
+    i_nu    = 25'd1000000;
+    i_nv    = 21'd36337 ;
+    i_no    = 21'd354 ;
+    i_mv    = 21'd810 ;
+    i_mo    = 21'd177 ;
+    i_start = 1;
+    @(posedge clk);i_start = 0;
+
+    @(negedge o_err_cal_busy)
+    @(posedge clk)
+    @(posedge clk)  
+    i_nleak = 21'd150951 ;
+    i_nu    = 25'd1000000;
+    i_nv    = 21'd36866 ;
+    i_no    = 21'd704 ;
+    i_mv    = 21'd1158 ;
+    i_mo    = 21'd352 ;
+    i_start = 1;
+    @(posedge clk);i_start = 0;
+
+    @(negedge o_err_cal_busy)
+    @(posedge clk)
+    @(posedge clk)  
+    i_nleak = 21'd195069 ;
+    i_nu    = 25'd1000000;
+    i_nv    = 21'd38458 ;
+    i_no    = 21'd1744 ;
+    i_mv    = 21'd2192 ;
+    i_mo    = 21'd872 ;
+    i_start = 1;
+    @(posedge clk);i_start = 0;
+
+    @(negedge o_err_cal_busy)
+    @(posedge clk)
+    @(posedge clk)  
+    i_nleak = 21'd258973 ;
+    i_nu    = 25'd1000000;
+    i_nv    = 21'd41003;
+    i_no    = 21'd3403 ;
+    i_mv    = 21'd3841 ;
+    i_mo    = 21'd1701 ;
+    i_start = 1;
+    @(posedge clk);i_start = 0;
+end
+
+always  #4 clk = ~clk;
+
+/*
+ * 将仿真结果写入TXT文件
+ */
+integer w_file;
+initial w_file = $fopen("modelsim_o.txt");
+
+
+always@(posedge s1_vld) $fdisplay(w_file,"s1 = %h",s1);
+always@(posedge e1_vld) $fdisplay(w_file,"e1 = %h",e1);
+always@(posedge l_vld ) $fdisplay(w_file," 1 = %h",l);
+
+
+//always @(s1_vld,e1_vld,l_vld)begin
+//    if()
+//end
+
+endmodule
+

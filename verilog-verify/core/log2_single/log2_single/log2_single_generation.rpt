@@ -1,0 +1,84 @@
+Info: Starting: Create simulation model
+Info: qsys-generate G:\QKD_1GHZ\verilog\err_estimat_5Q16\core\log2_single\log2_single.qsys --simulation=VERILOG --allow-mixed-language-simulation --output-directory=G:\QKD_1GHZ\verilog\err_estimat_5Q16\core\log2_single\log2_single --family="Arria 10" --part=10AS027H4F34I3SG
+Progress: Loading log2_single/log2_single.qsys
+Progress: Reading input file
+Progress: Adding fp_functions_0 [altera_fp_functions 16.1]
+Progress: Parameterizing module fp_functions_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: log2_single.fp_functions_0: D:/quartus161/quartus/dspba/backend/windows64/cmdPolyEval -target Arria10 -frequency 200 -name none -noChanValid -enable -enableHardFP 1 -printMachineReadable -noFileGenerate -speedgrade 3 FPLog2 8 23
+Info: log2_single.fp_functions_0: D:/quartus161/quartus/dspba/backend/windows64/cmdPolyEval -target Arria10 -frequency 200 -name none -noChanValid -enable -enableHardFP 1 -printMachineReadable -noFileGenerate -speedgrade 3 FPLog2 8 23
+Info: log2_single: "Transforming system: log2_single"
+Info: log2_single: Running transform generation_view_transform
+Info: log2_single: Running transform generation_view_transform took 0.000s
+Info: fp_functions_0: Running transform generation_view_transform
+Info: fp_functions_0: Running transform generation_view_transform took 0.000s
+Info: log2_single: Running transform merlin_avalon_transform
+Info: log2_single: Running transform merlin_avalon_transform took 0.037s
+Info: log2_single: "Naming system components in system: log2_single"
+Info: log2_single: "Processing generation queue"
+Info: log2_single: "Generating: log2_single"
+Info: log2_single: "Generating: log2_single_altera_fp_functions_161_kypxfny"
+Info: fp_functions_0: D:/quartus161/quartus/dspba/backend/windows64/cmdPolyEval -target Arria10 -frequency 200 -name log2_single_altera_fp_functions_161_kypxfny -noChanValid -enable -enableHardFP 1 -printMachineReadable -lang VHDL -speedgrade 3 FPLog2 8 23
+Info: fp_functions_0: Latency on Arria 10 is 17 cycles
+Info: fp_functions_0: DSP Blocks Used: 5
+Info: fp_functions_0: LUTs Used: 964
+Info: fp_functions_0: Memory Bits Used: 31744
+Info: fp_functions_0: Memory Blocks Used: 3
+Info: log2_single: Done "log2_single" with 2 modules, 7 files
+Info: qsys-generate succeeded.
+Info: Finished: Create simulation model
+Info: Starting: Create Modelsim Project.
+Info: sim-script-gen --spd=G:\QKD_1GHZ\verilog\err_estimat_5Q16\core\log2_single\log2_single\log2_single.spd --output-directory=G:/QKD_1GHZ/verilog/err_estimat_5Q16/core/log2_single/log2_single/sim/ --use-relative-paths=true
+Info: Doing: ip-make-simscript --spd=G:\QKD_1GHZ\verilog\err_estimat_5Q16\core\log2_single\log2_single\log2_single.spd --output-directory=G:/QKD_1GHZ/verilog/err_estimat_5Q16/core/log2_single/log2_single/sim/ --use-relative-paths=true
+Info: Generating the following file(s) for MODELSIM simulator in G:/QKD_1GHZ/verilog/err_estimat_5Q16/core/log2_single/log2_single/sim/ directory:
+Info: 	mentor/msim_setup.tcl
+Info: Skipping VCS script generation since VHDL file $QUARTUS_INSTALL_DIR/eda/sim_lib/altera_syn_attributes.vhd is required for simulation
+Info: Generating the following file(s) for VCSMX simulator in G:/QKD_1GHZ/verilog/err_estimat_5Q16/core/log2_single/log2_single/sim/ directory:
+Info: 	synopsys/vcsmx/synopsys_sim.setup
+Info: 	synopsys/vcsmx/vcsmx_setup.sh
+Info: Generating the following file(s) for NCSIM simulator in G:/QKD_1GHZ/verilog/err_estimat_5Q16/core/log2_single/log2_single/sim/ directory:
+Info: 	cadence/cds.lib
+Info: 	cadence/hdl.var
+Info: 	cadence/ncsim_setup.sh
+Info: 	1 .cds.lib files in cadence/cds_libs/ directory
+Info: Generating the following file(s) for RIVIERA simulator in G:/QKD_1GHZ/verilog/err_estimat_5Q16/core/log2_single/log2_single/sim/ directory:
+Info: 	aldec/rivierapro_setup.tcl
+Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under G:/QKD_1GHZ/verilog/err_estimat_5Q16/core/log2_single/log2_single/sim/.
+Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info: Finished: Create Modelsim Project.
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate G:\QKD_1GHZ\verilog\err_estimat_5Q16\core\log2_single\log2_single.qsys --synthesis=VERILOG --output-directory=G:\QKD_1GHZ\verilog\err_estimat_5Q16\core\log2_single\log2_single --family="Arria 10" --part=10AS027H4F34I3SG
+Progress: Loading log2_single/log2_single.qsys
+Progress: Reading input file
+Progress: Adding fp_functions_0 [altera_fp_functions 16.1]
+Progress: Parameterizing module fp_functions_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: log2_single.fp_functions_0: D:/quartus161/quartus/dspba/backend/windows64/cmdPolyEval -target Arria10 -frequency 200 -name none -noChanValid -enable -enableHardFP 1 -printMachineReadable -noFileGenerate -speedgrade 3 FPLog2 8 23
+Info: log2_single.fp_functions_0: D:/quartus161/quartus/dspba/backend/windows64/cmdPolyEval -target Arria10 -frequency 200 -name none -noChanValid -enable -enableHardFP 1 -printMachineReadable -noFileGenerate -speedgrade 3 FPLog2 8 23
+Info: log2_single: "Transforming system: log2_single"
+Info: log2_single: Running transform generation_view_transform
+Info: log2_single: Running transform generation_view_transform took 0.000s
+Info: fp_functions_0: Running transform generation_view_transform
+Info: fp_functions_0: Running transform generation_view_transform took 0.000s
+Info: log2_single: Running transform merlin_avalon_transform
+Info: log2_single: Running transform merlin_avalon_transform took 0.013s
+Info: log2_single: "Naming system components in system: log2_single"
+Info: log2_single: "Processing generation queue"
+Info: log2_single: "Generating: log2_single"
+Info: log2_single: "Generating: log2_single_altera_fp_functions_161_kypxfny"
+Info: fp_functions_0: D:/quartus161/quartus/dspba/backend/windows64/cmdPolyEval -target Arria10 -frequency 200 -name log2_single_altera_fp_functions_161_kypxfny -noChanValid -enable -enableHardFP 1 -printMachineReadable -lang VHDL -speedgrade 3 FPLog2 8 23
+Info: fp_functions_0: Latency on Arria 10 is 17 cycles
+Info: fp_functions_0: DSP Blocks Used: 5
+Info: fp_functions_0: LUTs Used: 964
+Info: fp_functions_0: Memory Bits Used: 31744
+Info: fp_functions_0: Memory Blocks Used: 3
+Info: log2_single: Done "log2_single" with 2 modules, 8 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

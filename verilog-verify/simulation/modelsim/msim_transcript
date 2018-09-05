@@ -1,0 +1,958 @@
+# Reading D:/modeltech64_10.1c/tcl/vsim/pref.tcl 
+# //  ModelSim SE-64 10.1c Jul 28 2012 
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# do err_estimat_run_msim_rtl_verilog.do 
+# if ![file isdirectory err_estimat_iputf_libs] {
+# 	file mkdir err_estimat_iputf_libs
+# }
+# 
+# vmap altera_ver E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/simulation/modelsim/verilog_libs/altera_ver
+# Copying D:\modeltech64_10.1c\win64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\modeltech64_10.1c\win64/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# vmap lpm_ver E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/simulation/modelsim/verilog_libs/lpm_ver
+# Modifying modelsim.ini
+# vmap sgate_ver E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/simulation/modelsim/verilog_libs/sgate_ver
+# Modifying modelsim.ini
+# vmap altera_mf_ver E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/simulation/modelsim/verilog_libs/altera_mf_ver
+# Modifying modelsim.ini
+# vmap altera_lnsim_ver E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/simulation/modelsim/verilog_libs/altera_lnsim_ver
+# Modifying modelsim.ini
+# vmap twentynm_ver E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/simulation/modelsim/verilog_libs/twentynm_ver
+# Modifying modelsim.ini
+# vmap twentynm_hssi_ver E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/simulation/modelsim/verilog_libs/twentynm_hssi_ver
+# Modifying modelsim.ini
+# vmap twentynm_hip_ver E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/simulation/modelsim/verilog_libs/twentynm_hip_ver
+# Modifying modelsim.ini
+# vmap twentynm E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/simulation/modelsim/vhdl_libs/twentynm
+# Modifying modelsim.ini
+# vmap twentynm_hssi E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/simulation/modelsim/vhdl_libs/twentynm_hssi
+# Modifying modelsim.ini
+# vmap twentynm_hip E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/simulation/modelsim/vhdl_libs/twentynm_hip
+# Modifying modelsim.ini
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+###### Libraries for IPUTF cores 
+# vlib err_estimat_iputf_libs/log2_single_altera_fp_functions_161
+# vmap log2_single_altera_fp_functions_161 E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/simulation/modelsim/err_estimat_iputf_libs/log2_single_altera_fp_functions_161
+# Modifying modelsim.ini
+# vlib err_estimat_iputf_libs/fp_sub_fun_altera_fp_functions_161
+# vmap fp_sub_fun_altera_fp_functions_161 E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/simulation/modelsim/err_estimat_iputf_libs/fp_sub_fun_altera_fp_functions_161
+# Modifying modelsim.ini
+# vlib err_estimat_iputf_libs/fp_mult_fun_altera_fp_functions_161
+# vmap fp_mult_fun_altera_fp_functions_161 E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/simulation/modelsim/err_estimat_iputf_libs/fp_mult_fun_altera_fp_functions_161
+# Modifying modelsim.ini
+###### End libraries for IPUTF cores 
+###### MIF file copy and HDL compilation commands for IPUTF cores 
+# 
+# file copy -force E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/core/log2_single/log2_single/altera_fp_functions_161/sim/log2_single_altera_fp_functions_161_kypxfny_memoryC0_uid92_lnTables_lutmem.hex ./
+# file copy -force E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/core/log2_single/log2_single/altera_fp_functions_161/sim/log2_single_altera_fp_functions_161_kypxfny_memoryC1_uid95_lnTables_lutmem.hex ./
+# file copy -force E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/core/log2_single/log2_single/altera_fp_functions_161/sim/log2_single_altera_fp_functions_161_kypxfny_memoryC2_uid98_lnTables_lutmem.hex ./
+# 
+# vcom "E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/core/log2_single/log2_single/altera_fp_functions_161/sim/dspba_library_package.vhd"                       -work log2_single_altera_fp_functions_161
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package dspba_library_package
+# vcom "E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/core/log2_single/log2_single/altera_fp_functions_161/sim/dspba_library.vhd"                               -work log2_single_altera_fp_functions_161
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package dspba_library_package
+# -- Compiling entity dspba_delay
+# -- Compiling architecture delay of dspba_delay
+# -- Loading package NUMERIC_STD
+# -- Compiling entity dspba_sync_reg
+# -- Compiling architecture sync_reg of dspba_sync_reg
+# vcom "E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/core/log2_single/log2_single/altera_fp_functions_161/sim/log2_single_altera_fp_functions_161_kypxfny.vhd" -work log2_single_altera_fp_functions_161
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package dspba_library_package
+# -- Loading package altera_mf_components
+# -- Loading package altera_lnsim_components
+# -- Loading package LPM_COMPONENTS
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package twentynm_atom_pack
+# -- Loading package twentynm_components
+# -- Compiling entity log2_single_altera_fp_functions_161_kypxfny
+# -- Compiling architecture normal of log2_single_altera_fp_functions_161_kypxfny
+# vlog "E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/core/log2_single/log2_single/sim/log2_single.v"                                                                                                    
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module log2_single
+# 
+# Top level modules:
+# 	log2_single
+# vcom "E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/core/fp_sub_fun/fp_sub_fun/altera_fp_functions_161/sim/dspba_library_package.vhd"                         -work fp_sub_fun_altera_fp_functions_161 
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package dspba_library_package
+# vcom "E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/core/fp_sub_fun/fp_sub_fun/altera_fp_functions_161/sim/dspba_library.vhd"                                 -work fp_sub_fun_altera_fp_functions_161 
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package dspba_library_package
+# -- Compiling entity dspba_delay
+# -- Compiling architecture delay of dspba_delay
+# -- Loading package NUMERIC_STD
+# -- Compiling entity dspba_sync_reg
+# -- Compiling architecture sync_reg of dspba_sync_reg
+# vcom "E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/core/fp_sub_fun/fp_sub_fun/altera_fp_functions_161/sim/fp_sub_fun_altera_fp_functions_161_fshcoka.vhd"    -work fp_sub_fun_altera_fp_functions_161 
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package dspba_library_package
+# -- Loading package altera_mf_components
+# -- Loading package altera_lnsim_components
+# -- Loading package LPM_COMPONENTS
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package twentynm_atom_pack
+# -- Loading package twentynm_components
+# -- Compiling entity fp_sub_fun_altera_fp_functions_161_fshcoka
+# -- Compiling architecture normal of fp_sub_fun_altera_fp_functions_161_fshcoka
+# vlog "E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/core/fp_sub_fun/fp_sub_fun/sim/fp_sub_fun.v"                                                                                                       
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module fp_sub_fun
+# 
+# Top level modules:
+# 	fp_sub_fun
+# vcom "E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/core/fp_mult_fun/fp_mult_fun/altera_fp_functions_161/sim/dspba_library_package.vhd"                       -work fp_mult_fun_altera_fp_functions_161
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package dspba_library_package
+# vcom "E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/core/fp_mult_fun/fp_mult_fun/altera_fp_functions_161/sim/dspba_library.vhd"                               -work fp_mult_fun_altera_fp_functions_161
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package dspba_library_package
+# -- Compiling entity dspba_delay
+# -- Compiling architecture delay of dspba_delay
+# -- Loading package NUMERIC_STD
+# -- Compiling entity dspba_sync_reg
+# -- Compiling architecture sync_reg of dspba_sync_reg
+# vcom "E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/core/fp_mult_fun/fp_mult_fun/altera_fp_functions_161/sim/fp_mult_fun_altera_fp_functions_161_kajft6a.vhd" -work fp_mult_fun_altera_fp_functions_161
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package dspba_library_package
+# -- Loading package altera_mf_components
+# -- Loading package altera_lnsim_components
+# -- Loading package LPM_COMPONENTS
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package twentynm_atom_pack
+# -- Loading package twentynm_components
+# -- Compiling entity fp_mult_fun_altera_fp_functions_161_kajft6a
+# -- Compiling architecture normal of fp_mult_fun_altera_fp_functions_161_kajft6a
+# vlog "E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/core/fp_mult_fun/fp_mult_fun/sim/fp_mult_fun.v"                                                                                                    
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module fp_mult_fun
+# 
+# Top level modules:
+# 	fp_mult_fun
+# 
+# vlog -vlog01compat -work work +incdir+E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL {E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/cntlz.v}
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module cntlz8
+# -- Compiling module cntlz16
+# -- Compiling module cntlz24
+# -- Compiling module cntlz32
+# -- Compiling module cntlz48
+# -- Compiling module cntlz64
+# -- Compiling module cntlz32Reg
+# -- Compiling module cntlz64Reg
+# -- Compiling module cntlo8
+# -- Compiling module cntlo16
+# -- Compiling module cntlo32
+# -- Compiling module cntlo48
+# -- Compiling module cntlo64
+# 
+# Top level modules:
+# 	cntlz24
+# 	cntlz32Reg
+# 	cntlz64Reg
+# 	cntlo8
+# 	cntlo16
+# 	cntlo32
+# 	cntlo48
+# 	cntlo64
+# vlog -vlog01compat -work work +incdir+E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL {E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/delay.v}
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module delay
+# 
+# Top level modules:
+# 	delay
+# vlog -vlog01compat -work work +incdir+E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL {E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/alt_cal_e1.v}
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module alt_cal_e1
+# 
+# Top level modules:
+# 	alt_cal_e1
+# vlog -vlog01compat -work work +incdir+E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL {E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/alt_cal_l.v}
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module alt_cal_l
+# 
+# Top level modules:
+# 	alt_cal_l
+# vlog -vlog01compat -work work +incdir+E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL {E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/alt_cal_s1.v}
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module alt_cal_s1
+# 
+# Top level modules:
+# 	alt_cal_s1
+# vlog -vlog01compat -work work +incdir+E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL {E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/err_estimat.v}
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module err_estimat
+# 
+# Top level modules:
+# 	err_estimat
+# vlog -vlog01compat -work work +incdir+E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL {E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/qadd.v}
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module qadd
+# 
+# Top level modules:
+# 	qadd
+# vlog -vlog01compat -work work +incdir+E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL {E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/float2int.v}
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module float2int
+# 
+# Top level modules:
+# 	float2int
+# vlog -vlog01compat -work work +incdir+E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL {E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/int2float.v}
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module int2float
+# 
+# Top level modules:
+# 	int2float
+# vlog -vlog01compat -work work +incdir+E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL {E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/qdiv.v}
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module qdiv
+# 
+# Top level modules:
+# 	qdiv
+# 
+# vlog -vlog01compat -work work +incdir+E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/simulation/modelsim {E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/simulation/modelsim/err_estimat.vt}
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module err_estimat_vlg_tst
+# ** Warning: E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/simulation/modelsim/err_estimat.vt(178): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	err_estimat_vlg_tst
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L twentynm_ver -L twentynm_hssi_ver -L twentynm_hip_ver -L twentynm -L twentynm_hssi -L twentynm_hip -L rtl_work -L work -L log2_single_altera_fp_functions_161 -L fp_sub_fun_altera_fp_functions_161 -L fp_mult_fun_altera_fp_functions_161 -voptargs="+acc"  err_estimat_vlg_tst
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L twentynm_ver -L twentynm_hssi_ver -L twentynm_hip_ver -L twentynm -L twentynm_hssi -L twentynm_hip -L rtl_work -L work -L log2_single_altera_fp_functions_161 -L fp_sub_fun_altera_fp_functions_161 -L fp_mult_fun_altera_fp_functions_161 -voptargs=\"+acc\" -t 1ps err_estimat_vlg_tst 
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# ** Warning: E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/simulation/modelsim/err_estimat.vt(71): (vopt-2685) [TFMPC] - Too few port connections for 'i1'.  Expected 13, found 12.
+# 
+# ** Warning: E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/simulation/modelsim/err_estimat.vt(71): (vopt-2718) [TFMPC] - Missing connection for port 'o_cal_error'.
+# 
+# Loading work.err_estimat_vlg_tst(fast)
+# Loading work.err_estimat(fast)
+# Loading work.alt_cal_s1(fast)
+# Loading work.qadd(fast)
+# Loading work.alt_cal_e1(fast)
+# Loading work.qadd(fast__1)
+# Loading work.qdiv(fast)
+# Loading work.alt_cal_l(fast)
+# Loading work.qadd(fast__2)
+# Loading work.int2float(fast)
+# Loading work.cntlz32Reg(fast)
+# Loading work.cntlz32(fast)
+# Loading work.cntlz8(fast)
+# Loading work.delay(fast)
+# Loading work.delay(fast__1)
+# Loading work.delay(fast__2)
+# Loading work.log2_single(fast)
+# Loading work.fp_sub_fun(fast)
+# Loading work.fp_mult_fun(fast)
+# Loading work.float2int(fast)
+# Loading work.qadd(fast__3)
+# Loading work.qadd(fast__4)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading log2_single_altera_fp_functions_161.dspba_library_package
+# Loading altera_mf.altera_mf_components
+# Loading altera_lnsim.altera_lnsim_components
+# Loading lpm.lpm_components
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading twentynm.twentynm_atom_pack(body)
+# Loading twentynm.twentynm_components
+# Loading log2_single_altera_fp_functions_161.log2_single_altera_fp_functions_161_kypxfny(normal)#1
+# Loading sv_std.std
+# Loading altera_lnsim_ver.ALTERA_LNSIM_MEMORY_INITIALIZATION(fast)
+# Loading log2_single_altera_fp_functions_161.dspba_delay(delay)#1
+# Loading log2_single_altera_fp_functions_161.dspba_delay(delay)#2
+# Loading log2_single_altera_fp_functions_161.dspba_delay(delay)#3
+# Loading log2_single_altera_fp_functions_161.dspba_delay(delay)#4
+# Loading log2_single_altera_fp_functions_161.dspba_delay(delay)#5
+# Loading log2_single_altera_fp_functions_161.dspba_delay(delay)#6
+# Loading log2_single_altera_fp_functions_161.dspba_delay(delay)#7
+# Loading log2_single_altera_fp_functions_161.dspba_delay(delay)#8
+# Loading log2_single_altera_fp_functions_161.dspba_delay(delay)#9
+# Loading log2_single_altera_fp_functions_161.dspba_delay(delay)#10
+# Loading log2_single_altera_fp_functions_161.dspba_delay(delay)#11
+# Loading log2_single_altera_fp_functions_161.dspba_delay(delay)#12
+# Loading log2_single_altera_fp_functions_161.dspba_delay(delay)#13
+# Loading log2_single_altera_fp_functions_161.dspba_delay(delay)#14
+# Loading log2_single_altera_fp_functions_161.dspba_delay(delay)#15
+# Loading log2_single_altera_fp_functions_161.dspba_delay(delay)#16
+# Loading log2_single_altera_fp_functions_161.dspba_delay(delay)#17
+# Loading log2_single_altera_fp_functions_161.dspba_delay(delay)#18
+# Loading log2_single_altera_fp_functions_161.dspba_delay(delay)#19
+# Loading log2_single_altera_fp_functions_161.dspba_delay(delay)#20
+# Loading log2_single_altera_fp_functions_161.dspba_delay(delay)#21
+# Loading log2_single_altera_fp_functions_161.dspba_delay(delay)#22
+# Loading fp_sub_fun_altera_fp_functions_161.dspba_library_package
+# Loading fp_sub_fun_altera_fp_functions_161.fp_sub_fun_altera_fp_functions_161_fshcoka(normal)#1
+# Loading twentynm.twentynm_fp_mac(behavior)#1
+# Loading fp_mult_fun_altera_fp_functions_161.dspba_library_package
+# Loading fp_mult_fun_altera_fp_functions_161.fp_mult_fun_altera_fp_functions_161_kajft6a(normal)#1
+# ** Warning: (vsim-3017) E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/simulation/modelsim/err_estimat.vt(71): [TFMPC] - Too few port connections. Expected 13, found 12.
+# 
+#         Region: /err_estimat_vlg_tst/i1
+# ** Warning: (vsim-3722) E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/simulation/modelsim/err_estimat.vt(71): [TFMPC] - Missing connection for port 'o_cal_error'.
+# 
+# ** Warning: (vsim-3015) E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/alt_cal_e1.v(155): [PCDPC] - Port size (54 or 54) does not match connection size (32) for port 'o_quotient_out'. The port definition is at: E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/qdiv.v(33).
+# 
+#         Region: /err_estimat_vlg_tst/i1/cal_e1_inst/qdiv_int
+# ** Warning: (vsim-3015) E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/alt_cal_l.v(75): [PCDPC] - Port size (33 or 33) does not match connection size (65) for port 'addend'. The port definition is at: E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/qadd.v(30).
+# 
+#         Region: /err_estimat_vlg_tst/i1/cal_l_inst/qadd_inst0
+# ** Warning: (vsim-3015) E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/alt_cal_l.v(92): [PCDPC] - Port size (3 or 3) does not match connection size (32) for port 'rm'. The port definition is at: E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/int2float.v(26).
+# 
+#         Region: /err_estimat_vlg_tst/i1/cal_l_inst/int2i2f_e1
+# ** Warning: (vsim-3015) E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/int2float.v(56): [PCDPC] - Port size (6 or 6) does not match connection size (7) for port 'o'. The port definition is at: E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/cntlz.v(409).
+# 
+#         Region: /err_estimat_vlg_tst/i1/cal_l_inst/int2i2f_e1/genblk1/u4
+# ** Warning: (vsim-3015) E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/int2float.v(46): [PCDPC] - Port size (2 or 2) does not match connection size (3) for port 'i'. The port definition is at: E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/delay.v(26).
+# 
+#         Region: /err_estimat_vlg_tst/i1/cal_l_inst/int2i2f_e1/u0
+# ** Warning: (vsim-3015) E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/int2float.v(50): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'ce'. The port definition is at: E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/delay.v(25).
+# 
+#         Region: /err_estimat_vlg_tst/i1/cal_l_inst/int2i2f_e1/u4
+# ** Warning: (vsim-3015) E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/alt_cal_l.v(102): [PCDPC] - Port size (3 or 3) does not match connection size (32) for port 'rm'. The port definition is at: E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/int2float.v(26).
+# 
+#         Region: /err_estimat_vlg_tst/i1/cal_l_inst/int2i2f_1sube1
+# ** Warning: (vsim-3015) E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/alt_cal_l.v(102): [PCDPC] - Port size (32 or 32) does not match connection size (33) for port 'i'. The port definition is at: E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/int2float.v(27).
+# 
+#         Region: /err_estimat_vlg_tst/i1/cal_l_inst/int2i2f_1sube1
+# ** Warning: (vsim-3015) E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/int2float.v(56): [PCDPC] - Port size (6 or 6) does not match connection size (7) for port 'o'. The port definition is at: E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/cntlz.v(409).
+# 
+#         Region: /err_estimat_vlg_tst/i1/cal_l_inst/int2i2f_1sube1/genblk1/u4
+# ** Warning: (vsim-3015) E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/int2float.v(46): [PCDPC] - Port size (2 or 2) does not match connection size (3) for port 'i'. The port definition is at: E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/delay.v(26).
+# 
+#         Region: /err_estimat_vlg_tst/i1/cal_l_inst/int2i2f_1sube1/u0
+# ** Warning: (vsim-3015) E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/int2float.v(50): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'ce'. The port definition is at: E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/delay.v(25).
+# 
+#         Region: /err_estimat_vlg_tst/i1/cal_l_inst/int2i2f_1sube1/u4
+# ** Warning: (vsim-3015) E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/alt_cal_l.v(207): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'ce'. The port definition is at: E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/float2int.v(24).
+# 
+#         Region: /err_estimat_vlg_tst/i1/cal_l_inst/f2i_e1
+# ** Warning: (vsim-3015) E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/alt_cal_l.v(216): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'ce'. The port definition is at: E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/float2int.v(24).
+# 
+#         Region: /err_estimat_vlg_tst/i1/cal_l_inst/f2i_1sube1
+# ** Warning: (vsim-3015) E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/alt_cal_l.v(312): [PCDPC] - Port size (33 or 33) does not match connection size (96) for port 'addend'. The port definition is at: E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/qadd.v(30).
+# 
+#         Region: /err_estimat_vlg_tst/i1/cal_l_inst/qadd_h_e1_sub
+# ** Warning: (vsim-3015) E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/alt_cal_l.v(378): [PCDPC] - Port size (33 or 33) does not match connection size (32) for port 'add_res'. The port definition is at: E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/qadd.v(32).
+# 
+#         Region: /err_estimat_vlg_tst/i1/cal_l_inst/qadd_h_e1_sub0
+# 
+# add wave *
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 6 us
+# The parameter verif_en is set to 0 for this simulator.
+# Other values for verif_en are enabled only for VCS.
+# The parameter verif_en is set to 0 for this simulator.
+# Other values for verif_en are enabled only for VCS.
+# The parameter verif_en is set to 0 for this simulator.
+# Other values for verif_en are enabled only for VCS.
+# The parameter verif_en is set to 0 for this simulator.
+# Other values for verif_en are enabled only for VCS.
+# The parameter verif_en is set to 0 for this simulator.
+# Other values for verif_en are enabled only for VCS.
+# The parameter verif_en is set to 0 for this simulator.
+# Other values for verif_en are enabled only for VCS.
+# The parameter verif_en is set to 0 for this simulator.
+# Other values for verif_en are enabled only for VCS.
+# The parameter verif_en is set to 0 for this simulator.
+# Other values for verif_en are enabled only for VCS.
+# The parameter verif_en is set to 0 for this simulator.
+# Other values for verif_en are enabled only for VCS.
+# The parameter verif_en is set to 0 for this simulator.
+# Other values for verif_en are enabled only for VCS.
+# The parameter verif_en is set to 0 for this simulator.
+# Other values for verif_en are enabled only for VCS.
+# The parameter verif_en is set to 0 for this simulator.
+# Other values for verif_en are enabled only for VCS.
+do cal_l.do
+# if ![file isdirectory err_estimat_iputf_libs] {
+# 	file mkdir err_estimat_iputf_libs
+# }
+# 
+# vmap altera_ver E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/simulation/modelsim/verilog_libs/altera_ver
+# Modifying modelsim.ini
+# vmap lpm_ver E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/simulation/modelsim/verilog_libs/lpm_ver
+# Modifying modelsim.ini
+# vmap sgate_ver E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/simulation/modelsim/verilog_libs/sgate_ver
+# Modifying modelsim.ini
+# vmap altera_mf_ver E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/simulation/modelsim/verilog_libs/altera_mf_ver
+# Modifying modelsim.ini
+# vmap altera_lnsim_ver E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/simulation/modelsim/verilog_libs/altera_lnsim_ver
+# Modifying modelsim.ini
+# vmap twentynm_ver E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/simulation/modelsim/verilog_libs/twentynm_ver
+# Modifying modelsim.ini
+# vmap twentynm_hssi_ver E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/simulation/modelsim/verilog_libs/twentynm_hssi_ver
+# Modifying modelsim.ini
+# vmap twentynm_hip_ver E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/simulation/modelsim/verilog_libs/twentynm_hip_ver
+# Modifying modelsim.ini
+# vmap twentynm E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/simulation/modelsim/vhdl_libs/twentynm
+# Modifying modelsim.ini
+# vmap twentynm_hssi E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/simulation/modelsim/vhdl_libs/twentynm_hssi
+# Modifying modelsim.ini
+# vmap twentynm_hip E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/simulation/modelsim/vhdl_libs/twentynm_hip
+# Modifying modelsim.ini
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is lenovo@DESKTOP-SBGMOB0.
+# 
+# vlib rtl_work
+# ** Warning: (vlib-34) Library already exists at "rtl_work".
+# 
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+###### Libraries for IPUTF cores 
+# vlib err_estimat_iputf_libs/log2_single_altera_fp_functions_161
+# ** Warning: (vlib-34) Library already exists at "err_estimat_iputf_libs/log2_single_altera_fp_functions_161".
+# 
+# vmap log2_single_altera_fp_functions_161 E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/simulation/modelsim/err_estimat_iputf_libs/log2_single_altera_fp_functions_161
+# Modifying modelsim.ini
+# vlib err_estimat_iputf_libs/fp_sub_fun_altera_fp_functions_161
+# ** Warning: (vlib-34) Library already exists at "err_estimat_iputf_libs/fp_sub_fun_altera_fp_functions_161".
+# 
+# vmap fp_sub_fun_altera_fp_functions_161 E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/simulation/modelsim/err_estimat_iputf_libs/fp_sub_fun_altera_fp_functions_161
+# Modifying modelsim.ini
+# vlib err_estimat_iputf_libs/fp_mult_fun_altera_fp_functions_161
+# ** Warning: (vlib-34) Library already exists at "err_estimat_iputf_libs/fp_mult_fun_altera_fp_functions_161".
+# 
+# vmap fp_mult_fun_altera_fp_functions_161 E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/simulation/modelsim/err_estimat_iputf_libs/fp_mult_fun_altera_fp_functions_161
+# Modifying modelsim.ini
+###### End libraries for IPUTF cores 
+###### MIF file copy and HDL compilation commands for IPUTF cores 
+# 
+# file copy -force E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/core/log2_single/log2_single/altera_fp_functions_161/sim/log2_single_altera_fp_functions_161_kypxfny_memoryC0_uid92_lnTables_lutmem.hex ./
+# file copy -force E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/core/log2_single/log2_single/altera_fp_functions_161/sim/log2_single_altera_fp_functions_161_kypxfny_memoryC1_uid95_lnTables_lutmem.hex ./
+# file copy -force E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/core/log2_single/log2_single/altera_fp_functions_161/sim/log2_single_altera_fp_functions_161_kypxfny_memoryC2_uid98_lnTables_lutmem.hex ./
+# 
+# vcom "E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/core/log2_single/log2_single/altera_fp_functions_161/sim/dspba_library_package.vhd"                       -work log2_single_altera_fp_functions_161
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package dspba_library_package
+# vcom "E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/core/log2_single/log2_single/altera_fp_functions_161/sim/dspba_library.vhd"                               -work log2_single_altera_fp_functions_161
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package dspba_library_package
+# -- Compiling entity dspba_delay
+# -- Compiling architecture delay of dspba_delay
+# -- Loading package NUMERIC_STD
+# -- Compiling entity dspba_sync_reg
+# -- Compiling architecture sync_reg of dspba_sync_reg
+# vcom "E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/core/log2_single/log2_single/altera_fp_functions_161/sim/log2_single_altera_fp_functions_161_kypxfny.vhd" -work log2_single_altera_fp_functions_161
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package dspba_library_package
+# -- Loading package altera_mf_components
+# -- Loading package altera_lnsim_components
+# -- Loading package LPM_COMPONENTS
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package twentynm_atom_pack
+# -- Loading package twentynm_components
+# -- Compiling entity log2_single_altera_fp_functions_161_kypxfny
+# -- Compiling architecture normal of log2_single_altera_fp_functions_161_kypxfny
+# vlog "E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/core/log2_single/log2_single/sim/log2_single.v"                                                                                                    
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module log2_single
+# 
+# Top level modules:
+# 	log2_single
+# vcom "E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/core/fp_sub_fun/fp_sub_fun/altera_fp_functions_161/sim/dspba_library_package.vhd"                         -work fp_sub_fun_altera_fp_functions_161 
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package dspba_library_package
+# vcom "E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/core/fp_sub_fun/fp_sub_fun/altera_fp_functions_161/sim/dspba_library.vhd"                                 -work fp_sub_fun_altera_fp_functions_161 
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package dspba_library_package
+# -- Compiling entity dspba_delay
+# -- Compiling architecture delay of dspba_delay
+# -- Loading package NUMERIC_STD
+# -- Compiling entity dspba_sync_reg
+# -- Compiling architecture sync_reg of dspba_sync_reg
+# vcom "E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/core/fp_sub_fun/fp_sub_fun/altera_fp_functions_161/sim/fp_sub_fun_altera_fp_functions_161_fshcoka.vhd"    -work fp_sub_fun_altera_fp_functions_161 
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package dspba_library_package
+# -- Loading package altera_mf_components
+# -- Loading package altera_lnsim_components
+# -- Loading package LPM_COMPONENTS
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package twentynm_atom_pack
+# -- Loading package twentynm_components
+# -- Compiling entity fp_sub_fun_altera_fp_functions_161_fshcoka
+# -- Compiling architecture normal of fp_sub_fun_altera_fp_functions_161_fshcoka
+# vlog "E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/core/fp_sub_fun/fp_sub_fun/sim/fp_sub_fun.v"                                                                                                       
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module fp_sub_fun
+# 
+# Top level modules:
+# 	fp_sub_fun
+# vcom "E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/core/fp_mult_fun/fp_mult_fun/altera_fp_functions_161/sim/dspba_library_package.vhd"                       -work fp_mult_fun_altera_fp_functions_161
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package dspba_library_package
+# vcom "E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/core/fp_mult_fun/fp_mult_fun/altera_fp_functions_161/sim/dspba_library.vhd"                               -work fp_mult_fun_altera_fp_functions_161
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package dspba_library_package
+# -- Compiling entity dspba_delay
+# -- Compiling architecture delay of dspba_delay
+# -- Loading package NUMERIC_STD
+# -- Compiling entity dspba_sync_reg
+# -- Compiling architecture sync_reg of dspba_sync_reg
+# vcom "E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/core/fp_mult_fun/fp_mult_fun/altera_fp_functions_161/sim/fp_mult_fun_altera_fp_functions_161_kajft6a.vhd" -work fp_mult_fun_altera_fp_functions_161
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package dspba_library_package
+# -- Loading package altera_mf_components
+# -- Loading package altera_lnsim_components
+# -- Loading package LPM_COMPONENTS
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package twentynm_atom_pack
+# -- Loading package twentynm_components
+# -- Compiling entity fp_mult_fun_altera_fp_functions_161_kajft6a
+# -- Compiling architecture normal of fp_mult_fun_altera_fp_functions_161_kajft6a
+# vlog "E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/core/fp_mult_fun/fp_mult_fun/sim/fp_mult_fun.v"                                                                                                    
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module fp_mult_fun
+# 
+# Top level modules:
+# 	fp_mult_fun
+# 
+# vlog -vlog01compat -work work +incdir+E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL {E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/cntlz.v}
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module cntlz8
+# -- Compiling module cntlz16
+# -- Compiling module cntlz24
+# -- Compiling module cntlz32
+# -- Compiling module cntlz48
+# -- Compiling module cntlz64
+# -- Compiling module cntlz32Reg
+# -- Compiling module cntlz64Reg
+# -- Compiling module cntlo8
+# -- Compiling module cntlo16
+# -- Compiling module cntlo32
+# -- Compiling module cntlo48
+# -- Compiling module cntlo64
+# 
+# Top level modules:
+# 	cntlz24
+# 	cntlz32Reg
+# 	cntlz64Reg
+# 	cntlo8
+# 	cntlo16
+# 	cntlo32
+# 	cntlo48
+# 	cntlo64
+# vlog -vlog01compat -work work +incdir+E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL {E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/delay.v}
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module delay
+# 
+# Top level modules:
+# 	delay
+# vlog -vlog01compat -work work +incdir+E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL {E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/alt_cal_e1.v}
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module alt_cal_e1
+# 
+# Top level modules:
+# 	alt_cal_e1
+# vlog -vlog01compat -work work +incdir+E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL {E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/alt_cal_l.v}
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module alt_cal_l
+# 
+# Top level modules:
+# 	alt_cal_l
+# vlog -vlog01compat -work work +incdir+E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL {E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/alt_cal_s1.v}
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module alt_cal_s1
+# 
+# Top level modules:
+# 	alt_cal_s1
+# vlog -vlog01compat -work work +incdir+E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL {E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/err_estimat.v}
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module err_estimat
+# 
+# Top level modules:
+# 	err_estimat
+# vlog -vlog01compat -work work +incdir+E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL {E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/qadd.v}
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module qadd
+# 
+# Top level modules:
+# 	qadd
+# vlog -vlog01compat -work work +incdir+E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL {E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/float2int.v}
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module float2int
+# 
+# Top level modules:
+# 	float2int
+# vlog -vlog01compat -work work +incdir+E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL {E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/int2float.v}
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module int2float
+# 
+# Top level modules:
+# 	int2float
+# vlog -vlog01compat -work work +incdir+E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL {E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/qdiv.v}
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module qdiv
+# 
+# Top level modules:
+# 	qdiv
+# 
+# vlog -vlog01compat -work work +incdir+E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/simulation/modelsim {E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/simulation/modelsim/err_estimat.vt}
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module err_estimat_vlg_tst
+# ** Warning: E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/simulation/modelsim/err_estimat.vt(178): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	err_estimat_vlg_tst
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L twentynm_ver -L twentynm_hssi_ver -L twentynm_hip_ver -L twentynm -L twentynm_hssi -L twentynm_hip -L rtl_work -L work -L log2_single_altera_fp_functions_161 -L fp_sub_fun_altera_fp_functions_161 -L fp_mult_fun_altera_fp_functions_161 -voptargs="+acc"  err_estimat_vlg_tst
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L twentynm_ver -L twentynm_hssi_ver -L twentynm_hip_ver -L twentynm -L twentynm_hssi -L twentynm_hip -L rtl_work -L work -L log2_single_altera_fp_functions_161 -L fp_sub_fun_altera_fp_functions_161 -L fp_mult_fun_altera_fp_functions_161 -voptargs=\"+acc\" -t 1ps err_estimat_vlg_tst 
+# Loading work.err_estimat_vlg_tst(fast)
+# Loading work.err_estimat(fast)
+# Loading work.alt_cal_s1(fast)
+# Loading work.qadd(fast)
+# Loading work.alt_cal_e1(fast)
+# Loading work.qadd(fast__1)
+# Loading work.qdiv(fast)
+# Loading work.alt_cal_l(fast)
+# Loading work.qadd(fast__2)
+# Loading work.int2float(fast)
+# Loading work.cntlz32Reg(fast)
+# Loading work.cntlz32(fast)
+# Loading work.cntlz8(fast)
+# Loading work.delay(fast)
+# Loading work.delay(fast__1)
+# Loading work.delay(fast__2)
+# Loading work.log2_single(fast)
+# Loading work.fp_sub_fun(fast)
+# Loading work.fp_mult_fun(fast)
+# Loading work.float2int(fast)
+# Loading work.qadd(fast__3)
+# Loading work.qadd(fast__4)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading log2_single_altera_fp_functions_161.dspba_library_package
+# Loading altera_mf.altera_mf_components
+# Loading altera_lnsim.altera_lnsim_components
+# Loading lpm.lpm_components
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading twentynm.twentynm_atom_pack(body)
+# Loading twentynm.twentynm_components
+# Loading log2_single_altera_fp_functions_161.log2_single_altera_fp_functions_161_kypxfny(normal)#1
+# Loading sv_std.std
+# Loading altera_lnsim_ver.ALTERA_LNSIM_MEMORY_INITIALIZATION(fast)
+# Loading log2_single_altera_fp_functions_161.dspba_delay(delay)#1
+# Loading log2_single_altera_fp_functions_161.dspba_delay(delay)#2
+# Loading log2_single_altera_fp_functions_161.dspba_delay(delay)#3
+# Loading log2_single_altera_fp_functions_161.dspba_delay(delay)#4
+# Loading log2_single_altera_fp_functions_161.dspba_delay(delay)#5
+# Loading log2_single_altera_fp_functions_161.dspba_delay(delay)#6
+# Loading log2_single_altera_fp_functions_161.dspba_delay(delay)#7
+# Loading log2_single_altera_fp_functions_161.dspba_delay(delay)#8
+# Loading log2_single_altera_fp_functions_161.dspba_delay(delay)#9
+# Loading log2_single_altera_fp_functions_161.dspba_delay(delay)#10
+# Loading log2_single_altera_fp_functions_161.dspba_delay(delay)#11
+# Loading log2_single_altera_fp_functions_161.dspba_delay(delay)#12
+# Loading log2_single_altera_fp_functions_161.dspba_delay(delay)#13
+# Loading log2_single_altera_fp_functions_161.dspba_delay(delay)#14
+# Loading log2_single_altera_fp_functions_161.dspba_delay(delay)#15
+# Loading log2_single_altera_fp_functions_161.dspba_delay(delay)#16
+# Loading log2_single_altera_fp_functions_161.dspba_delay(delay)#17
+# Loading log2_single_altera_fp_functions_161.dspba_delay(delay)#18
+# Loading log2_single_altera_fp_functions_161.dspba_delay(delay)#19
+# Loading log2_single_altera_fp_functions_161.dspba_delay(delay)#20
+# Loading log2_single_altera_fp_functions_161.dspba_delay(delay)#21
+# Loading log2_single_altera_fp_functions_161.dspba_delay(delay)#22
+# Loading fp_sub_fun_altera_fp_functions_161.dspba_library_package
+# Loading fp_sub_fun_altera_fp_functions_161.fp_sub_fun_altera_fp_functions_161_fshcoka(normal)#1
+# Loading twentynm.twentynm_fp_mac(behavior)#1
+# Loading fp_mult_fun_altera_fp_functions_161.dspba_library_package
+# Loading fp_mult_fun_altera_fp_functions_161.fp_mult_fun_altera_fp_functions_161_kajft6a(normal)#1
+# ** Warning: (vsim-3017) E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/simulation/modelsim/err_estimat.vt(71): [TFMPC] - Too few port connections. Expected 13, found 12.
+# 
+#         Region: /err_estimat_vlg_tst/i1
+# ** Warning: (vsim-3722) E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/simulation/modelsim/err_estimat.vt(71): [TFMPC] - Missing connection for port 'o_cal_error'.
+# 
+# ** Warning: (vsim-3015) E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/alt_cal_e1.v(155): [PCDPC] - Port size (54 or 54) does not match connection size (32) for port 'o_quotient_out'. The port definition is at: E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/qdiv.v(33).
+# 
+#         Region: /err_estimat_vlg_tst/i1/cal_e1_inst/qdiv_int
+# ** Warning: (vsim-3015) E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/alt_cal_l.v(75): [PCDPC] - Port size (33 or 33) does not match connection size (65) for port 'addend'. The port definition is at: E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/qadd.v(30).
+# 
+#         Region: /err_estimat_vlg_tst/i1/cal_l_inst/qadd_inst0
+# ** Warning: (vsim-3015) E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/alt_cal_l.v(92): [PCDPC] - Port size (3 or 3) does not match connection size (32) for port 'rm'. The port definition is at: E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/int2float.v(26).
+# 
+#         Region: /err_estimat_vlg_tst/i1/cal_l_inst/int2i2f_e1
+# ** Warning: (vsim-3015) E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/int2float.v(56): [PCDPC] - Port size (6 or 6) does not match connection size (7) for port 'o'. The port definition is at: E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/cntlz.v(409).
+# 
+#         Region: /err_estimat_vlg_tst/i1/cal_l_inst/int2i2f_e1/genblk1/u4
+# ** Warning: (vsim-3015) E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/int2float.v(46): [PCDPC] - Port size (2 or 2) does not match connection size (3) for port 'i'. The port definition is at: E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/delay.v(26).
+# 
+#         Region: /err_estimat_vlg_tst/i1/cal_l_inst/int2i2f_e1/u0
+# ** Warning: (vsim-3015) E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/int2float.v(50): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'ce'. The port definition is at: E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/delay.v(25).
+# 
+#         Region: /err_estimat_vlg_tst/i1/cal_l_inst/int2i2f_e1/u4
+# ** Warning: (vsim-3015) E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/alt_cal_l.v(102): [PCDPC] - Port size (3 or 3) does not match connection size (32) for port 'rm'. The port definition is at: E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/int2float.v(26).
+# 
+#         Region: /err_estimat_vlg_tst/i1/cal_l_inst/int2i2f_1sube1
+# ** Warning: (vsim-3015) E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/alt_cal_l.v(102): [PCDPC] - Port size (32 or 32) does not match connection size (33) for port 'i'. The port definition is at: E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/int2float.v(27).
+# 
+#         Region: /err_estimat_vlg_tst/i1/cal_l_inst/int2i2f_1sube1
+# ** Warning: (vsim-3015) E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/int2float.v(56): [PCDPC] - Port size (6 or 6) does not match connection size (7) for port 'o'. The port definition is at: E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/cntlz.v(409).
+# 
+#         Region: /err_estimat_vlg_tst/i1/cal_l_inst/int2i2f_1sube1/genblk1/u4
+# ** Warning: (vsim-3015) E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/int2float.v(46): [PCDPC] - Port size (2 or 2) does not match connection size (3) for port 'i'. The port definition is at: E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/delay.v(26).
+# 
+#         Region: /err_estimat_vlg_tst/i1/cal_l_inst/int2i2f_1sube1/u0
+# ** Warning: (vsim-3015) E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/int2float.v(50): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'ce'. The port definition is at: E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/delay.v(25).
+# 
+#         Region: /err_estimat_vlg_tst/i1/cal_l_inst/int2i2f_1sube1/u4
+# ** Warning: (vsim-3015) E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/alt_cal_l.v(207): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'ce'. The port definition is at: E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/float2int.v(24).
+# 
+#         Region: /err_estimat_vlg_tst/i1/cal_l_inst/f2i_e1
+# ** Warning: (vsim-3015) E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/alt_cal_l.v(216): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'ce'. The port definition is at: E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/float2int.v(24).
+# 
+#         Region: /err_estimat_vlg_tst/i1/cal_l_inst/f2i_1sube1
+# ** Warning: (vsim-3015) E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/alt_cal_l.v(312): [PCDPC] - Port size (33 or 33) does not match connection size (96) for port 'addend'. The port definition is at: E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/qadd.v(30).
+# 
+#         Region: /err_estimat_vlg_tst/i1/cal_l_inst/qadd_h_e1_sub
+# ** Warning: (vsim-3015) E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/alt_cal_l.v(378): [PCDPC] - Port size (33 or 33) does not match connection size (32) for port 'add_res'. The port definition is at: E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/qadd.v(32).
+# 
+#         Region: /err_estimat_vlg_tst/i1/cal_l_inst/qadd_h_e1_sub0
+# 
+# do cal_l_wave.do
+# onerror {resume}
+# quietly WaveActivateNextPane {} 0
+# add wave -noupdate -radix unsigned /err_estimat_vlg_tst/i_no
+# add wave -noupdate -radix unsigned /err_estimat_vlg_tst/i_nu 
+# add wave -noupdate -radix unsigned /err_estimat_vlg_tst/i_nv 
+# add wave -noupdate -radix hexadecimal /err_estimat_vlg_tst/i1/cal_s1_inst/rst 
+# add wave -noupdate -radix hexadecimal /err_estimat_vlg_tst/i1/cal_s1_inst/clk 
+# add wave -noupdate -radix hexadecimal /err_estimat_vlg_tst/i1/cal_s1_inst/i_start 
+# add wave -noupdate -radix unsigned /err_estimat_vlg_tst/i1/cal_l_inst/i_s1 
+# add wave -noupdate -radix unsigned /err_estimat_vlg_tst/i1/cal_l_inst/i_e1 
+# add wave -noupdate /err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1_vld 
+# add wave -noupdate /err_estimat_vlg_tst/i1/cal_e1_inst/i_1divs1_vld 
+# add wave -noupdate -itemcolor Red -radix hexadecimal -childformat {{{/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[31]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[30]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[29]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[28]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[27]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[26]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[25]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[24]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[23]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[22]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[21]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[20]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[19]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[18]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[17]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[16]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[15]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[14]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[13]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[12]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[11]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[10]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[9]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[8]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[7]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[6]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[5]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[4]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[3]} 
+# -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[2]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[1]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[0]} -radix hexadecimal}} -subitemconfig {{/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[31]} {-height 15 -itemcolor Red -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[30]} {-height 15 -itemcolor Red -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[29]} {-height 15 -itemcolor Red -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[28]} {-height 15 -itemcolor Red -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[27]} {-height 15 -itemcolor Red -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[26]} {-height 15 -itemcolor Red -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[25]} {-height 15 -itemcolor Red -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[24]} {-height 15 -itemcolor Red -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[23]} {-height 15 -itemcolor Red -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[22]} {-height 15 -itemcolor Red -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[21]} {-height 15 -itemcolor Red -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[20]} {-height 15 -itemcolor Red -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[19]} {-height 15 -itemcolor Red -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[18]} {-height 15 -itemcolor Red -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[17]} {-height 15 -itemcolor Red -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[16]} {-height 15 -itemcolor Red -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[15]} {-height 15 -itemcolor Red -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[14]} {-height 15 -itemcolor Red -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[13]} {-height 
+# 15 -itemcolor Red -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[12]} {-height 15 -itemcolor Red -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[11]} {-height 15 -itemcolor Red -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[10]} {-height 15 -itemcolor Red -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[9]} {-height 15 -itemcolor Red -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[8]} {-height 15 -itemcolor Red -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[7]} {-height 15 -itemcolor Red -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[6]} {-height 15 -itemcolor Red -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[5]} {-height 15 -itemcolor Red -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[4]} {-height 15 -itemcolor Red -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[3]} {-height 15 -itemcolor Red -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[2]} {-height 15 -itemcolor Red -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[1]} {-height 15 -itemcolor Red -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1[0]} {-height 15 -itemcolor Red -radix hexadecimal}} /err_estimat_vlg_tst/i1/cal_l_inst/i2f_e1 
+# add wave -noupdate /err_estimat_vlg_tst/i1/cal_l_inst/i_e1 
+# add wave -noupdate -itemcolor Red -radix hexadecimal /err_estimat_vlg_tst/i1/cal_l_inst/log2_in0 
+# add wave -noupdate -radix float32 -childformat {{{/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[31]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[30]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[29]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[28]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[27]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[26]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[25]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[24]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[23]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[22]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[21]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[20]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[19]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[18]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[17]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[16]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[15]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[14]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[13]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[12]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[11]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[10]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[9]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[8]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[7]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[6]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[5]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[4]} 
+# -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[3]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[2]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[1]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[0]} -radix hexadecimal}} -subitemconfig {{/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[31]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[30]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[29]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[28]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[27]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[26]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[25]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[24]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[23]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[22]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[21]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[20]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[19]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[18]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[17]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[16]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[15]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[14]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[13]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[12]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[11]} 
+# {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[10]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[9]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[8]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[7]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[6]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[5]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[4]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[3]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[2]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[1]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/log2_out0[0]} {-height 15 -radix hexadecimal}} /err_estimat_vlg_tst/i1/cal_l_inst/log2_out0 
+# ** Error: Bad -radix option "float32". Use binary, octal, decimal, signed, unsigned, hexadecimal, ascii or default.
+# Executing ONERROR command at macro ./cal_l_wave.do line 16
+# add wave -noupdate -radix float32 /err_estimat_vlg_tst/i1/cal_l_inst/log2_e1_sub0
+# ** Error: Bad -radix option "float32". Use binary, octal, decimal, signed, unsigned, hexadecimal, ascii or default.
+# Executing ONERROR command at macro ./cal_l_wave.do line 17
+# 
+# add wave -noupdate -radix float32 /err_estimat_vlg_tst/i1/cal_l_inst/e1xloge1_0
+# ** Error: Bad -radix option "float32". Use binary, octal, decimal, signed, unsigned, hexadecimal, ascii or default.
+# Executing ONERROR command at macro ./cal_l_wave.do line 19
+# 
+# add wave -noupdate /err_estimat_vlg_tst/i1/cal_l_inst/loge1_vld
+# add wave -noupdate /err_estimat_vlg_tst/i1/cal_l_inst/f2i_out0_vld 
+# add wave -noupdate /err_estimat_vlg_tst/i1/cal_l_inst/e1xloge1_vld 
+# add wave -noupdate /err_estimat_vlg_tst/i1/cal_l_inst/log2_e1_sub_vld 
+# add wave -noupdate -radix unsigned /err_estimat_vlg_tst/i1/cal_l_inst/f2i_out0 
+# add wave -noupdate -divider {New Divider} 
+# add wave -noupdate -radix unsigned /err_estimat_vlg_tst/i1/cal_l_inst/res_1sube1 
+# add wave -noupdate /err_estimat_vlg_tst/i1/cal_l_inst/res_1sube1_vld 
+# add wave -noupdate /err_estimat_vlg_tst/i1/cal_l_inst/i2f_1sube1_vld 
+# add wave -noupdate -itemcolor Red -radix hexadecimal -radixshowbase 0 /err_estimat_vlg_tst/i1/cal_l_inst/i2f_1sube1 
+# ** Error: Unrecognized option: "-radixshowbase" ignored.
+# (vish-4014) No objects found matching '0'.
+# Executing ONERROR command at macro ./cal_l_wave.do line 30
+# add wave -noupdate -itemcolor Red -radix hexadecimal -radixshowbase 0 /err_estimat_vlg_tst/i1/cal_l_inst/log2_in1
+# ** Error: Unrecognized option: "-radixshowbase" ignored.
+# (vish-4014) No objects found matching '0'.
+# Executing ONERROR command at macro ./cal_l_wave.do line 31
+# 
+# add wave -noupdate -radix float32 /err_estimat_vlg_tst/i1/cal_l_inst/log2_out1
+# ** Error: Bad -radix option "float32". Use binary, octal, decimal, signed, unsigned, hexadecimal, ascii or default.
+# Executing ONERROR command at macro ./cal_l_wave.do line 33
+# 
+# add wave -noupdate -radix float32 /err_estimat_vlg_tst/i1/cal_l_inst/log2_e1_sub1
+# ** Error: Bad -radix option "float32". Use binary, octal, decimal, signed, unsigned, hexadecimal, ascii or default.
+# Executing ONERROR command at macro ./cal_l_wave.do line 35
+# 
+# add wave -noupdate -radix float32 /err_estimat_vlg_tst/i1/cal_l_inst/e1xloge1_1
+# ** Error: Bad -radix option "float32". Use binary, octal, decimal, signed, unsigned, hexadecimal, ascii or default.
+# Executing ONERROR command at macro ./cal_l_wave.do line 37
+# 
+# add wave -noupdate -radix hexadecimal /err_estimat_vlg_tst/i1/cal_l_inst/f2i_out1
+# add wave -noupdate /err_estimat_vlg_tst/i1/cal_l_inst/f2i_out0_vld 
+# add wave -noupdate -divider {New Divider} 
+# add wave -noupdate -radix unsigned /err_estimat_vlg_tst/i1/cal_l_inst/loge1 
+# add wave -noupdate -radix hexadecimal /err_estimat_vlg_tst/i1/cal_l_inst/l_coefxs1 
+# add wave -noupdate -radix hexadecimal /err_estimat_vlg_tst/i1/cal_l_inst/h_e1_tmp0 
+# add wave -noupdate -radix hexadecimal /err_estimat_vlg_tst/i1/cal_l_inst/h_e1_tmp 
+# add wave -noupdate -radix hexadecimal /err_estimat_vlg_tst/i1/cal_l_inst/h_e1_tmp1 
+# add wave -noupdate -radix hexadecimal -childformat {{{/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[32]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[31]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[30]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[29]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[28]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[27]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[26]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[25]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[24]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[23]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[22]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[21]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[20]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[19]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[18]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[17]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[16]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[15]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[14]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[13]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[12]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[11]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[10]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[9]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[8]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[7]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[6]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[5]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[4]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[3]} 
+# -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[2]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[1]} -radix hexadecimal} {{/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[0]} -radix hexadecimal}} -subitemconfig {{/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[32]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[31]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[30]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[29]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[28]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[27]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[26]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[25]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[24]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[23]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[22]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[21]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[20]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[19]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[18]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[17]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[16]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[15]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[14]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[13]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[12]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[11]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[10]} {-height 
+# 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[9]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[8]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[7]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[6]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[5]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[4]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[3]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[2]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[1]} {-height 15 -radix hexadecimal} {/err_estimat_vlg_tst/i1/cal_l_inst/h_e1[0]} {-height 15 -radix hexadecimal}} /err_estimat_vlg_tst/i1/cal_l_inst/h_e1 
+# add wave -noupdate -radix hexadecimal /err_estimat_vlg_tst/i1/cal_l_inst/l_tmp0 
+# add wave -noupdate /err_estimat_vlg_tst/i1/cal_l_inst/l_tmp0_vld 
+# add wave -noupdate -radix hexadecimal /err_estimat_vlg_tst/i1/cal_l_inst/l_tmp1 
+# add wave -noupdate /err_estimat_vlg_tst/i1/cal_l_inst/l_tmp1_vld 
+# add wave -noupdate /err_estimat_vlg_tst/i1/cal_l_inst/o_l_vld 
+# add wave -noupdate -radix unsigned /err_estimat_vlg_tst/i1/cal_l_inst/o_l 
+# add wave -noupdate /err_estimat_vlg_tst/i1/o_cal_error 
+# add wave -noupdate /err_estimat_vlg_tst/i1/cal_l_inst/o_l_error 
+# add wave -noupdate /err_estimat_vlg_tst/i1/o_cal_error 
+# add wave -noupdate -radix unsigned /err_estimat_vlg_tst/i1/i_nu 
+# add wave -noupdate -radix unsigned /err_estimat_vlg_tst/i1/i_nleak 
+# add wave -noupdate /err_estimat_vlg_tst/i1/o_err_value_vld 
+# add wave -noupdate -radix unsigned /err_estimat_vlg_tst/i1/o_err_value 
+# add wave -noupdate /err_estimat_vlg_tst/i1/o_err_cal_busy 
+# TreeUpdate [SetDefaultTree]
+# WaveRestoreCursors {{Cursor 1} {2042771 ps} 0}
+# quietly wave cursor active 1
+# configure wave -namecolwidth 150
+# configure wave -valuecolwidth 100
+# configure wave -justifyvalue left
+# configure wave -signalnamewidth 1
+# configure wave -snapdistance 10
+# configure wave -datasetprefix 0
+# configure wave -rowmargin 4
+# configure wave -childrowmargin 2
+# configure wave -gridoffset 0
+# configure wave -gridperiod 1
+# configure wave -griddelta 40
+# configure wave -timeline 0
+# configure wave -timelineunits ns
+# update
+# WaveRestoreZoom {0 ps} {10500 ns}
+# bookmark add wave bookmark0 {{0 ps} {4274688 ps}} 0
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# 
+# mem save -format bin -outfile txt.txt -start 0 -end 1000 /err_estimate_vlg_tst/i1/s1
+# 
+# 
+# 
+# run 10 us
+# The parameter verif_en is set to 0 for this simulator.
+# Other values for verif_en are enabled only for VCS.
+# The parameter verif_en is set to 0 for this simulator.
+# Other values for verif_en are enabled only for VCS.
+# The parameter verif_en is set to 0 for this simulator.
+# Other values for verif_en are enabled only for VCS.
+# The parameter verif_en is set to 0 for this simulator.
+# Other values for verif_en are enabled only for VCS.
+# The parameter verif_en is set to 0 for this simulator.
+# Other values for verif_en are enabled only for VCS.
+# The parameter verif_en is set to 0 for this simulator.
+# Other values for verif_en are enabled only for VCS.
+# The parameter verif_en is set to 0 for this simulator.
+# Other values for verif_en are enabled only for VCS.
+# The parameter verif_en is set to 0 for this simulator.
+# Other values for verif_en are enabled only for VCS.
+# The parameter verif_en is set to 0 for this simulator.
+# Other values for verif_en are enabled only for VCS.
+# The parameter verif_en is set to 0 for this simulator.
+# Other values for verif_en are enabled only for VCS.
+# The parameter verif_en is set to 0 for this simulator.
+# Other values for verif_en are enabled only for VCS.
+# The parameter verif_en is set to 0 for this simulator.
+# Other values for verif_en are enabled only for VCS.

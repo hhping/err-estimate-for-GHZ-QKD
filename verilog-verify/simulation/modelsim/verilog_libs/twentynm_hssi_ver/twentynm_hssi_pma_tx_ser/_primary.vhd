@@ -1,0 +1,61 @@
+library verilog;
+use verilog.vl_types.all;
+entity twentynm_hssi_pma_tx_ser is
+    generic(
+        enable_debug_info: string  := "true";
+        bonding_mode    : string  := "x1_non_bonded";
+        clk_divtx_deskew: string  := "deskew_delay8";
+        control_clk_divtx: string  := "no_dft_control_clkdivtx";
+        duty_cycle_correction_mode_ctrl: string  := "dcc_disable";
+        initial_settings: string  := "false";
+        prot_mode       : string  := "basic_tx";
+        ser_clk_divtx_user_sel: string  := "divtx_user_33";
+        ser_clk_mon     : string  := "disable_clk_mon";
+        ser_powerdown   : string  := "normal_poweron_ser";
+        silicon_rev     : string  := "20nm5es";
+        sup_mode        : string  := "user_mode"
+    );
+    port(
+        avmmaddress     : in     vl_logic_vector(8 downto 0);
+        avmmclk         : in     vl_logic;
+        avmmread        : in     vl_logic;
+        avmmrstn        : in     vl_logic;
+        avmmwrite       : in     vl_logic;
+        avmmwritedata   : in     vl_logic_vector(7 downto 0);
+        bitslipstate    : in     vl_logic;
+        cpulse          : in     vl_logic;
+        data            : in     vl_logic_vector(63 downto 0);
+        hfclkn          : in     vl_logic;
+        hfclkp          : in     vl_logic;
+        lfclk           : in     vl_logic;
+        lfclk2          : in     vl_logic;
+        paraclk         : in     vl_logic;
+        rser_div2       : in     vl_logic;
+        rser_div4       : in     vl_logic;
+        rser_div5       : in     vl_logic;
+        rst_n           : in     vl_logic;
+        avmmreaddata    : out    vl_logic_vector(7 downto 0);
+        blockselect     : out    vl_logic;
+        ckdrvn          : out    vl_logic;
+        ckdrvp          : out    vl_logic;
+        clk_divtx       : out    vl_logic;
+        clk_divtx_user  : out    vl_logic;
+        oe              : out    vl_logic;
+        oeb             : out    vl_logic;
+        oo              : out    vl_logic;
+        oob             : out    vl_logic
+    );
+    attribute mti_svvh_generic_type : integer;
+    attribute mti_svvh_generic_type of enable_debug_info : constant is 1;
+    attribute mti_svvh_generic_type of bonding_mode : constant is 1;
+    attribute mti_svvh_generic_type of clk_divtx_deskew : constant is 1;
+    attribute mti_svvh_generic_type of control_clk_divtx : constant is 1;
+    attribute mti_svvh_generic_type of duty_cycle_correction_mode_ctrl : constant is 1;
+    attribute mti_svvh_generic_type of initial_settings : constant is 1;
+    attribute mti_svvh_generic_type of prot_mode : constant is 1;
+    attribute mti_svvh_generic_type of ser_clk_divtx_user_sel : constant is 1;
+    attribute mti_svvh_generic_type of ser_clk_mon : constant is 1;
+    attribute mti_svvh_generic_type of ser_powerdown : constant is 1;
+    attribute mti_svvh_generic_type of silicon_rev : constant is 1;
+    attribute mti_svvh_generic_type of sup_mode : constant is 1;
+end twentynm_hssi_pma_tx_ser;

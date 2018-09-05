@@ -1,0 +1,66 @@
+library verilog;
+use verilog.vl_types.all;
+entity twentynm_hssi_pma_cdr_refclk_select_mux is
+    generic(
+        enable_debug_info: string  := "true";
+        cdr_clkin_scratch0_src: string  := "cdr_clkin_scratch0_src_refclk_iqclk";
+        cdr_clkin_scratch1_src: string  := "cdr_clkin_scratch1_src_refclk_iqclk";
+        cdr_clkin_scratch2_src: string  := "cdr_clkin_scratch2_src_refclk_iqclk";
+        cdr_clkin_scratch3_src: string  := "cdr_clkin_scratch3_src_refclk_iqclk";
+        cdr_clkin_scratch4_src: string  := "cdr_clkin_scratch4_src_refclk_iqclk";
+        inclk0_logical_to_physical_mapping: string  := "ref_iqclk0";
+        inclk1_logical_to_physical_mapping: string  := "ref_iqclk0";
+        inclk2_logical_to_physical_mapping: string  := "ref_iqclk0";
+        inclk3_logical_to_physical_mapping: string  := "ref_iqclk0";
+        inclk4_logical_to_physical_mapping: string  := "ref_iqclk0";
+        powerdown_mode  : string  := "powerdown";
+        receiver_detect_src: string  := "iqclk_src";
+        refclk_select   : string  := "ref_iqclk0";
+        silicon_rev     : string  := "20nm5es";
+        xmux_refclk_src : string  := "refclk_iqclk";
+        xpm_iqref_mux_iqclk_sel: string  := "power_down";
+        xpm_iqref_mux_scratch0_src: string  := "scratch0_power_down";
+        xpm_iqref_mux_scratch1_src: string  := "scratch1_power_down";
+        xpm_iqref_mux_scratch2_src: string  := "scratch2_power_down";
+        xpm_iqref_mux_scratch3_src: string  := "scratch3_power_down";
+        xpm_iqref_mux_scratch4_src: string  := "scratch4_power_down"
+    );
+    port(
+        avmmaddress     : in     vl_logic_vector(8 downto 0);
+        avmmclk         : in     vl_logic;
+        avmmread        : in     vl_logic;
+        avmmrstn        : in     vl_logic;
+        avmmwrite       : in     vl_logic;
+        avmmwritedata   : in     vl_logic_vector(7 downto 0);
+        core_refclk     : in     vl_logic;
+        iqtxrxclk       : in     vl_logic_vector(5 downto 0);
+        ref_iqclk       : in     vl_logic_vector(11 downto 0);
+        avmmreaddata    : out    vl_logic_vector(7 downto 0);
+        blockselect     : out    vl_logic;
+        refclk          : out    vl_logic;
+        rx_det_clk      : out    vl_logic
+    );
+    attribute mti_svvh_generic_type : integer;
+    attribute mti_svvh_generic_type of enable_debug_info : constant is 1;
+    attribute mti_svvh_generic_type of cdr_clkin_scratch0_src : constant is 1;
+    attribute mti_svvh_generic_type of cdr_clkin_scratch1_src : constant is 1;
+    attribute mti_svvh_generic_type of cdr_clkin_scratch2_src : constant is 1;
+    attribute mti_svvh_generic_type of cdr_clkin_scratch3_src : constant is 1;
+    attribute mti_svvh_generic_type of cdr_clkin_scratch4_src : constant is 1;
+    attribute mti_svvh_generic_type of inclk0_logical_to_physical_mapping : constant is 1;
+    attribute mti_svvh_generic_type of inclk1_logical_to_physical_mapping : constant is 1;
+    attribute mti_svvh_generic_type of inclk2_logical_to_physical_mapping : constant is 1;
+    attribute mti_svvh_generic_type of inclk3_logical_to_physical_mapping : constant is 1;
+    attribute mti_svvh_generic_type of inclk4_logical_to_physical_mapping : constant is 1;
+    attribute mti_svvh_generic_type of powerdown_mode : constant is 1;
+    attribute mti_svvh_generic_type of receiver_detect_src : constant is 1;
+    attribute mti_svvh_generic_type of refclk_select : constant is 1;
+    attribute mti_svvh_generic_type of silicon_rev : constant is 1;
+    attribute mti_svvh_generic_type of xmux_refclk_src : constant is 1;
+    attribute mti_svvh_generic_type of xpm_iqref_mux_iqclk_sel : constant is 1;
+    attribute mti_svvh_generic_type of xpm_iqref_mux_scratch0_src : constant is 1;
+    attribute mti_svvh_generic_type of xpm_iqref_mux_scratch1_src : constant is 1;
+    attribute mti_svvh_generic_type of xpm_iqref_mux_scratch2_src : constant is 1;
+    attribute mti_svvh_generic_type of xpm_iqref_mux_scratch3_src : constant is 1;
+    attribute mti_svvh_generic_type of xpm_iqref_mux_scratch4_src : constant is 1;
+end twentynm_hssi_pma_cdr_refclk_select_mux;

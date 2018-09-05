@@ -1,0 +1,155 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\QKD_1GHZ\verilog\err_estimat_5Q16_newpara\simulation\modelsim
+Edspba_delay
+Z1 w1530511562
+Z2 DPx4 work 21 dspba_library_package 0 22 G0?HiOV8V69<Vgo@HCo[S0
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dE:\QKD_1GHZ\verilog\err_estimat_5Q16_newpara\simulation\modelsim
+Z6 8E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/core/fp_mult_fun/fp_mult_fun/altera_fp_functions_161/sim/dspba_library.vhd
+Z7 FE:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/core/fp_mult_fun/fp_mult_fun/altera_fp_functions_161/sim/dspba_library.vhd
+l0
+L17
+VzJf8_KKDLaBXGNBWTTVo]1
+Z8 OL;C;10.1c;51
+32
+Z9 !s108 1536028570.853000
+Z10 !s90 -reportprogress|300|E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/core/fp_mult_fun/fp_mult_fun/altera_fp_functions_161/sim/dspba_library.vhd|-work|fp_mult_fun_altera_fp_functions_161|
+Z11 !s107 E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/core/fp_mult_fun/fp_mult_fun/altera_fp_functions_161/sim/dspba_library.vhd|
+Z12 o-work fp_mult_fun_altera_fp_functions_161
+Z13 tExplicit 1
+Z14 !s100 Uj<1Ik<?YzK4cC5?eBaLz0
+!i10b 1
+Adelay
+R2
+R3
+R4
+DEx4 work 11 dspba_delay 0 22 zJf8_KKDLaBXGNBWTTVo]1
+l36
+L33
+VcgYIHO^>UL@LR5M=Z^7G`2
+R8
+32
+R9
+R10
+R11
+R12
+R13
+Z15 !s100 BGB]3SYZAIBb@liL;WEF02
+!i10b 1
+Pdspba_library_package
+R3
+R4
+R1
+R5
+8E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/core/fp_mult_fun/fp_mult_fun/altera_fp_functions_161/sim/dspba_library_package.vhd
+FE:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/core/fp_mult_fun/fp_mult_fun/altera_fp_functions_161/sim/dspba_library_package.vhd
+l0
+L16
+VG0?HiOV8V69<Vgo@HCo[S0
+R8
+32
+R12
+R13
+Z16 !s100 Loik]=g4EY^Ia`d`eP<ce0
+!i10b 1
+!s108 1536028570.730000
+!s90 -reportprogress|300|E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/core/fp_mult_fun/fp_mult_fun/altera_fp_functions_161/sim/dspba_library_package.vhd|-work|fp_mult_fun_altera_fp_functions_161|
+!s107 E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/core/fp_mult_fun/fp_mult_fun/altera_fp_functions_161/sim/dspba_library_package.vhd|
+Edspba_sync_reg
+R1
+R2
+Z17 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+R3
+R4
+R5
+R6
+R7
+l0
+L91
+VUL5G2hEm:XS21CjbLRX>;3
+R8
+32
+R9
+R10
+R11
+R12
+R13
+Z18 !s100 D`Q;KQTC=A_DlZa_:P9J>0
+!i10b 1
+Async_reg
+R2
+R17
+R3
+R4
+DEx4 work 14 dspba_sync_reg 0 22 UL5G2hEm:XS21CjbLRX>;3
+l134
+L115
+VZKZ_bN`WAU7_8l8RnVKkH1
+R8
+32
+R9
+R10
+R11
+R12
+R13
+Z19 !s100 AHK1feBXPfd7]5V5k7]ZR1
+!i10b 1
+Efp_mult_fun_altera_fp_functions_161_kajft6a
+R1
+Z20 DPx4 ieee 16 vital_primitives 0 22 9W@YP9_VCb?_GCJ8e:;YQ0
+Z21 DPx8 twentynm 18 twentynm_atom_pack 0 22 67a^jSoA@Po[PWKI73U8:1
+Z22 DPx4 ieee 12 vital_timing 0 22 7h8zz2S4HVg:a;2TBMI[j1
+Z23 DPx8 twentynm 19 twentynm_components 0 22 ?IT]P@Sije?A8maVNXGR[3
+Z24 DPx3 lpm 14 lpm_components 0 22 hCMZ;l>h8OPa7Z[C2oemG2
+Z25 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 E1TVj5SEmf<jfPK[hkf_`1
+Z26 DPx9 altera_mf 20 altera_mf_components 0 22 T=k2DMceWJ18HkkBQaf]G0
+R2
+Z27 DPx4 ieee 9 math_real 0 22 :iME`dTX54_U49lJNF5JI3
+R17
+R3
+R4
+R5
+Z28 8E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/core/fp_mult_fun/fp_mult_fun/altera_fp_functions_161/sim/fp_mult_fun_altera_fp_functions_161_kajft6a.vhd
+Z29 FE:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/core/fp_mult_fun/fp_mult_fun/altera_fp_functions_161/sim/fp_mult_fun_altera_fp_functions_161_kajft6a.vhd
+l0
+L39
+VWQlfLQ85O^bTJjfalG_SK2
+R8
+32
+Z30 !s108 1536028571.083000
+Z31 !s90 -reportprogress|300|E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/core/fp_mult_fun/fp_mult_fun/altera_fp_functions_161/sim/fp_mult_fun_altera_fp_functions_161_kajft6a.vhd|-work|fp_mult_fun_altera_fp_functions_161|
+Z32 !s107 E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/core/fp_mult_fun/fp_mult_fun/altera_fp_functions_161/sim/fp_mult_fun_altera_fp_functions_161_kajft6a.vhd|
+R12
+R13
+!s100 =ZL>^IIDfo?U^>OQOHC0f2
+!i10b 1
+Anormal
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R2
+R27
+R17
+R3
+R4
+DEx4 work 43 fp_mult_fun_altera_fp_functions_161_kajft6a 0 22 WQlfLQ85O^bTJjfalG_SK2
+l58
+L50
+VDV;?Y9i[^8miDbPz6H7921
+!s100 :lhe=oZOJ4QVR61_jRkPc3
+R8
+32
+R30
+R31
+R32
+R12
+R13
+!i10b 1

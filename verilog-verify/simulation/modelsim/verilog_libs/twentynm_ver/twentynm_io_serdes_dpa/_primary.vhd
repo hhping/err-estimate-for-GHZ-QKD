@@ -1,0 +1,65 @@
+library verilog;
+use verilog.vl_types.all;
+entity twentynm_io_serdes_dpa is
+    generic(
+        mode            : string  := "off_mode";
+        align_to_rising_edge_only: string  := "false";
+        bitslip_rollover: string  := "10";
+        data_width      : string  := "10";
+        lose_lock_on_one_change: string  := "false";
+        reset_fifo_at_first_lock: string  := "false";
+        enable_clock_pin_mode: string  := "false";
+        loopback_mode   : string  := "0";
+        net_ppm_variation: string  := "0";
+        is_negative_ppm_drift: string  := "false";
+        bypass_serializer: string  := "false";
+        use_falling_clock_edge: string  := "false";
+        vco_div_exponent: string  := "0";
+        vco_frequency   : string  := "0";
+        is_tx_outclock  : string  := "false";
+        silicon_rev     : string  := "20nm5es"
+    );
+    port(
+        bitslipcntl     : in     vl_logic_vector(0 downto 0);
+        bitslipreset    : in     vl_logic_vector(0 downto 0);
+        pclkcorein      : in     vl_logic_vector(0 downto 0);
+        dpahold         : in     vl_logic_vector(0 downto 0);
+        dpareset        : in     vl_logic_vector(0 downto 0);
+        dpaswitch       : in     vl_logic_vector(0 downto 0);
+        fclk            : in     vl_logic_vector(0 downto 0);
+        dpafiforeset    : in     vl_logic_vector(0 downto 0);
+        loaden          : in     vl_logic_vector(0 downto 0);
+        lvdsin          : in     vl_logic_vector(0 downto 0);
+        txdata          : in     vl_logic_vector(9 downto 0);
+        pclkioin        : in     vl_logic_vector(0 downto 0);
+        fclkcorein      : in     vl_logic_vector(0 downto 0);
+        loadencorein    : in     vl_logic_vector(0 downto 0);
+        loopbackin      : in     vl_logic_vector(0 downto 0);
+        dpaclk          : in     vl_logic_vector(7 downto 0);
+        bitslipmax      : out    vl_logic_vector(0 downto 0);
+        dpalock         : out    vl_logic_vector(0 downto 0);
+        lvdsout         : out    vl_logic_vector(0 downto 0);
+        rxdata          : out    vl_logic_vector(9 downto 0);
+        pclk            : out    vl_logic_vector(0 downto 0);
+        loopbackout     : out    vl_logic_vector(0 downto 0);
+        dprio_clk       : in     vl_logic_vector(0 downto 0);
+        dprio_rst_n     : in     vl_logic_vector(0 downto 0)
+    );
+    attribute mti_svvh_generic_type : integer;
+    attribute mti_svvh_generic_type of mode : constant is 1;
+    attribute mti_svvh_generic_type of align_to_rising_edge_only : constant is 1;
+    attribute mti_svvh_generic_type of bitslip_rollover : constant is 1;
+    attribute mti_svvh_generic_type of data_width : constant is 1;
+    attribute mti_svvh_generic_type of lose_lock_on_one_change : constant is 1;
+    attribute mti_svvh_generic_type of reset_fifo_at_first_lock : constant is 1;
+    attribute mti_svvh_generic_type of enable_clock_pin_mode : constant is 1;
+    attribute mti_svvh_generic_type of loopback_mode : constant is 1;
+    attribute mti_svvh_generic_type of net_ppm_variation : constant is 1;
+    attribute mti_svvh_generic_type of is_negative_ppm_drift : constant is 1;
+    attribute mti_svvh_generic_type of bypass_serializer : constant is 1;
+    attribute mti_svvh_generic_type of use_falling_clock_edge : constant is 1;
+    attribute mti_svvh_generic_type of vco_div_exponent : constant is 1;
+    attribute mti_svvh_generic_type of vco_frequency : constant is 1;
+    attribute mti_svvh_generic_type of is_tx_outclock : constant is 1;
+    attribute mti_svvh_generic_type of silicon_rev : constant is 1;
+end twentynm_io_serdes_dpa;

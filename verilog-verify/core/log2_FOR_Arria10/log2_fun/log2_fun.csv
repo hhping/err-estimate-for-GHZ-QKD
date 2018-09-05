@@ -1,0 +1,18 @@
+# system info log2_fun on 2018.06.14.16:23:24
+system_info:
+name,value
+DEVICE,10AX066H2F34I2LP
+DEVICE_FAMILY,Arria 10
+GENERATION_ID,1528964590
+#
+#
+# Files generated for log2_fun on 2018.06.14.16:23:24
+files:
+filepath,kind,attributes,module,is_top
+sim/log2_fun.v,VERILOG,CONTAINS_INLINE_CONFIGURATION,log2_fun,true
+altera_fp_functions_141/sim/log2_fun_altera_fp_functions_141_dehmhdi.vo,VERILOG,,log2_fun_altera_fp_functions_141_dehmhdi,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+log2_fun.fp_functions_0,log2_fun_altera_fp_functions_141_dehmhdi

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='us-ascii'?>
+<qsys_generation_info>
+<qsys_file path="G:/QKD_1GHZ/verilog/err_estimat_2/core/log2_FOR_Arria10/log2_fun.qsys" />
+<gen_dir path="G:/QKD_1GHZ/verilog/err_estimat_2/core/log2_FOR_Arria10/log2_fun/" />
+<user_regen_policy value="Never Regenerate Existing IP" />
+<actual_regen_policy value="Never Regenerate Existing IP" />
+<gen_action value="IP Generation Skipped" />
+<gen_status value="IP Generation Succeeded" />
+</qsys_generation_info>

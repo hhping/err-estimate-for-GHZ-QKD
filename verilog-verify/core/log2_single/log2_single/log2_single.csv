@@ -1,0 +1,23 @@
+# system info log2_single on 2018.07.02.17:18:25
+system_info:
+name,value
+DEVICE,10AS027H4F34I3SG
+DEVICE_FAMILY,Arria 10
+GENERATION_ID,1530523104
+#
+#
+# Files generated for log2_single on 2018.07.02.17:18:25
+files:
+filepath,kind,attributes,module,is_top
+sim/log2_single.v,VERILOG,CONTAINS_INLINE_CONFIGURATION,log2_single,true
+altera_fp_functions_161/sim/log2_single_altera_fp_functions_161_kypxfny_memoryC0_uid92_lnTables_lutmem.hex,HEX,,log2_single_altera_fp_functions_161_kypxfny,false
+altera_fp_functions_161/sim/log2_single_altera_fp_functions_161_kypxfny_memoryC1_uid95_lnTables_lutmem.hex,HEX,,log2_single_altera_fp_functions_161_kypxfny,false
+altera_fp_functions_161/sim/log2_single_altera_fp_functions_161_kypxfny_memoryC2_uid98_lnTables_lutmem.hex,HEX,,log2_single_altera_fp_functions_161_kypxfny,false
+altera_fp_functions_161/sim/dspba_library_package.vhd,VHDL,,log2_single_altera_fp_functions_161_kypxfny,false
+altera_fp_functions_161/sim/dspba_library.vhd,VHDL,,log2_single_altera_fp_functions_161_kypxfny,false
+altera_fp_functions_161/sim/log2_single_altera_fp_functions_161_kypxfny.vhd,VHDL,,log2_single_altera_fp_functions_161_kypxfny,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+log2_single.fp_functions_0,log2_single_altera_fp_functions_161_kypxfny

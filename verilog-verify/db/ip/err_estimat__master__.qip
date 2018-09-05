@@ -1,0 +1,3 @@
+set_global_assignment -name QIP_FILE [file join $::quartus(qip_path) ../../core/log2_single/log2_single/log2_single.qip]
+set_global_assignment -name QIP_FILE [file join $::quartus(qip_path) ../../core/fp_sub_fun/fp_sub_fun/fp_sub_fun.qip]
+set_global_assignment -name QIP_FILE [file join $::quartus(qip_path) ../../core/fp_mult_fun/fp_mult_fun/fp_mult_fun.qip]

@@ -1,0 +1,3 @@
+cp -f E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/core/log2_single/log2_single/altera_fp_functions_161/sim/log2_single_altera_fp_functions_161_kypxfny_memoryC0_uid92_lnTables_lutmem.hex ./
+cp -f E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/core/log2_single/log2_single/altera_fp_functions_161/sim/log2_single_altera_fp_functions_161_kypxfny_memoryC1_uid95_lnTables_lutmem.hex ./
+cp -f E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/core/log2_single/log2_single/altera_fp_functions_161/sim/log2_single_altera_fp_functions_161_kypxfny_memoryC2_uid98_lnTables_lutmem.hex ./

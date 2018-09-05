@@ -1,0 +1,11 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst log2_fun -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst log2_fun.fp_functions_0 -pg 1 -lvl 1 -y 30
+preplace netloc EXPORT<net_container>log2_fun</net_container>(SLAVE)fp_functions_0.areset,(SLAVE)log2_fun.areset) 1 0 1 NJ
+preplace netloc EXPORT<net_container>log2_fun</net_container>(SLAVE)log2_fun.clk,(SLAVE)fp_functions_0.clk) 1 0 1 NJ
+preplace netloc EXPORT<net_container>log2_fun</net_container>(SLAVE)log2_fun.q,(SLAVE)fp_functions_0.q) 1 0 1 NJ
+preplace netloc EXPORT<net_container>log2_fun</net_container>(SLAVE)log2_fun.en,(SLAVE)fp_functions_0.en) 1 0 1 NJ
+preplace netloc EXPORT<net_container>log2_fun</net_container>(SLAVE)log2_fun.a,(SLAVE)fp_functions_0.a) 1 0 1 NJ
+levelinfo -pg 1 0 50 210
+levelinfo -hier log2_fun 60 100 200

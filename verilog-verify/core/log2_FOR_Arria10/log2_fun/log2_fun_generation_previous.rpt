@@ -1,0 +1,92 @@
+Info: Starting: Create simulation model
+Info: ip-generate --project-directory=G:\QKD_1GHZ\verilog\err_estimat_new_math\core\log2_FOR_Arria10 --output-directory=G:\QKD_1GHZ\verilog\err_estimat_new_math\core\log2_FOR_Arria10\log2_fun --file-set=SIM_VERILOG --report-file=html:G:\QKD_1GHZ\verilog\err_estimat_new_math\core\log2_FOR_Arria10\log2_fun\log2_fun.html --report-file=sopcinfo:G:\QKD_1GHZ\verilog\err_estimat_new_math\core\log2_FOR_Arria10\log2_fun.sopcinfo --report-file=csv:G:\QKD_1GHZ\verilog\err_estimat_new_math\core\log2_FOR_Arria10\log2_fun\log2_fun.csv --report-file=spd:G:\QKD_1GHZ\verilog\err_estimat_new_math\core\log2_FOR_Arria10\log2_fun\log2_fun.spd --report-file=cmp:G:\QKD_1GHZ\verilog\err_estimat_new_math\core\log2_FOR_Arria10\log2_fun\log2_fun.cmp --report-file=sip:G:\QKD_1GHZ\verilog\err_estimat_new_math\core\log2_FOR_Arria10\log2_fun\log2_fun.sip --system-info=DEVICE_FAMILY="Arria 10" --system-info=DEVICE=10AX066H2F34I2LP --system-info=DEVICE_SPEEDGRADE=2 --component-file=G:\QKD_1GHZ\verilog\err_estimat_new_math\core\log2_FOR_Arria10\log2_fun.qsys --generator=extensible --remove-qsys-generate-warning
+Progress: Loading log2_FOR_Arria10/log2_fun.qsys
+Progress: Reading input file
+Progress: Adding fp_functions_0 [altera_fp_functions 14.1]
+Progress: Parameterizing module fp_functions_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: log2_fun: "Transforming system: log2_fun"
+Info: log2_fun: Running transform generation_view_transform
+Info: log2_fun: Running transform generation_view_transform took 0.007s
+Info: fp_functions_0: Running transform generation_view_transform
+Info: fp_functions_0: Running transform generation_view_transform took 0.000s
+Info: log2_fun: Running transform merlin_avalon_transform
+Info: log2_fun: Running transform merlin_avalon_transform took 0.037s
+Info: log2_fun: "Naming system components in system: log2_fun"
+Info: log2_fun: "Processing generation queue"
+Info: log2_fun: "Generating: log2_fun"
+Info: log2_fun: "Generating: log2_fun_altera_fp_functions_141_oxq4rwi"
+Info: fp_functions_0: Latency on Arria 10 is 13 cycles
+Info: fp_functions_0: DSP Blocks Used: 3
+Info: fp_functions_0: LUTs Used: 859
+Info: fp_functions_0: Memory Bits Used: 0
+Info: fp_functions_0: Memory Blocks Used: 0
+Warning: Using design file log2_fun_altera_fp_functions_141_oxq4rwi.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+Info: log2_fun: Done "log2_fun" with 2 modules, 2 files
+Info: ip-generate succeeded.
+Info: Finished: Create simulation model
+Info: Starting: Create Modelsim Project.
+Info: sim-script-gen --spd=G:\QKD_1GHZ\verilog\err_estimat_new_math\core\log2_FOR_Arria10\log2_fun\log2_fun.spd --output-directory=G:/QKD_1GHZ/verilog/err_estimat_new_math/core/log2_FOR_Arria10/log2_fun/sim/ --use-relative-paths=true
+Info: Doing: ip-make-simscript --spd=G:\QKD_1GHZ\verilog\err_estimat_new_math\core\log2_FOR_Arria10\log2_fun\log2_fun.spd --output-directory=G:/QKD_1GHZ/verilog/err_estimat_new_math/core/log2_FOR_Arria10/log2_fun/sim/ --use-relative-paths=true
+Info: Generating the following file(s) for MODELSIM simulator in G:/QKD_1GHZ/verilog/err_estimat_new_math/core/log2_FOR_Arria10/log2_fun/sim/ directory:
+Info: 	mentor/msim_setup.tcl
+Info: Generating the following file(s) for VCS simulator in G:/QKD_1GHZ/verilog/err_estimat_new_math/core/log2_FOR_Arria10/log2_fun/sim/ directory:
+Info: 	synopsys/vcs/vcs_setup.sh
+Info: Generating the following file(s) for VCSMX simulator in G:/QKD_1GHZ/verilog/err_estimat_new_math/core/log2_FOR_Arria10/log2_fun/sim/ directory:
+Info: 	synopsys/vcsmx/synopsys_sim.setup
+Info: 	synopsys/vcsmx/vcsmx_setup.sh
+Info: Generating the following file(s) for NCSIM simulator in G:/QKD_1GHZ/verilog/err_estimat_new_math/core/log2_FOR_Arria10/log2_fun/sim/ directory:
+Info: 	cadence/cds.lib
+Info: 	cadence/hdl.var
+Info: 	cadence/ncsim_setup.sh
+Info: 	1 .cds.lib files in cadence/cds_libs/ directory
+Info: Generating the following file(s) for RIVIERA simulator in G:/QKD_1GHZ/verilog/err_estimat_new_math/core/log2_FOR_Arria10/log2_fun/sim/ directory:
+Info: 	aldec/rivierapro_setup.tcl
+Info: Finished: Create Modelsim Project.
+Info: Starting: Create block symbol file (.bsf)
+Info: ip-generate --project-directory=G:\QKD_1GHZ\verilog\err_estimat_new_math\core\log2_FOR_Arria10 --output-directory=G:\QKD_1GHZ\verilog\err_estimat_new_math\core\log2_FOR_Arria10\log2_fun --report-file=bsf:G:\QKD_1GHZ\verilog\err_estimat_new_math\core\log2_FOR_Arria10\log2_fun\log2_fun.bsf --system-info=DEVICE_FAMILY="Arria 10" --system-info=DEVICE=10AX066H2F34I2LP --system-info=DEVICE_SPEEDGRADE=2 --component-file=G:\QKD_1GHZ\verilog\err_estimat_new_math\core\log2_FOR_Arria10\log2_fun.qsys --generator=extensible --remove-qsys-generate-warning
+Progress: Loading log2_FOR_Arria10/log2_fun.qsys
+Progress: Reading input file
+Progress: Adding fp_functions_0 [altera_fp_functions 14.1]
+Progress: Parameterizing module fp_functions_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: ip-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: ip-generate --project-directory=G:\QKD_1GHZ\verilog\err_estimat_new_math\core\log2_FOR_Arria10 --output-directory=G:\QKD_1GHZ\verilog\err_estimat_new_math\core\log2_FOR_Arria10\log2_fun --file-set=QUARTUS_SYNTH --report-file=html:G:\QKD_1GHZ\verilog\err_estimat_new_math\core\log2_FOR_Arria10\log2_fun\log2_fun.html --report-file=sopcinfo:G:\QKD_1GHZ\verilog\err_estimat_new_math\core\log2_FOR_Arria10\log2_fun.sopcinfo --report-file=cmp:G:\QKD_1GHZ\verilog\err_estimat_new_math\core\log2_FOR_Arria10\log2_fun\log2_fun.cmp --report-file=qip:G:\QKD_1GHZ\verilog\err_estimat_new_math\core\log2_FOR_Arria10\log2_fun\log2_fun.qip --report-file=svd:G:\QKD_1GHZ\verilog\err_estimat_new_math\core\log2_FOR_Arria10\log2_fun\log2_fun.svd --report-file=regmap:G:\QKD_1GHZ\verilog\err_estimat_new_math\core\log2_FOR_Arria10\log2_fun\log2_fun.regmap --report-file=xml:G:\QKD_1GHZ\verilog\err_estimat_new_math\core\log2_FOR_Arria10\log2_fun\log2_fun.xml --report-file=debuginfo:G:\QKD_1GHZ\verilog\err_estimat_new_math\core\log2_FOR_Arria10\log2_fun\log2_fun.debuginfo --report-file=greybox:G:\QKD_1GHZ\verilog\err_estimat_new_math\core\log2_FOR_Arria10\log2_fun\greybox\log2_fun.v --system-info=DEVICE_FAMILY="Arria 10" --system-info=DEVICE=10AX066H2F34I2LP --system-info=DEVICE_SPEEDGRADE=2 --component-file=G:\QKD_1GHZ\verilog\err_estimat_new_math\core\log2_FOR_Arria10\log2_fun.qsys --generator=extensible --remove-qsys-generate-warning --language=VERILOG
+Progress: Loading log2_FOR_Arria10/log2_fun.qsys
+Progress: Reading input file
+Progress: Adding fp_functions_0 [altera_fp_functions 14.1]
+Progress: Parameterizing module fp_functions_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: log2_fun: "Transforming system: log2_fun"
+Info: log2_fun: Running transform generation_view_transform
+Info: log2_fun: Running transform generation_view_transform took 0.000s
+Info: fp_functions_0: Running transform generation_view_transform
+Info: fp_functions_0: Running transform generation_view_transform took 0.000s
+Info: log2_fun: Running transform merlin_avalon_transform
+Info: log2_fun: Running transform merlin_avalon_transform took 0.017s
+Info: log2_fun: "Naming system components in system: log2_fun"
+Info: log2_fun: "Processing generation queue"
+Info: log2_fun: "Generating: log2_fun"
+Info: log2_fun: "Generating: log2_fun_altera_fp_functions_141_oxq4rwi"
+Info: fp_functions_0: Latency on Arria 10 is 13 cycles
+Info: fp_functions_0: DSP Blocks Used: 3
+Info: fp_functions_0: LUTs Used: 859
+Info: fp_functions_0: Memory Bits Used: 0
+Info: fp_functions_0: Memory Blocks Used: 0
+Info: log2_fun: Done "log2_fun" with 2 modules, 5 files
+Info: Generating third-party timing and resource estimation model ...
+Info: Done generating third-party timing and resource estimation model.
+Info: ip-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

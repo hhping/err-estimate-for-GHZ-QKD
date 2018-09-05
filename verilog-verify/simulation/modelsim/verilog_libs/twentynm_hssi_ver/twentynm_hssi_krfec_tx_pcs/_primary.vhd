@@ -1,0 +1,60 @@
+library verilog;
+use verilog.vl_types.all;
+entity twentynm_hssi_krfec_tx_pcs is
+    generic(
+        enable_debug_info: string  := "true";
+        burst_err       : string  := "burst_err_dis";
+        burst_err_len   : string  := "burst_err_len1";
+        ctrl_bit_reverse: string  := "ctrl_bit_reverse_dis";
+        data_bit_reverse: string  := "data_bit_reverse_dis";
+        enc_frame_query : string  := "enc_query_dis";
+        low_latency_en  : string  := "disable";
+        pipeln_encoder  : string  := "enable";
+        pipeln_scrambler: string  := "enable";
+        prot_mode       : string  := "disable_mode";
+        silicon_rev     : string  := "20nm5es";
+        sup_mode        : string  := "user_mode";
+        transcode_err   : string  := "trans_err_dis";
+        transmit_order  : string  := "transmit_lsb";
+        tx_testbus_sel  : string  := "overall"
+    );
+    port(
+        avmmaddress     : in     vl_logic_vector(8 downto 0);
+        avmmclk         : in     vl_logic;
+        avmmread        : in     vl_logic;
+        avmmrstn        : in     vl_logic;
+        avmmwrite       : in     vl_logic;
+        avmmwritedata   : in     vl_logic_vector(7 downto 0);
+        tx_control_in   : in     vl_logic_vector(8 downto 0);
+        tx_data_in      : in     vl_logic_vector(63 downto 0);
+        tx_data_valid_in: in     vl_logic;
+        tx_krfec_clk    : in     vl_logic;
+        tx_master_clk   : in     vl_logic;
+        tx_master_clk_rst_n: in     vl_logic;
+        avmmreaddata    : out    vl_logic_vector(7 downto 0);
+        blockselect     : out    vl_logic;
+        pld_10g_krfec_tx_frame_krfec_reg: out    vl_logic;
+        pld_krfec_tx_alignment_plddirect_reg: out    vl_logic;
+        pld_krfec_tx_alignment_reg: out    vl_logic;
+        tx_alignment    : out    vl_logic;
+        tx_data_out     : out    vl_logic_vector(63 downto 0);
+        tx_frame        : out    vl_logic;
+        tx_test_data    : out    vl_logic_vector(19 downto 0)
+    );
+    attribute mti_svvh_generic_type : integer;
+    attribute mti_svvh_generic_type of enable_debug_info : constant is 1;
+    attribute mti_svvh_generic_type of burst_err : constant is 1;
+    attribute mti_svvh_generic_type of burst_err_len : constant is 1;
+    attribute mti_svvh_generic_type of ctrl_bit_reverse : constant is 1;
+    attribute mti_svvh_generic_type of data_bit_reverse : constant is 1;
+    attribute mti_svvh_generic_type of enc_frame_query : constant is 1;
+    attribute mti_svvh_generic_type of low_latency_en : constant is 1;
+    attribute mti_svvh_generic_type of pipeln_encoder : constant is 1;
+    attribute mti_svvh_generic_type of pipeln_scrambler : constant is 1;
+    attribute mti_svvh_generic_type of prot_mode : constant is 1;
+    attribute mti_svvh_generic_type of silicon_rev : constant is 1;
+    attribute mti_svvh_generic_type of sup_mode : constant is 1;
+    attribute mti_svvh_generic_type of transcode_err : constant is 1;
+    attribute mti_svvh_generic_type of transmit_order : constant is 1;
+    attribute mti_svvh_generic_type of tx_testbus_sel : constant is 1;
+end twentynm_hssi_krfec_tx_pcs;

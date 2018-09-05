@@ -1,0 +1,24 @@
+`protect BEGIN_PROTECTED
+`protect version = 1
+`protect encrypt_agent = "Model Technology", encrypt_agent_info = "DEV"
+`protect data_method = "aes128-cbc"
+`protect encoding = ( enctype = "base64" , bytes = 168 )
+`protect DATA_BLOCK
+bfTugIPm8Hm6d2Zi1L61XKuYdp7h93n4B0zrubVgs0f+arZup7UuJiNK7Rdh8sYd
+TKydtiohPk3t2DgKO82SDzWlVW28qkdhVlqRenAcUWjIpJO0tWdibdTzJW2fT3m0
+JM8NlvatrnxmjTgIBJAdx4gBsfxnpxzwPkzab5Sp3ManIRZQ38cgzLy7XnzUGd1Y
+7MxV5hQBGiLiMmlzowGDMKCuZ0GqmpSTgVy6LEoDsyo+7VEZWU3KKlpwa6BJvW6O
+eiuMJcat9QMvqeSBEAuACQpSqlBsvHUiIfflRlb0vNa9ROhWXRlGdvpFSr9XbgjY
+vLs/tg3R31D4RezAWtpCPBiTLJXRY0ZeDIm+EJS0HvfBZCy0rYvTMDTMePX4wNBN
+QKmLAZSn2hfv0E/bm7mfTGcWzCR+L/ZGzqO90uYn+f7ar8Rc7s4qtkuNA7PZ3UkM
+jFTrpN5Jv5AsM21VCk6vOaUXyr2uH+sCalHq4b2fInvV/skaPF+HBOYUrj/XF/Ff
+1BUJlaigPkNEiXjYgffNPD+k78SarBCdvP2UhkV6TGCletdP9prNnzMyzIPXxYMZ
+hzWoNTvNGiWan9c7qh+ZMyGLi4xz5HK408HmtMfe+aXi4vT2mA/dqcWw2dNdRRKI
+eIOZtaGVNgIhcsPaURrvDBaHMb+5hj1whIEjlMILljcNLMThmUT0+sizFcg85F7O
+I/RJ7nb3bbHAViA1Rs5LJiyMH3x7XnJG/nHI3G2Cl+x9eCTh9Ny12LcZx1V65gG7
+q7uxuqehGGINnCAYpAoUggSia/HRPff8DV9HvH5VxS4tMr1lmyWlbbJxDfSorxgE
+etzt6ZvGxcpjUqA3W9NZGceQLNCcl42qVl8NZUnfQm5z3AyPy031Wjesyv4Rj4gh
+dMJ5/tZqYW/cSQVjEvaSJ9MGLFX68Tm1MhBnx/YH8jJiwMwQUV3pwhJooYrkgk/e
+YBNRW5xEE9CB2jttDZ5qMCUAJDhabpa3k570gqXovFgNinmMVntwXtWpbvfVSNg2
+JWndMx3EpVOMq/YxjROEQK3b4xae3QM5iI4xnrHzb/U9/6mvVCZKNmfvCPQUFQQ0
+`protect END_PROTECTED

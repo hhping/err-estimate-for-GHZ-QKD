@@ -1,0 +1,505 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\QKD_1GHZ\verilog\err_estimat_5Q16_newpara\simulation\modelsim
+T_opt
+V4;@SREj36K4JC66:l8>BJ2
+04 19 4 work err_estimat_vlg_tst fast 0
+=1-6c4b9027e53a-5b8defa2-204-64f8
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L twentynm_ver -L twentynm_hssi_ver -L twentynm_hip_ver -L twentynm -L twentynm_hssi -L twentynm_hip -L rtl_work -L work -L log2_single_altera_fp_functions_161 -L fp_sub_fun_altera_fp_functions_161 -L fp_mult_fun_altera_fp_functions_161 +acc
+n@_opt
+OL;O;10.1c;51
+valt_cal_e1
+I[fz@]36Lgl[l=NES?ozl91
+VeBa`KRzz^h[1hz97P?dES1
+Z1 dE:\QKD_1GHZ\verilog\err_estimat_5Q16_newpara\simulation\modelsim
+w1531384866
+8E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/alt_cal_e1.v
+FE:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/alt_cal_e1.v
+L0 23
+Z2 OL;L;10.1c;51
+r1
+31
+Z3 o-vlog01compat -work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+Z4 !s92 -vlog01compat -work work +incdir+E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!i10b 1
+!s100 ;g6LhD[VZDd279^03eOQ;2
+!s85 0
+!s108 1536028572.531000
+!s107 E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/alt_cal_e1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL|E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/alt_cal_e1.v|
+valt_cal_l
+ImG8[niSm`7BoDLbl50]Io2
+VInf0EP>H07KT8bB^VmfNI1
+R1
+w1531384389
+8E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/alt_cal_l.v
+FE:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/alt_cal_l.v
+L0 22
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 Aa@?P2<ULicMK2dAcb]TA1
+!s85 0
+!s108 1536028572.654000
+!s107 E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/alt_cal_l.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL|E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/alt_cal_l.v|
+valt_cal_s1
+IG[2I6jO0VGGXeAhNbz2e03
+VF5nfHkTUcVi:hzi>;NWYN2
+R1
+w1531384786
+8E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/alt_cal_s1.v
+FE:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/alt_cal_s1.v
+L0 22
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 40lm=RP]@^fPM?cae=F[31
+!s85 0
+!s108 1536028572.805000
+!s107 E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/alt_cal_s1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL|E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/alt_cal_s1.v|
+vcntlo16
+I4F5X=2Yn4gWn6R[?gOAWV1
+Vg0518BfbKPK1NIna]VOVf3
+R1
+Z5 w1530779221
+Z6 8E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/cntlz.v
+Z7 FE:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/cntlz.v
+L0 444
+R2
+r1
+31
+Z8 !s108 1536028571.420000
+Z9 !s107 E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/cntlz.v|
+Z10 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL|E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/cntlz.v|
+R3
+R4
+!i10b 1
+!s100 oh^3o`34fg?@9I6WzifVU0
+!s85 0
+vcntlo32
+I_e<@lP6i1U[kMBdS`STjm2
+VnPj>jkHG=jN]F[IZ6=kGc0
+R1
+R5
+R6
+R7
+L0 454
+R2
+r1
+31
+R8
+R9
+R10
+R3
+R4
+!i10b 1
+!s100 8iT>l3Bh3<bB89jdXB7PM0
+!s85 0
+vcntlo48
+IVfTo5zfa3AM@4J[KEX7IW1
+V]hfDclVUE^C?3gahZlDz`0
+R1
+R5
+R6
+R7
+L0 464
+R2
+r1
+31
+R8
+R9
+R10
+R3
+R4
+!i10b 1
+!s100 T=6JbYfmCAnmNmFG_]7<i2
+!s85 0
+vcntlo64
+IFi][eA@:O]KWKo?5>n42B3
+VbhFc9>D;]4`danM=hIVQi0
+R1
+R5
+R6
+R7
+L0 474
+R2
+r1
+31
+R8
+R9
+R10
+R3
+R4
+!i10b 1
+!s100 6KR8^kWoM6G1@TPiQmD581
+!s85 0
+vcntlo8
+I61_UKi?YF`PXbN_D91ohD1
+V7=LXFEa:ZQ23T4]9VFB4R0
+R1
+R5
+R6
+R7
+L0 434
+R2
+r1
+31
+R8
+R9
+R10
+R3
+R4
+!i10b 1
+!s100 J^:mM1J3W=Pj?^Q[km:h02
+!s85 0
+vcntlz16
+I_gDF=4N3zn_kJJ=QkG3jO0
+V9dlmEoP<5HHRF3zAockCc0
+R1
+R5
+R6
+R7
+L0 310
+R2
+r1
+31
+R8
+R9
+R10
+R3
+R4
+!i10b 1
+!s100 l>GfaZV]UgN;;Ba1YL?Z?0
+!s85 0
+vcntlz24
+IF`?2UN5WAQ^;]IOhgfX``0
+Va>faGRd@^dGZKZ;[SXoUg2
+R1
+R5
+R6
+R7
+L0 325
+R2
+r1
+31
+R8
+R9
+R10
+R3
+R4
+!i10b 1
+!s100 7[HC8:4;i93E9Nz_faO4g3
+!s85 0
+vcntlz32
+INE`JY:m5HSZX6a46BBYPA1
+V5FE<c2UdVc^I7>_3cj[WR3
+R1
+R5
+R6
+R7
+L0 344
+R2
+r1
+31
+R8
+R9
+R10
+R3
+R4
+!i10b 1
+!s100 `eIhegFVPb8j0^U]_ogES2
+!s85 0
+vcntlz32Reg
+IBDS`b=]h7e0bf^3CY7VO=1
+VFN2aUkoZCgNc@adLZ>4>13
+R1
+R5
+R6
+R7
+L0 405
+R2
+r1
+31
+R8
+R9
+R10
+R3
+R4
+ncntlz32@reg
+!i10b 1
+!s100 BVL:mKIl_dKz4?iGRV5>H3
+!s85 0
+vcntlz48
+IHC>_B;Ed=B]Y@k3YZ?FVn0
+V7;PL^>[_LSJ77P2m=OMeE0
+R1
+R5
+R6
+R7
+L0 366
+R2
+r1
+31
+R8
+R9
+R10
+R3
+R4
+!i10b 1
+!s100 j`jbQiJM`S_W4bI039>zd1
+!s85 0
+vcntlz64
+IbnCdNdG5b3j^7^AYkVX570
+VYRQi_]HP@2LmVX7m?K=3L1
+R1
+R5
+R6
+R7
+L0 384
+R2
+r1
+31
+R8
+R9
+R10
+R3
+R4
+!i10b 1
+!s100 E3za<N9jelcA=b]b^gEYc3
+!s85 0
+vcntlz64Reg
+I6ZV6<^AL^[0QUE==1`QiA1
+VYcRBejHFdKMY:ZC7Jlf=P0
+R1
+R5
+R6
+R7
+L0 420
+R2
+r1
+31
+R8
+R9
+R10
+R3
+R4
+ncntlz64@reg
+!i10b 1
+!s100 zD[]l0:7UfmRSz:>?K_Ma1
+!s85 0
+vcntlz8
+IJ1F_F0F_AM_`L6O`YcbQj3
+V]ZnI6I^iB`DIzZ2QOn7Bf3
+R1
+R5
+R6
+R7
+L0 22
+R2
+r1
+31
+R8
+R9
+R10
+R3
+R4
+!i10b 1
+!s100 =JK]49lYA^;Za@XLZ9iJS0
+!s85 0
+vdelay
+I6RoCeFL0zZ1nAM>07GAOP2
+VF`V;kUZR^a9^N8HEE3geR2
+R1
+w1530779220
+8E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/delay.v
+FE:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/delay.v
+L0 21
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 2ZVS_QQAEeb4nPKLNH<?X1
+!s85 0
+!s108 1536028572.397000
+!s107 E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/delay.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL|E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/delay.v|
+verr_estimat
+I4Ih^Z90MV6P4l7KN<BNLC2
+VGKWoEfX0z_1Nlczn;gm<b3
+R1
+w1536028561
+8E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/err_estimat.v
+FE:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/err_estimat.v
+L0 30
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 HhG_O=L9X9^k^GYiE<2a62
+!s85 0
+!s108 1536028572.936000
+!s107 E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/err_estimat.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL|E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/err_estimat.v|
+verr_estimat_vlg_tst
+I^D<>YPYnC4_T@67[f1IF;2
+V7=;26MSQ^mFcTU753TQk=2
+R1
+w1536025346
+8E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/simulation/modelsim/err_estimat.vt
+FE:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/simulation/modelsim/err_estimat.vt
+L0 29
+R2
+r1
+31
+R3
+!i10b 1
+!s100 An:ASz3jj]QUDz;2W:`^:0
+!s85 0
+!s108 1536028573.539000
+!s107 E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/simulation/modelsim/err_estimat.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/simulation/modelsim|E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/simulation/modelsim/err_estimat.vt|
+!s92 -vlog01compat -work work +incdir+E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/simulation/modelsim -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+vfloat2int
+I24e:6_RiAZaKWORD=@omz0
+VBJFRRl=RCZ8Y9TOhm0e]_2
+R1
+R5
+8E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/float2int.v
+FE:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/float2int.v
+L0 21
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 KZPR1i6=O1[48Cd;_X8MT0
+!s85 0
+!s108 1536028573.196000
+!s107 E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/float2int.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL|E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/float2int.v|
+vfp_mult_fun
+I:F>Sl:346:?[RLkehn2BL0
+VVf3C5@k3R_`l08EAA?YU73
+R1
+Z11 w1530511562
+8E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/core/fp_mult_fun/fp_mult_fun/sim/fp_mult_fun.v
+FE:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/core/fp_mult_fun/fp_mult_fun/sim/fp_mult_fun.v
+L0 6
+R2
+r1
+31
+Z12 o-L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!i10b 1
+!s100 5YF>UlIk>1ZzN:S=`02G^0
+!s85 0
+!s108 1536028571.313000
+!s107 E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/core/fp_mult_fun/fp_mult_fun/sim/fp_mult_fun.v|
+!s90 -reportprogress|300|E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/core/fp_mult_fun/fp_mult_fun/sim/fp_mult_fun.v|
+vfp_sub_fun
+IDWEHmd]O9ZhzabVVJ439F2
+V59=>bF;CGYFImc4:H>RKP2
+R1
+Z13 w1530514542
+8E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/core/fp_sub_fun/fp_sub_fun/sim/fp_sub_fun.v
+FE:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/core/fp_sub_fun/fp_sub_fun/sim/fp_sub_fun.v
+L0 6
+R2
+r1
+31
+R12
+!s100 Q3hJ=;lHGbdCU`nZY3=440
+!s108 1536028570.617000
+!s107 E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/core/fp_sub_fun/fp_sub_fun/sim/fp_sub_fun.v|
+!s90 -reportprogress|300|E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/core/fp_sub_fun/fp_sub_fun/sim/fp_sub_fun.v|
+!i10b 1
+!s85 0
+vint2float
+IGAYQOzO7Uzi;Y2zg;RPDk3
+VfJGQm_YnI[l=]S]G`7baL3
+R1
+R5
+8E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/int2float.v
+FE:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/int2float.v
+L0 21
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 0d9?>eMAHh^n6Sm=VTXAe0
+!s85 0
+!s108 1536028573.305000
+!s107 E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/int2float.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL|E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/int2float.v|
+vlog2_single
+IJHbzbHB_[8iZ:5W;JGCX<2
+VJBG20AjEdUnV?76j[G7R33
+R1
+Z14 w1530523105
+8E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/core/log2_single/log2_single/sim/log2_single.v
+FE:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/core/log2_single/log2_single/sim/log2_single.v
+L0 6
+R2
+r1
+31
+R12
+!s100 X9_11c@E?a^2`DP^2VY^L0
+!s108 1536028569.902000
+!s107 E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/core/log2_single/log2_single/sim/log2_single.v|
+!s90 -reportprogress|300|E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/core/log2_single/log2_single/sim/log2_single.v|
+!i10b 1
+!s85 0
+vqadd
+IUURfG61K=Bf7:`0?3e?^i1
+Vj[KHgaI_^@BTB@[E1z0C`0
+R1
+R5
+8E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/qadd.v
+FE:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/qadd.v
+L0 21
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 5Y5N8lJR0h`if>CTPYh4o1
+!s85 0
+!s108 1536028573.081000
+!s107 E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/qadd.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL|E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/qadd.v|
+vqdiv
+I]XJ8POP`47bfNLH=^[DW71
+VhfbgXTDV^k^70M5=YMZBM0
+R1
+w1530779222
+8E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/qdiv.v
+FE:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/qdiv.v
+L0 22
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 I`n1^=g9dP=;6=G?RJ0dc3
+!s85 0
+!s108 1536028573.430000
+!s107 E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/qdiv.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL|E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/qdiv.v|

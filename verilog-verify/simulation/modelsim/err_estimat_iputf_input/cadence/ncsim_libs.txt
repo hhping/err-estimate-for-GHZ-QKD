@@ -1,0 +1,3 @@
+log2_single_altera_fp_functions_161
+fp_sub_fun_altera_fp_functions_161
+fp_mult_fun_altera_fp_functions_161

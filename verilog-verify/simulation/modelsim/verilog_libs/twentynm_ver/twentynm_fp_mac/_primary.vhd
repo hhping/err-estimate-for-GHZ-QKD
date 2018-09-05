@@ -1,0 +1,60 @@
+library verilog;
+use verilog.vl_types.all;
+entity twentynm_fp_mac is
+    generic(
+        operation_mode  : string  := "SP_MULT_ADD";
+        use_chainin     : string  := "false";
+        adder_subtract  : string  := "false";
+        ax_clock        : string  := "none";
+        ay_clock        : string  := "none";
+        az_clock        : string  := "none";
+        output_clock    : string  := "none";
+        accumulate_clock: string  := "none";
+        accum_pipeline_clock: string  := "none";
+        accum_adder_clock: string  := "none";
+        ax_chainin_pl_clock: string  := "none";
+        mult_pipeline_clock: string  := "none";
+        adder_input_clock: string  := "none";
+        lpm_type        : string  := "twentynm_fp_mac"
+    );
+    port(
+        ax              : in     vl_logic_vector(31 downto 0);
+        ay              : in     vl_logic_vector(31 downto 0);
+        az              : in     vl_logic_vector(31 downto 0);
+        chainin         : in     vl_logic_vector(31 downto 0);
+        chainin_overflow: in     vl_logic;
+        chainin_underflow: in     vl_logic;
+        chainin_inexact : in     vl_logic;
+        chainin_invalid : in     vl_logic;
+        accumulate      : in     vl_logic;
+        clk             : in     vl_logic_vector(2 downto 0);
+        ena             : in     vl_logic_vector(2 downto 0);
+        aclr            : in     vl_logic_vector(1 downto 0);
+        resulta         : out    vl_logic_vector(31 downto 0);
+        chainout        : out    vl_logic_vector(31 downto 0);
+        overflow        : out    vl_logic;
+        underflow       : out    vl_logic;
+        inexact         : out    vl_logic;
+        invalid         : out    vl_logic;
+        chainout_overflow: out    vl_logic;
+        chainout_underflow: out    vl_logic;
+        chainout_inexact: out    vl_logic;
+        chainout_invalid: out    vl_logic;
+        dftout          : out    vl_logic
+    );
+    attribute mti_svvh_generic_type : integer;
+    attribute mti_svvh_generic_type of operation_mode : constant is 1;
+    attribute mti_svvh_generic_type of use_chainin : constant is 1;
+    attribute mti_svvh_generic_type of adder_subtract : constant is 1;
+    attribute mti_svvh_generic_type of ax_clock : constant is 1;
+    attribute mti_svvh_generic_type of ay_clock : constant is 1;
+    attribute mti_svvh_generic_type of az_clock : constant is 1;
+    attribute mti_svvh_generic_type of output_clock : constant is 1;
+    attribute mti_svvh_generic_type of accumulate_clock : constant is 1;
+    attribute mti_svvh_generic_type of accum_pipeline_clock : constant is 1;
+    attribute mti_svvh_generic_type of accum_adder_clock : constant is 1;
+    attribute mti_svvh_generic_type of ax_chainin_pl_clock : constant is 1;
+    attribute mti_svvh_generic_type of mult_pipeline_clock : constant is 1;
+    attribute mti_svvh_generic_type of adder_input_clock : constant is 1;
+    attribute mti_svvh_generic_type of lpm_type : constant is 1;
+end twentynm_fp_mac;

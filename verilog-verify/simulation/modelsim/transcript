@@ -1,0 +1,273 @@
+# do temp_simlib_comp.tmp 
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Compiling package twentynm_atom_pack
+# -- Compiling package body twentynm_atom_pack
+# -- Loading package twentynm_atom_pack
+# -- Compiling package twentynm_pllpack
+# -- Compiling package body twentynm_pllpack
+# -- Loading package twentynm_pllpack
+# -- Loading package twentynm_atom_pack
+# -- Compiling entity twentynm_dffe
+# -- Compiling architecture behave of twentynm_dffe
+# -- Compiling entity twentynm_mux21
+# -- Compiling architecture AltVITAL of twentynm_mux21
+# -- Compiling entity twentynm_mux41
+# -- Compiling architecture AltVITAL of twentynm_mux41
+# -- Compiling entity twentynm_and1
+# -- Compiling architecture AltVITAL of twentynm_and1
+# -- Loading entity twentynm_and1
+# -- Compiling entity twentynm_ff
+# -- Compiling architecture vital_lcell_ff of twentynm_ff
+# -- Compiling entity twentynm_lcell_comb
+# -- Compiling architecture vital_lcell_comb of twentynm_lcell_comb
+# -- Compiling entity twentynm_routing_wire
+# ** Warning: [6] d:/intelfpga/16.1/quartus/eda/sim_lib/twentynm_atoms.vhd(2123): (vcom-1288) VITAL timing generic "tpd_datainglitch_dataout" port specification "datainglitch" does not denote a port.
+# 
+# (1076.4 section 4.3.2.1.3)
+# 
+# -- Compiling architecture behave of twentynm_routing_wire
+# -- Loading package altera_lnsim_components
+# -- Compiling entity twentynm_ram_block
+# -- Compiling architecture block_arch of twentynm_ram_block
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity twentynm_mlab_cell
+# -- Compiling architecture trans of twentynm_mlab_cell
+# -- Compiling entity twentynm_io_ibuf
+# -- Compiling architecture arch of twentynm_io_ibuf
+# -- Compiling entity twentynm_io_obuf
+# -- Compiling architecture arch of twentynm_io_obuf
+# -- Compiling entity twentynm_pseudo_diff_out
+# -- Compiling architecture arch of twentynm_pseudo_diff_out
+# -- Compiling entity twentynm_io_pad
+# -- Compiling architecture arch of twentynm_io_pad
+# -- Compiling entity twentynm_bias_logic
+# -- Compiling architecture vital_bias_logic of twentynm_bias_logic
+# -- Compiling entity twentynm_bias_generator
+# -- Compiling architecture vital_bias_generator of twentynm_bias_generator
+# -- Compiling entity twentynm_bias_block
+# -- Compiling architecture vital_bias_block of twentynm_bias_block
+# -- Compiling entity twentynm_clk_phase_select
+# -- Compiling architecture behavior of twentynm_clk_phase_select
+# -- Compiling entity twentynm_clkena
+# -- Compiling architecture behavior of twentynm_clkena
+# -- Compiling entity twentynm_clkselect
+# -- Compiling architecture behavior of twentynm_clkselect
+# -- Compiling entity twentynm_delay_chain
+# -- Compiling architecture behavior of twentynm_delay_chain
+# -- Compiling entity twentynm_dll_offset_ctrl
+# -- Compiling architecture behavior of twentynm_dll_offset_ctrl
+# -- Compiling entity twentynm_dll
+# -- Compiling architecture behavior of twentynm_dll
+# -- Compiling entity twentynm_dqs_config
+# -- Compiling architecture behavior of twentynm_dqs_config
+# -- Compiling entity twentynm_dqs_delay_chain
+# -- Compiling architecture behavior of twentynm_dqs_delay_chain
+# -- Compiling entity twentynm_dqs_enable_ctrl
+# -- Compiling architecture behavior of twentynm_dqs_enable_ctrl
+# -- Compiling entity twentynm_duty_cycle_adjustment
+# -- Compiling architecture behavior of twentynm_duty_cycle_adjustment
+# -- Compiling entity twentynm_half_rate_input
+# -- Compiling architecture behavior of twentynm_half_rate_input
+# -- Compiling entity twentynm_input_phase_alignment
+# -- Compiling architecture behavior of twentynm_input_phase_alignment
+# -- Compiling entity twentynm_io_clock_divider
+# -- Compiling architecture behavior of twentynm_io_clock_divider
+# -- Compiling entity twentynm_io_config
+# -- Compiling architecture behavior of twentynm_io_config
+# -- Compiling entity twentynm_ir_fifo_userdes
+# -- Compiling architecture behavior of twentynm_ir_fifo_userdes
+# -- Compiling entity twentynm_leveling_delay_chain
+# -- Compiling architecture behavior of twentynm_leveling_delay_chain
+# -- Compiling entity twentynm_lfifo
+# -- Compiling architecture behavior of twentynm_lfifo
+# -- Compiling entity twentynm_vfifo
+# -- Compiling architecture behavior of twentynm_vfifo
+# -- Compiling entity twentynm_mem_phy
+# -- Compiling architecture behavior of twentynm_mem_phy
+# -- Compiling entity twentynm_phy_clkbuf
+# -- Compiling architecture behavior of twentynm_phy_clkbuf
+# -- Compiling entity twentynm_read_fifo_read_clock_select
+# -- Compiling architecture behavior of twentynm_read_fifo_read_clock_select
+# -- Compiling entity twentynm_lvds_rx
+# -- Compiling architecture behavior of twentynm_lvds_rx
+# -- Compiling entity twentynm_lvds_tx
+# -- Compiling architecture behavior of twentynm_lvds_tx
+# -- Compiling entity twentynm_output_alignment
+# -- Compiling architecture behavior of twentynm_output_alignment
+# -- Compiling entity twentynm_termination_logic
+# -- Compiling architecture behavior of twentynm_termination_logic
+# -- Compiling entity twentynm_termination
+# -- Compiling architecture behavior of twentynm_termination
+# -- Compiling entity twentynm_asmiblock
+# -- Compiling architecture behavior of twentynm_asmiblock
+# -- Compiling entity twentynm_crcblock
+# -- Compiling architecture behavior of twentynm_crcblock
+# -- Compiling entity twentynm_opregblock
+# -- Compiling architecture behavior of twentynm_opregblock
+# -- Compiling entity twentynm_jtag
+# -- Compiling architecture behavior of twentynm_jtag
+# -- Compiling entity twentynm_jtagblock
+# -- Compiling architecture behavior of twentynm_jtagblock
+# -- Compiling entity twentynm_rublock
+# -- Compiling architecture behavior of twentynm_rublock
+# -- Compiling entity twentynm_tsdblock
+# -- Compiling architecture behavior of twentynm_tsdblock
+# -- Compiling entity twentynm_vsblock
+# -- Compiling architecture behavior of twentynm_vsblock
+# -- Compiling entity twentynm_read_fifo
+# -- Compiling architecture behavior of twentynm_read_fifo
+# -- Compiling entity twentynm_read_fifo_read_enable
+# -- Compiling architecture behavior of twentynm_read_fifo_read_enable
+# -- Compiling entity twentynm_fp_mac
+# -- Compiling architecture behavior of twentynm_fp_mac
+# -- Compiling entity twentynm_mac
+# -- Compiling architecture behavior of twentynm_mac
+# -- Compiling entity twentynm_serdes_dpa
+# -- Compiling architecture behavior of twentynm_serdes_dpa
+# -- Compiling entity twentynm_lvds_clock_tree
+# -- Compiling architecture behavior of twentynm_lvds_clock_tree
+# -- Compiling entity twentynm_oscillator
+# -- Compiling architecture behavior of twentynm_oscillator
+# -- Compiling entity twentynm_iopll
+# -- Compiling architecture behavior of twentynm_iopll
+# -- Compiling entity twentynm_ddio_out
+# -- Compiling architecture behavior of twentynm_ddio_out
+# -- Compiling entity twentynm_ddio_in
+# -- Compiling architecture behavior of twentynm_ddio_in
+# -- Compiling entity twentynm_io_serdes_dpa
+# -- Compiling architecture behavior of twentynm_io_serdes_dpa
+# -- Compiling entity twentynm_io_12_lane
+# -- Compiling architecture behavior of twentynm_io_12_lane
+# -- Compiling entity twentynm_tile_ctrl
+# -- Compiling architecture behavior of twentynm_tile_ctrl
+# -- Compiling entity twentynm_refclk_input
+# -- Compiling architecture behavior of twentynm_refclk_input
+# -- Compiling entity twentynm_io_aux
+# -- Compiling architecture behavior of twentynm_io_aux
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package twentynm_atom_pack
+# -- Compiling package twentynm_components
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package TWENTYNM_HSSI_COMPONENTS
+# -- Compiling package body TWENTYNM_HSSI_COMPONENTS
+# -- Loading package TWENTYNM_HSSI_COMPONENTS
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package TWENTYNM_HSSI_COMPONENTS
+# -- Compiling entity twentynm_atx_pll
+# -- Compiling architecture behavior of twentynm_atx_pll
+# -- Compiling entity twentynm_cmu_fpll_refclk_select
+# -- Compiling architecture behavior of twentynm_cmu_fpll_refclk_select
+# -- Compiling entity twentynm_cmu_fpll
+# -- Compiling architecture behavior of twentynm_cmu_fpll
+# -- Compiling entity twentynm_hssi_10g_rx_pcs
+# -- Compiling architecture behavior of twentynm_hssi_10g_rx_pcs
+# -- Compiling entity twentynm_hssi_10g_tx_pcs
+# -- Compiling architecture behavior of twentynm_hssi_10g_tx_pcs
+# -- Compiling entity twentynm_hssi_8g_rx_pcs
+# -- Compiling architecture behavior of twentynm_hssi_8g_rx_pcs
+# -- Compiling entity twentynm_hssi_8g_tx_pcs
+# -- Compiling architecture behavior of twentynm_hssi_8g_tx_pcs
+# -- Compiling entity twentynm_hssi_common_pcs_pma_interface
+# -- Compiling architecture behavior of twentynm_hssi_common_pcs_pma_interface
+# -- Compiling entity twentynm_hssi_common_pld_pcs_interface
+# -- Compiling architecture behavior of twentynm_hssi_common_pld_pcs_interface
+# -- Compiling entity twentynm_hssi_fifo_rx_pcs
+# -- Compiling architecture behavior of twentynm_hssi_fifo_rx_pcs
+# -- Compiling entity twentynm_hssi_fifo_tx_pcs
+# -- Compiling architecture behavior of twentynm_hssi_fifo_tx_pcs
+# -- Compiling entity twentynm_hssi_gen3_rx_pcs
+# -- Compiling architecture behavior of twentynm_hssi_gen3_rx_pcs
+# -- Compiling entity twentynm_hssi_gen3_tx_pcs
+# -- Compiling architecture behavior of twentynm_hssi_gen3_tx_pcs
+# -- Compiling entity twentynm_hssi_gen3_x8_pcie_hip
+# -- Compiling architecture behavior of twentynm_hssi_gen3_x8_pcie_hip
+# -- Compiling entity twentynm_hssi_krfec_rx_pcs
+# -- Compiling architecture behavior of twentynm_hssi_krfec_rx_pcs
+# -- Compiling entity twentynm_hssi_krfec_tx_pcs
+# -- Compiling architecture behavior of twentynm_hssi_krfec_tx_pcs
+# -- Compiling entity twentynm_hssi_pipe_gen1_2
+# -- Compiling architecture behavior of twentynm_hssi_pipe_gen1_2
+# -- Compiling entity twentynm_hssi_pipe_gen3
+# -- Compiling architecture behavior of twentynm_hssi_pipe_gen3
+# -- Compiling entity twentynm_hssi_pma_adaptation
+# -- Compiling architecture behavior of twentynm_hssi_pma_adaptation
+# -- Compiling entity twentynm_hssi_pma_aux
+# -- Compiling architecture behavior of twentynm_hssi_pma_aux
+# -- Compiling entity twentynm_hssi_pma_cdr_refclk_select_mux
+# -- Compiling architecture behavior of twentynm_hssi_pma_cdr_refclk_select_mux
+# -- Compiling entity twentynm_hssi_pma_cgb_master
+# -- Compiling architecture behavior of twentynm_hssi_pma_cgb_master
+# -- Compiling entity twentynm_hssi_pma_channel_pll
+# -- Compiling architecture behavior of twentynm_hssi_pma_channel_pll
+# -- Compiling entity twentynm_hssi_pma_lc_refclk_select_mux
+# -- Compiling architecture behavior of twentynm_hssi_pma_lc_refclk_select_mux
+# -- Compiling entity twentynm_hssi_pma_rx_buf
+# -- Compiling architecture behavior of twentynm_hssi_pma_rx_buf
+# -- Compiling entity twentynm_hssi_pma_rx_deser
+# -- Compiling architecture behavior of twentynm_hssi_pma_rx_deser
+# -- Compiling entity twentynm_hssi_pma_rx_dfe
+# -- Compiling architecture behavior of twentynm_hssi_pma_rx_dfe
+# -- Compiling entity twentynm_hssi_pma_rx_odi
+# -- Compiling architecture behavior of twentynm_hssi_pma_rx_odi
+# -- Compiling entity twentynm_hssi_pma_rx_sd
+# -- Compiling architecture behavior of twentynm_hssi_pma_rx_sd
+# -- Compiling entity twentynm_hssi_pma_tx_buf
+# -- Compiling architecture behavior of twentynm_hssi_pma_tx_buf
+# -- Compiling entity twentynm_hssi_pma_tx_cgb
+# -- Compiling architecture behavior of twentynm_hssi_pma_tx_cgb
+# -- Compiling entity twentynm_hssi_pma_tx_ser
+# -- Compiling architecture behavior of twentynm_hssi_pma_tx_ser
+# -- Compiling entity twentynm_hssi_pma_uc
+# -- Compiling architecture behavior of twentynm_hssi_pma_uc
+# -- Compiling entity twentynm_hssi_refclk_divider
+# -- Compiling architecture behavior of twentynm_hssi_refclk_divider
+# -- Compiling entity twentynm_hssi_rx_pcs_pma_interface
+# -- Compiling architecture behavior of twentynm_hssi_rx_pcs_pma_interface
+# -- Compiling entity twentynm_hssi_rx_pld_pcs_interface
+# -- Compiling architecture behavior of twentynm_hssi_rx_pld_pcs_interface
+# -- Compiling entity twentynm_hssi_tx_pcs_pma_interface
+# -- Compiling architecture behavior of twentynm_hssi_tx_pcs_pma_interface
+# -- Compiling entity twentynm_hssi_tx_pld_pcs_interface
+# -- Compiling architecture behavior of twentynm_hssi_tx_pld_pcs_interface
+# -- Compiling entity twentynm_hssi_avmm_if
+# -- Compiling architecture behavior of twentynm_hssi_avmm_if
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package TWENTYNM_HIP_COMPONENTS
+# -- Compiling package body TWENTYNM_HIP_COMPONENTS
+# -- Loading package TWENTYNM_HIP_COMPONENTS
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package TWENTYNM_HIP_COMPONENTS
+# -- Compiling entity twentynm_hssi_gen3_x8_pcie_hip
+# -- Compiling architecture behavior of twentynm_hssi_gen3_x8_pcie_hip

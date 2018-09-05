@@ -1,0 +1,20 @@
+# system info fp_mult_fun on 2018.07.02.14:06:02
+system_info:
+name,value
+DEVICE,10AX066H2F34I2LP
+DEVICE_FAMILY,Arria 10
+GENERATION_ID,1530511561
+#
+#
+# Files generated for fp_mult_fun on 2018.07.02.14:06:02
+files:
+filepath,kind,attributes,module,is_top
+sim/fp_mult_fun.v,VERILOG,CONTAINS_INLINE_CONFIGURATION,fp_mult_fun,true
+altera_fp_functions_161/sim/dspba_library_package.vhd,VHDL,,fp_mult_fun_altera_fp_functions_161_kajft6a,false
+altera_fp_functions_161/sim/dspba_library.vhd,VHDL,,fp_mult_fun_altera_fp_functions_161_kajft6a,false
+altera_fp_functions_161/sim/fp_mult_fun_altera_fp_functions_161_kajft6a.vhd,VHDL,,fp_mult_fun_altera_fp_functions_161_kajft6a,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+fp_mult_fun.fp_functions_0,fp_mult_fun_altera_fp_functions_161_kajft6a

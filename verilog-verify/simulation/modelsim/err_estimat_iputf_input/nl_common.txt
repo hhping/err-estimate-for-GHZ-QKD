@@ -1,0 +1,12 @@
+family_language_pairs
+arria10 verilog
+arria10 vhdl
+arria10 verilog
+arria10 vhdl
+arria10 verilog
+arria10 vhdl
+arria10 verilog
+arria10 vhdl
+arria10 verilog
+arria10 vhdl
+end family_language pairs

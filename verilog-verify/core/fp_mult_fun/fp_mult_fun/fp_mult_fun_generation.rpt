@@ -1,0 +1,98 @@
+Info: Starting: Create simulation model
+Info: qsys-generate G:\QKD_1GHZ\verilog\err_estimat_4Q16\core\fp_mult_fun\fp_mult_fun.qsys --simulation=VERILOG --allow-mixed-language-simulation --output-directory=G:\QKD_1GHZ\verilog\err_estimat_4Q16\core\fp_mult_fun\fp_mult_fun --family="Arria 10" --part=10AX066H2F34I2LP
+Progress: Loading fp_mult_fun/fp_mult_fun.qsys
+Progress: Reading input file
+Progress: Adding fp_functions_0 [altera_fp_functions 16.1]
+Progress: Parameterizing module fp_functions_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: fp_mult_fun.fp_functions_0: D:/quartus161/quartus/dspba/backend/windows64/cmdPolyEval -target Arria10 -frequency 200 -name none -noChanValid -enable -enableHardFP 1 -printMachineReadable -noFileGenerate -faithfulRounding -speedgrade 2 FPMul 8 23
+Info: fp_mult_fun.fp_functions_0: D:/quartus161/quartus/dspba/backend/windows64/cmdPolyEval -target Arria10 -frequency 200 -name none -noChanValid -enable -enableHardFP 1 -printMachineReadable -noFileGenerate -faithfulRounding -speedgrade 2 FPMul 8 23
+Info: fp_mult_fun: "Transforming system: fp_mult_fun"
+Info: fp_mult_fun: Running transform generation_view_transform
+Info: fp_mult_fun: Running transform generation_view_transform took 0.000s
+Info: fp_functions_0: Running transform generation_view_transform
+Info: fp_functions_0: Running transform generation_view_transform took 0.000s
+Info: fp_mult_fun: Running transform merlin_avalon_transform
+Info: fp_mult_fun: Running transform merlin_avalon_transform took 0.043s
+Info: fp_mult_fun: "Naming system components in system: fp_mult_fun"
+Info: fp_mult_fun: "Processing generation queue"
+Info: fp_mult_fun: "Generating: fp_mult_fun"
+Info: fp_mult_fun: "Generating: fp_mult_fun_altera_fp_functions_161_kajft6a"
+Info: fp_functions_0: D:/quartus161/quartus/dspba/backend/windows64/cmdPolyEval -target Arria10 -frequency 200 -name fp_mult_fun_altera_fp_functions_161_kajft6a -noChanValid -enable -enableHardFP 1 -printMachineReadable -lang VHDL -faithfulRounding -speedgrade 2 FPMul 8 23
+Info: fp_functions_0: Latency on Arria 10 is 3 cycles
+Info: fp_functions_0: DSP Blocks Used: 2
+Info: fp_functions_0: LUTs Used: 0
+Info: fp_functions_0: Memory Bits Used: 0
+Info: fp_functions_0: Memory Blocks Used: 0
+Info: fp_mult_fun: Done "fp_mult_fun" with 2 modules, 4 files
+Info: qsys-generate succeeded.
+Info: Finished: Create simulation model
+Info: Starting: Create Modelsim Project.
+Info: sim-script-gen --spd=G:\QKD_1GHZ\verilog\err_estimat_4Q16\core\fp_mult_fun\fp_mult_fun\fp_mult_fun.spd --output-directory=G:/QKD_1GHZ/verilog/err_estimat_4Q16/core/fp_mult_fun/fp_mult_fun/sim/ --use-relative-paths=true
+Info: Doing: ip-make-simscript --spd=G:\QKD_1GHZ\verilog\err_estimat_4Q16\core\fp_mult_fun\fp_mult_fun\fp_mult_fun.spd --output-directory=G:/QKD_1GHZ/verilog/err_estimat_4Q16/core/fp_mult_fun/fp_mult_fun/sim/ --use-relative-paths=true
+Info: Generating the following file(s) for MODELSIM simulator in G:/QKD_1GHZ/verilog/err_estimat_4Q16/core/fp_mult_fun/fp_mult_fun/sim/ directory:
+Info: 	mentor/msim_setup.tcl
+Info: Skipping VCS script generation since VHDL file $QUARTUS_INSTALL_DIR/eda/sim_lib/altera_syn_attributes.vhd is required for simulation
+Info: Generating the following file(s) for VCSMX simulator in G:/QKD_1GHZ/verilog/err_estimat_4Q16/core/fp_mult_fun/fp_mult_fun/sim/ directory:
+Info: 	synopsys/vcsmx/synopsys_sim.setup
+Info: 	synopsys/vcsmx/vcsmx_setup.sh
+Info: Generating the following file(s) for NCSIM simulator in G:/QKD_1GHZ/verilog/err_estimat_4Q16/core/fp_mult_fun/fp_mult_fun/sim/ directory:
+Info: 	cadence/cds.lib
+Info: 	cadence/hdl.var
+Info: 	cadence/ncsim_setup.sh
+Info: 	1 .cds.lib files in cadence/cds_libs/ directory
+Info: Generating the following file(s) for RIVIERA simulator in G:/QKD_1GHZ/verilog/err_estimat_4Q16/core/fp_mult_fun/fp_mult_fun/sim/ directory:
+Info: 	aldec/rivierapro_setup.tcl
+Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under G:/QKD_1GHZ/verilog/err_estimat_4Q16/core/fp_mult_fun/fp_mult_fun/sim/.
+Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info: Finished: Create Modelsim Project.
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate G:\QKD_1GHZ\verilog\err_estimat_4Q16\core\fp_mult_fun\fp_mult_fun.qsys --block-symbol-file --output-directory=G:\QKD_1GHZ\verilog\err_estimat_4Q16\core\fp_mult_fun\fp_mult_fun --family="Arria 10" --part=10AX066H2F34I2LP
+Progress: Loading fp_mult_fun/fp_mult_fun.qsys
+Progress: Reading input file
+Progress: Adding fp_functions_0 [altera_fp_functions 16.1]
+Progress: Parameterizing module fp_functions_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: fp_mult_fun.fp_functions_0: D:/quartus161/quartus/dspba/backend/windows64/cmdPolyEval -target Arria10 -frequency 200 -name none -noChanValid -enable -enableHardFP 1 -printMachineReadable -noFileGenerate -faithfulRounding -speedgrade 2 FPMul 8 23
+Info: fp_mult_fun.fp_functions_0: D:/quartus161/quartus/dspba/backend/windows64/cmdPolyEval -target Arria10 -frequency 200 -name none -noChanValid -enable -enableHardFP 1 -printMachineReadable -noFileGenerate -faithfulRounding -speedgrade 2 FPMul 8 23
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate G:\QKD_1GHZ\verilog\err_estimat_4Q16\core\fp_mult_fun\fp_mult_fun.qsys --synthesis=VERILOG --output-directory=G:\QKD_1GHZ\verilog\err_estimat_4Q16\core\fp_mult_fun\fp_mult_fun --family="Arria 10" --part=10AX066H2F34I2LP
+Progress: Loading fp_mult_fun/fp_mult_fun.qsys
+Progress: Reading input file
+Progress: Adding fp_functions_0 [altera_fp_functions 16.1]
+Progress: Parameterizing module fp_functions_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: fp_mult_fun.fp_functions_0: D:/quartus161/quartus/dspba/backend/windows64/cmdPolyEval -target Arria10 -frequency 200 -name none -noChanValid -enable -enableHardFP 1 -printMachineReadable -noFileGenerate -faithfulRounding -speedgrade 2 FPMul 8 23
+Info: fp_mult_fun.fp_functions_0: D:/quartus161/quartus/dspba/backend/windows64/cmdPolyEval -target Arria10 -frequency 200 -name none -noChanValid -enable -enableHardFP 1 -printMachineReadable -noFileGenerate -faithfulRounding -speedgrade 2 FPMul 8 23
+Info: fp_mult_fun: "Transforming system: fp_mult_fun"
+Info: fp_mult_fun: Running transform generation_view_transform
+Info: fp_mult_fun: Running transform generation_view_transform took 0.000s
+Info: fp_functions_0: Running transform generation_view_transform
+Info: fp_functions_0: Running transform generation_view_transform took 0.000s
+Info: fp_mult_fun: Running transform merlin_avalon_transform
+Info: fp_mult_fun: Running transform merlin_avalon_transform took 0.014s
+Info: fp_mult_fun: "Naming system components in system: fp_mult_fun"
+Info: fp_mult_fun: "Processing generation queue"
+Info: fp_mult_fun: "Generating: fp_mult_fun"
+Info: fp_mult_fun: "Generating: fp_mult_fun_altera_fp_functions_161_kajft6a"
+Info: fp_functions_0: D:/quartus161/quartus/dspba/backend/windows64/cmdPolyEval -target Arria10 -frequency 200 -name fp_mult_fun_altera_fp_functions_161_kajft6a -noChanValid -enable -enableHardFP 1 -printMachineReadable -lang VHDL -faithfulRounding -speedgrade 2 FPMul 8 23
+Info: fp_functions_0: Latency on Arria 10 is 3 cycles
+Info: fp_functions_0: DSP Blocks Used: 2
+Info: fp_functions_0: LUTs Used: 0
+Info: fp_functions_0: Memory Bits Used: 0
+Info: fp_functions_0: Memory Blocks Used: 0
+Info: fp_mult_fun: Done "fp_mult_fun" with 2 modules, 5 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

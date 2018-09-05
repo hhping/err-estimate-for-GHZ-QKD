@@ -1,0 +1,208 @@
+Archive Project report for err_estimat
+Tue Jul 03 09:33:40 2018
+Quartus Prime Version 16.1.0 Build 196 10/24/2016 SJ Standard Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Archive Project Summary
+  3. Archive Project Messages
+  4. Files Archived
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2016  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Intel and sold by Intel or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++----------------------------------------------------------------+
+; Archive Project Summary                                        ;
++------------------------+---------------------------------------+
+; Archive Project Status ; Successful - Tue Jul 03 09:33:40 2018 ;
+; Revision Name          ; err_estimat                           ;
+; Top-level Entity Name  ; err_estimat                           ;
+; Family                 ; Arria 10                              ;
++------------------------+---------------------------------------+
+
+
++--------------------------+
+; Archive Project Messages ;
++--------------------------+
+Info: File Set 'Source control' contains:
+    Info: Project source and settings files
+    Info: Automatically detected source files
+Info: Archive will store files relative to the closest common parent directory
+Info (13213): Using common directory G:/QKD_1GHZ/verilog/err_estimat_5Q16/
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated archive 'G:/QKD_1GHZ/verilog/err_estimat_5Q16/err_estimat.qar'
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated report 'err_estimat.archive.rpt'
+Info (23030): Evaluation of Tcl script d:/quartus161/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4889 megabytes
+    Info: Processing ended: Tue Jul 03 09:33:41 2018
+    Info: Elapsed time: 00:00:06
+    Info: Total CPU time (on all processors): 00:00:01
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------+
+; Files Archived                                                                                                                            ;
++-------------------------------------------------------------------------------------------------------------------------------------------+
+; File Name                                                                                                                                 ;
++-------------------------------------------------------------------------------------------------------------------------------------------+
+; core/fp_mult_fun/fp_mult_fun.qsys                                                                                                         ;
+; core/fp_mult_fun/fp_mult_fun.sopcinfo                                                                                                     ;
+; core/fp_mult_fun/fp_mult_fun/../fp_mult_fun.qsys                                                                                          ;
+; core/fp_mult_fun/fp_mult_fun/../fp_mult_fun.sopcinfo                                                                                      ;
+; core/fp_mult_fun/fp_mult_fun/altera_fp_functions_161/sim/dspba_library.vhd                                                                ;
+; core/fp_mult_fun/fp_mult_fun/altera_fp_functions_161/sim/dspba_library_package.vhd                                                        ;
+; core/fp_mult_fun/fp_mult_fun/altera_fp_functions_161/sim/fp_mult_fun_altera_fp_functions_161_kajft6a.vhd                                  ;
+; core/fp_mult_fun/fp_mult_fun/altera_fp_functions_161/synth/dspba_library.vhd                                                              ;
+; core/fp_mult_fun/fp_mult_fun/altera_fp_functions_161/synth/dspba_library_package.vhd                                                      ;
+; core/fp_mult_fun/fp_mult_fun/altera_fp_functions_161/synth/fp_mult_fun_altera_fp_functions_161_kajft6a.vhd                                ;
+; core/fp_mult_fun/fp_mult_fun/fp_mult_fun.bsf                                                                                              ;
+; core/fp_mult_fun/fp_mult_fun/fp_mult_fun.cmp                                                                                              ;
+; core/fp_mult_fun/fp_mult_fun/fp_mult_fun.csv                                                                                              ;
+; core/fp_mult_fun/fp_mult_fun/fp_mult_fun.debuginfo                                                                                        ;
+; core/fp_mult_fun/fp_mult_fun/fp_mult_fun.html                                                                                             ;
+; core/fp_mult_fun/fp_mult_fun/fp_mult_fun.ppf                                                                                              ;
+; core/fp_mult_fun/fp_mult_fun/fp_mult_fun.qip                                                                                              ;
+; core/fp_mult_fun/fp_mult_fun/fp_mult_fun.sip                                                                                              ;
+; core/fp_mult_fun/fp_mult_fun/fp_mult_fun.spd                                                                                              ;
+; core/fp_mult_fun/fp_mult_fun/fp_mult_fun.xml                                                                                              ;
+; core/fp_mult_fun/fp_mult_fun/fp_mult_fun_bb.v                                                                                             ;
+; core/fp_mult_fun/fp_mult_fun/fp_mult_fun_generation.rpt                                                                                   ;
+; core/fp_mult_fun/fp_mult_fun/fp_mult_fun_generation_previous.rpt                                                                          ;
+; core/fp_mult_fun/fp_mult_fun/fp_mult_fun_inst.v                                                                                           ;
+; core/fp_mult_fun/fp_mult_fun/fp_mult_fun_inst.vhd                                                                                         ;
+; core/fp_mult_fun/fp_mult_fun/sim/aldec/rivierapro_setup.tcl                                                                               ;
+; core/fp_mult_fun/fp_mult_fun/sim/cadence/cds.lib                                                                                          ;
+; core/fp_mult_fun/fp_mult_fun/sim/cadence/cds_libs/fp_mult_fun_altera_fp_functions_161.cds.lib                                             ;
+; core/fp_mult_fun/fp_mult_fun/sim/cadence/hdl.var                                                                                          ;
+; core/fp_mult_fun/fp_mult_fun/sim/cadence/ncsim_setup.sh                                                                                   ;
+; core/fp_mult_fun/fp_mult_fun/sim/fp_mult_fun.v                                                                                            ;
+; core/fp_mult_fun/fp_mult_fun/sim/mentor/msim_setup.tcl                                                                                    ;
+; core/fp_mult_fun/fp_mult_fun/sim/synopsys/vcsmx/synopsys_sim.setup                                                                        ;
+; core/fp_mult_fun/fp_mult_fun/sim/synopsys/vcsmx/vcsmx_setup.sh                                                                            ;
+; core/fp_mult_fun/fp_mult_fun/synth/fp_mult_fun.qicache                                                                                    ;
+; core/fp_mult_fun/fp_mult_fun/synth/fp_mult_fun.v                                                                                          ;
+; core/fp_mult_fun/fp_mult_fun/synth/fp_mult_fun_cfg.v                                                                                      ;
+; core/fp_sub_fun/fp_sub_fun.qsys                                                                                                           ;
+; core/fp_sub_fun/fp_sub_fun.sopcinfo                                                                                                       ;
+; core/fp_sub_fun/fp_sub_fun/../fp_sub_fun.qsys                                                                                             ;
+; core/fp_sub_fun/fp_sub_fun/../fp_sub_fun.sopcinfo                                                                                         ;
+; core/fp_sub_fun/fp_sub_fun/altera_fp_functions_161/sim/dspba_library.vhd                                                                  ;
+; core/fp_sub_fun/fp_sub_fun/altera_fp_functions_161/sim/dspba_library_package.vhd                                                          ;
+; core/fp_sub_fun/fp_sub_fun/altera_fp_functions_161/sim/fp_sub_fun_altera_fp_functions_161_fshcoka.vhd                                     ;
+; core/fp_sub_fun/fp_sub_fun/altera_fp_functions_161/synth/dspba_library.vhd                                                                ;
+; core/fp_sub_fun/fp_sub_fun/altera_fp_functions_161/synth/dspba_library_package.vhd                                                        ;
+; core/fp_sub_fun/fp_sub_fun/altera_fp_functions_161/synth/fp_sub_fun_altera_fp_functions_161_fshcoka.vhd                                   ;
+; core/fp_sub_fun/fp_sub_fun/fp_sub_fun.bsf                                                                                                 ;
+; core/fp_sub_fun/fp_sub_fun/fp_sub_fun.cmp                                                                                                 ;
+; core/fp_sub_fun/fp_sub_fun/fp_sub_fun.csv                                                                                                 ;
+; core/fp_sub_fun/fp_sub_fun/fp_sub_fun.debuginfo                                                                                           ;
+; core/fp_sub_fun/fp_sub_fun/fp_sub_fun.html                                                                                                ;
+; core/fp_sub_fun/fp_sub_fun/fp_sub_fun.ppf                                                                                                 ;
+; core/fp_sub_fun/fp_sub_fun/fp_sub_fun.qip                                                                                                 ;
+; core/fp_sub_fun/fp_sub_fun/fp_sub_fun.sip                                                                                                 ;
+; core/fp_sub_fun/fp_sub_fun/fp_sub_fun.spd                                                                                                 ;
+; core/fp_sub_fun/fp_sub_fun/fp_sub_fun.xml                                                                                                 ;
+; core/fp_sub_fun/fp_sub_fun/fp_sub_fun_bb.v                                                                                                ;
+; core/fp_sub_fun/fp_sub_fun/fp_sub_fun_generation.rpt                                                                                      ;
+; core/fp_sub_fun/fp_sub_fun/fp_sub_fun_generation_previous.rpt                                                                             ;
+; core/fp_sub_fun/fp_sub_fun/fp_sub_fun_inst.v                                                                                              ;
+; core/fp_sub_fun/fp_sub_fun/fp_sub_fun_inst.vhd                                                                                            ;
+; core/fp_sub_fun/fp_sub_fun/greybox/fp_sub_fun.v                                                                                           ;
+; core/fp_sub_fun/fp_sub_fun/sim/aldec/rivierapro_setup.tcl                                                                                 ;
+; core/fp_sub_fun/fp_sub_fun/sim/cadence/cds.lib                                                                                            ;
+; core/fp_sub_fun/fp_sub_fun/sim/cadence/cds_libs/fp_sub_fun_altera_fp_functions_161.cds.lib                                                ;
+; core/fp_sub_fun/fp_sub_fun/sim/cadence/hdl.var                                                                                            ;
+; core/fp_sub_fun/fp_sub_fun/sim/cadence/ncsim_setup.sh                                                                                     ;
+; core/fp_sub_fun/fp_sub_fun/sim/fp_sub_fun.v                                                                                               ;
+; core/fp_sub_fun/fp_sub_fun/sim/mentor/msim_setup.tcl                                                                                      ;
+; core/fp_sub_fun/fp_sub_fun/sim/synopsys/vcsmx/synopsys_sim.setup                                                                          ;
+; core/fp_sub_fun/fp_sub_fun/sim/synopsys/vcsmx/vcsmx_setup.sh                                                                              ;
+; core/fp_sub_fun/fp_sub_fun/synth/fp_sub_fun.qicache                                                                                       ;
+; core/fp_sub_fun/fp_sub_fun/synth/fp_sub_fun.v                                                                                             ;
+; core/fp_sub_fun/fp_sub_fun/synth/fp_sub_fun_cfg.v                                                                                         ;
+; core/log2_single/log2_single.qsys                                                                                                         ;
+; core/log2_single/log2_single.sopcinfo                                                                                                     ;
+; core/log2_single/log2_single/../log2_single.qsys                                                                                          ;
+; core/log2_single/log2_single/../log2_single.sopcinfo                                                                                      ;
+; core/log2_single/log2_single/altera_fp_functions_161/sim/dspba_library.vhd                                                                ;
+; core/log2_single/log2_single/altera_fp_functions_161/sim/dspba_library_package.vhd                                                        ;
+; core/log2_single/log2_single/altera_fp_functions_161/sim/log2_single_altera_fp_functions_161_kypxfny.vhd                                  ;
+; core/log2_single/log2_single/altera_fp_functions_161/sim/log2_single_altera_fp_functions_161_kypxfny_memoryC0_uid92_lnTables_lutmem.hex   ;
+; core/log2_single/log2_single/altera_fp_functions_161/sim/log2_single_altera_fp_functions_161_kypxfny_memoryC1_uid95_lnTables_lutmem.hex   ;
+; core/log2_single/log2_single/altera_fp_functions_161/sim/log2_single_altera_fp_functions_161_kypxfny_memoryC2_uid98_lnTables_lutmem.hex   ;
+; core/log2_single/log2_single/altera_fp_functions_161/synth/dspba_library.vhd                                                              ;
+; core/log2_single/log2_single/altera_fp_functions_161/synth/dspba_library_package.vhd                                                      ;
+; core/log2_single/log2_single/altera_fp_functions_161/synth/log2_single_altera_fp_functions_161_kypxfny.vhd                                ;
+; core/log2_single/log2_single/altera_fp_functions_161/synth/log2_single_altera_fp_functions_161_kypxfny_memoryC0_uid92_lnTables_lutmem.hex ;
+; core/log2_single/log2_single/altera_fp_functions_161/synth/log2_single_altera_fp_functions_161_kypxfny_memoryC1_uid95_lnTables_lutmem.hex ;
+; core/log2_single/log2_single/altera_fp_functions_161/synth/log2_single_altera_fp_functions_161_kypxfny_memoryC2_uid98_lnTables_lutmem.hex ;
+; core/log2_single/log2_single/log2_single.bsf                                                                                              ;
+; core/log2_single/log2_single/log2_single.cmp                                                                                              ;
+; core/log2_single/log2_single/log2_single.csv                                                                                              ;
+; core/log2_single/log2_single/log2_single.debuginfo                                                                                        ;
+; core/log2_single/log2_single/log2_single.html                                                                                             ;
+; core/log2_single/log2_single/log2_single.ppf                                                                                              ;
+; core/log2_single/log2_single/log2_single.qip                                                                                              ;
+; core/log2_single/log2_single/log2_single.sip                                                                                              ;
+; core/log2_single/log2_single/log2_single.spd                                                                                              ;
+; core/log2_single/log2_single/log2_single.xml                                                                                              ;
+; core/log2_single/log2_single/log2_single_bb.v                                                                                             ;
+; core/log2_single/log2_single/log2_single_generation.rpt                                                                                   ;
+; core/log2_single/log2_single/log2_single_inst.v                                                                                           ;
+; core/log2_single/log2_single/log2_single_inst.vhd                                                                                         ;
+; core/log2_single/log2_single/sim/aldec/rivierapro_setup.tcl                                                                               ;
+; core/log2_single/log2_single/sim/cadence/cds.lib                                                                                          ;
+; core/log2_single/log2_single/sim/cadence/cds_libs/log2_single_altera_fp_functions_161.cds.lib                                             ;
+; core/log2_single/log2_single/sim/cadence/hdl.var                                                                                          ;
+; core/log2_single/log2_single/sim/cadence/ncsim_setup.sh                                                                                   ;
+; core/log2_single/log2_single/sim/log2_single.v                                                                                            ;
+; core/log2_single/log2_single/sim/mentor/msim_setup.tcl                                                                                    ;
+; core/log2_single/log2_single/sim/synopsys/vcsmx/synopsys_sim.setup                                                                        ;
+; core/log2_single/log2_single/sim/synopsys/vcsmx/vcsmx_setup.sh                                                                            ;
+; core/log2_single/log2_single/synth/log2_single.qicache                                                                                    ;
+; core/log2_single/log2_single/synth/log2_single.v                                                                                          ;
+; core/log2_single/log2_single/synth/log2_single_cfg.v                                                                                      ;
+; err_estimat.out.sdc                                                                                                                       ;
+; err_estimat.qpf                                                                                                                           ;
+; err_estimat.qsf                                                                                                                           ;
+; err_estimat_assignment_defaults.qdf                                                                                                       ;
+; RTL/alt_cal_e1.v                                                                                                                          ;
+; RTL/alt_cal_l.v                                                                                                                           ;
+; RTL/alt_cal_s1.v                                                                                                                          ;
+; RTL/cntlz.v                                                                                                                               ;
+; RTL/delay.v                                                                                                                               ;
+; RTL/err_estimat.v                                                                                                                         ;
+; RTL/float2int.v                                                                                                                           ;
+; RTL/int2float.v                                                                                                                           ;
+; RTL/qadd.v                                                                                                                                ;
+; RTL/qdiv.v                                                                                                                                ;
+; SDC1.sdc                                                                                                                                  ;
+; simulation/modelsim/err_estimat.vt                                                                                                        ;
++-------------------------------------------------------------------------------------------------------------------------------------------+
+
+

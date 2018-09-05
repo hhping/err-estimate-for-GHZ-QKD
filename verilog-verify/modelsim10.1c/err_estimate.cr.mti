@@ -1,0 +1,99 @@
+E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/simulation/modelsim/err_estimat.vt {2 {vlog -work work -vopt E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/simulation/modelsim/err_estimat.vt
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module err_estimat_vlg_tst
+** Warning: E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/simulation/modelsim/err_estimat.vt(178): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+
+Top level modules:
+	err_estimat_vlg_tst
+
+} {} {}} E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/alt_cal_l.v {1 {vlog -work work -vopt E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/alt_cal_l.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module alt_cal_l
+
+Top level modules:
+	alt_cal_l
+
+} {} {}} E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/alt_cal_s1.v {1 {vlog -work work -vopt E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/alt_cal_s1.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module alt_cal_s1
+
+Top level modules:
+	alt_cal_s1
+
+} {} {}} E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/cntlz.v {1 {vlog -work work -vopt E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/cntlz.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module cntlz8
+-- Compiling module cntlz16
+-- Compiling module cntlz24
+-- Compiling module cntlz32
+-- Compiling module cntlz48
+-- Compiling module cntlz64
+-- Compiling module cntlz32Reg
+-- Compiling module cntlz64Reg
+-- Compiling module cntlo8
+-- Compiling module cntlo16
+-- Compiling module cntlo32
+-- Compiling module cntlo48
+-- Compiling module cntlo64
+
+Top level modules:
+	cntlz24
+	cntlz32Reg
+	cntlz64Reg
+	cntlo8
+	cntlo16
+	cntlo32
+	cntlo48
+	cntlo64
+
+} {} {}} E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/delay.v {1 {vlog -work work -vopt E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/delay.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module delay
+
+Top level modules:
+	delay
+
+} {} {}} E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/err_estimat.v {1 {vlog -work work -vopt E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/err_estimat.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module err_estimat
+
+Top level modules:
+	err_estimat
+
+} {} {}} E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/float2int.v {1 {vlog -work work -vopt E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/float2int.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module float2int
+
+Top level modules:
+	float2int
+
+} {} {}} E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/int2float.v {1 {vlog -work work -vopt E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/int2float.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module int2float
+
+Top level modules:
+	int2float
+
+} {} {}} E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/qdiv.v {1 {vlog -work work -vopt E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/qdiv.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module qdiv
+
+Top level modules:
+	qdiv
+
+} {} {}} E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/alt_cal_e1.v {1 {vlog -work work -vopt E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/alt_cal_e1.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module alt_cal_e1
+
+Top level modules:
+	alt_cal_e1
+
+} {} {}} E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/qadd.v {1 {vlog -work work -vopt E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/RTL/qadd.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module qadd
+
+Top level modules:
+	qadd
+
+} {} {}}

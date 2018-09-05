@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="altera_fp_functions_161/sim/log2_single_altera_fp_functions_161_kypxfny_memoryC0_uid92_lnTables_lutmem.hex"
+   type="HEX"
+   library="log2_single_altera_fp_functions_161" />
+ <file
+   path="altera_fp_functions_161/sim/log2_single_altera_fp_functions_161_kypxfny_memoryC1_uid95_lnTables_lutmem.hex"
+   type="HEX"
+   library="log2_single_altera_fp_functions_161" />
+ <file
+   path="altera_fp_functions_161/sim/log2_single_altera_fp_functions_161_kypxfny_memoryC2_uid98_lnTables_lutmem.hex"
+   type="HEX"
+   library="log2_single_altera_fp_functions_161" />
+ <file
+   path="altera_fp_functions_161/sim/dspba_library_package.vhd"
+   type="VHDL"
+   library="log2_single_altera_fp_functions_161" />
+ <file
+   path="altera_fp_functions_161/sim/dspba_library.vhd"
+   type="VHDL"
+   library="log2_single_altera_fp_functions_161" />
+ <file
+   path="altera_fp_functions_161/sim/log2_single_altera_fp_functions_161_kypxfny.vhd"
+   type="VHDL"
+   library="log2_single_altera_fp_functions_161" />
+ <file path="sim/log2_single.v" type="VERILOG" hasInlineConfiguration="true" />
+ <topLevel name="log2_single" />
+ <deviceFamily name="arria10" />
+</simPackage>

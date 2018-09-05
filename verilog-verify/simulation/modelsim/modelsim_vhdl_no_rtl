@@ -1,0 +1,541 @@
+Info: Changing the current directory to output directory E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/simulation/modelsim ..
+Info: Using Path D:/modeltech64_10.1c/win64 that was set in EDA Simulation Library Compiler Options
+Info: Generating commands to compile library altera ...
+Info: Generating commands to compile library lpm ...
+Info: Generating commands to compile library sgate ...
+Info: Generating commands to compile library altera_mf ...
+Info: Generating commands to compile library altera_lnsim ...
+Info: Executing command file containing library compilation commands
+Info: Reading D:/modeltech64_10.1c/tcl/vsim/pref.tcl 
+Info: # 10.1c
+Info: # do temp_simlib_comp.tmp 
+Info: # Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+Info: # -- Loading package STANDARD
+Info: # -- Compiling package altera_syn_attributes
+Info: # Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+Info: # -- Loading package STANDARD
+Info: # -- Compiling package altera_standard_functions
+Info: # -- Compiling package body altera_standard_functions
+Info: # -- Loading package altera_standard_functions
+Info: # Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+Info: # -- Loading package STANDARD
+Info: # -- Loading package TEXTIO
+Info: # -- Loading package std_logic_1164
+Info: # -- Loading package std_logic_arith
+Info: # -- Compiling package alt_dspbuilder_package
+Info: # -- Compiling package body alt_dspbuilder_package
+Info: # -- Loading package alt_dspbuilder_package
+Info: # Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+Info: # -- Loading package STANDARD
+Info: # -- Loading package TEXTIO
+Info: # -- Loading package std_logic_1164
+Info: # -- Loading package NUMERIC_STD
+Info: # -- Loading package std_logic_arith
+Info: # -- Loading package STD_LOGIC_UNSIGNED
+Info: # -- Compiling package altera_europa_support_lib
+Info: # -- Compiling package body altera_europa_support_lib
+Info: # -- Loading package altera_europa_support_lib
+Info: # Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+Info: # -- Loading package STANDARD
+Info: # -- Loading package TEXTIO
+Info: # -- Loading package std_logic_1164
+Info: # -- Loading package VITAL_Timing
+Info: # -- Loading package VITAL_Primitives
+Info: # -- Compiling package dffeas_pack
+Info: # -- Loading package dffeas_pack
+Info: # -- Compiling package altera_primitives_components
+Info: # Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+Info: # -- Loading package STANDARD
+Info: # -- Loading package TEXTIO
+Info: # -- Loading package std_logic_1164
+Info: # -- Compiling entity GLOBAL
+Info: # -- Compiling architecture BEHAVIOR of GLOBAL
+Info: # -- Compiling entity CARRY
+Info: # -- Compiling architecture BEHAVIOR of CARRY
+Info: # -- Compiling entity CASCADE
+Info: # -- Compiling architecture BEHAVIOR of CASCADE
+Info: # -- Compiling entity CARRY_SUM
+Info: # -- Compiling architecture BEHAVIOR of CARRY_SUM
+Info: # -- Compiling entity EXP
+Info: # -- Compiling architecture BEHAVIOR of EXP
+Info: # -- Compiling entity SOFT
+Info: # -- Compiling architecture BEHAVIOR of SOFT
+Info: # -- Compiling entity OPNDRN
+Info: # -- Compiling architecture BEHAVIOR of OPNDRN
+Info: # -- Compiling entity ROW_GLOBAL
+Info: # -- Compiling architecture BEHAVIOR of ROW_GLOBAL
+Info: # -- Compiling entity TRI
+Info: # -- Compiling architecture BEHAVIOR of TRI
+Info: # -- Compiling entity LUT_INPUT
+Info: # -- Compiling architecture BEHAVIOR of LUT_INPUT
+Info: # -- Compiling entity LUT_OUTPUT
+Info: # -- Compiling architecture BEHAVIOR of LUT_OUTPUT
+Info: # -- Compiling entity latch
+Info: # -- Compiling architecture BEHAVIOR of latch
+Info: # -- Compiling entity dlatch
+Info: # -- Compiling architecture BEHAVIOR of dlatch
+Info: # -- Compiling entity PRIM_GDFF
+Info: # -- Compiling architecture BEHAVIOR of PRIM_GDFF
+Info: # -- Loading entity PRIM_GDFF
+Info: # -- Compiling entity DFF
+Info: # -- Compiling architecture BEHAVIOR of DFF
+Info: # -- Compiling entity DFFE
+Info: # -- Compiling architecture BEHAVIOR of DFFE
+Info: # -- Compiling entity DFFEA
+Info: # -- Compiling architecture BEHAVIOR of DFFEA
+Info: # -- Loading package VITAL_Timing
+Info: # -- Loading package VITAL_Primitives
+Info: # -- Loading package dffeas_pack
+Info: # -- Compiling entity DFFEAS
+Info: # -- Compiling architecture vital_dffeas of dffeas
+Info: # -- Compiling entity PRIM_GTFF
+Info: # -- Compiling architecture BEHAVIOR of PRIM_GTFF
+Info: # -- Loading entity PRIM_GTFF
+Info: # -- Compiling entity TFF
+Info: # -- Compiling architecture BEHAVIOR of TFF
+Info: # -- Compiling entity TFFE
+Info: # -- Compiling architecture BEHAVIOR of TFFE
+Info: # -- Compiling entity PRIM_GJKFF
+Info: # -- Compiling architecture BEHAVIOR of PRIM_GJKFF
+Info: # -- Loading entity PRIM_GJKFF
+Info: # -- Compiling entity JKFF
+Info: # -- Compiling architecture BEHAVIOR of JKFF
+Info: # -- Compiling entity JKFFE
+Info: # -- Compiling architecture BEHAVIOR of JKFFE
+Info: # -- Compiling entity PRIM_GSRFF
+Info: # -- Compiling architecture BEHAVIOR of PRIM_GSRFF
+Info: # -- Loading entity PRIM_GSRFF
+Info: # -- Compiling entity SRFF
+Info: # -- Compiling architecture BEHAVIOR of SRFF
+Info: # -- Compiling entity SRFFE
+Info: # -- Compiling architecture BEHAVIOR of SRFFE
+Info: # -- Compiling entity clklock
+Info: # -- Compiling architecture behavior of clklock
+Info: # -- Compiling entity alt_inbuf
+Info: # -- Compiling architecture BEHAVIOR of alt_inbuf
+Info: # -- Compiling entity alt_outbuf
+Info: # -- Compiling architecture BEHAVIOR of alt_outbuf
+Info: # -- Compiling entity alt_outbuf_tri
+Info: # -- Compiling architecture BEHAVIOR of alt_outbuf_tri
+Info: # -- Compiling entity alt_iobuf
+Info: # -- Compiling architecture BEHAVIOR of alt_iobuf
+Info: # -- Compiling entity alt_inbuf_diff
+Info: # -- Compiling architecture BEHAVIOR of alt_inbuf_diff
+Info: # -- Compiling entity alt_outbuf_diff
+Info: # -- Compiling architecture BEHAVIOR of alt_outbuf_diff
+Info: # -- Compiling entity alt_outbuf_tri_diff
+Info: # -- Compiling architecture BEHAVIOR of alt_outbuf_tri_diff
+Info: # -- Compiling entity alt_iobuf_diff
+Info: # -- Compiling architecture BEHAVIOR of alt_iobuf_diff
+Info: # -- Compiling entity alt_bidir_diff
+Info: # -- Compiling architecture BEHAVIOR of alt_bidir_diff
+Info: # -- Compiling entity alt_bidir_buf
+Info: # -- Compiling architecture BEHAVIOR of alt_bidir_buf
+Info: # Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+Info: # -- Loading package STANDARD
+Info: # -- Loading package TEXTIO
+Info: # -- Loading package std_logic_1164
+Info: # -- Compiling package LPM_COMPONENTS
+Info: # Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+Info: # -- Loading package STANDARD
+Info: # -- Loading package TEXTIO
+Info: # -- Loading package std_logic_1164
+Info: # -- Compiling package LPM_COMMON_CONVERSION
+Info: # -- Compiling package body LPM_COMMON_CONVERSION
+Info: # -- Loading package LPM_COMMON_CONVERSION
+Info: # -- Compiling package LPM_HINT_EVALUATION
+Info: # -- Compiling package body LPM_HINT_EVALUATION
+Info: # -- Loading package LPM_HINT_EVALUATION
+Info: # -- Compiling package LPM_DEVICE_FAMILIES
+Info: # -- Compiling package body LPM_DEVICE_FAMILIES
+Info: # -- Loading package LPM_DEVICE_FAMILIES
+Info: # -- Loading package std_logic_arith
+Info: # -- Loading package STD_LOGIC_UNSIGNED
+Info: # -- Loading package LPM_COMPONENTS
+Info: # -- Compiling entity LPM_CONSTANT
+Info: # -- Compiling architecture LPM_SYN of LPM_CONSTANT
+Info: # -- Compiling entity LPM_INV
+Info: # -- Compiling architecture LPM_SYN of LPM_INV
+Info: # -- Compiling entity lpm_and
+Info: # -- Compiling architecture LPM_SYN of lpm_and
+Info: # -- Compiling entity LPM_OR
+Info: # -- Compiling architecture LPM_SYN of LPM_OR
+Info: # -- Compiling entity LPM_XOR
+Info: # -- Compiling architecture LPM_SYN of LPM_XOR
+Info: # -- Compiling entity LPM_BUSTRI
+Info: # -- Compiling architecture LPM_SYN of LPM_BUSTRI
+Info: # -- Compiling entity LPM_MUX
+Info: # -- Compiling architecture LPM_SYN of LPM_MUX
+Info: # -- Compiling entity LPM_DECODE
+Info: # -- Compiling architecture LPM_SYN of LPM_DECODE
+Info: # -- Compiling entity LPM_CLSHIFT
+Info: # -- Compiling architecture LPM_SYN of LPM_CLSHIFT
+Info: # -- Loading package STD_LOGIC_SIGNED
+Info: # -- Compiling entity LPM_ADD_SUB_SIGNED
+Info: # -- Compiling architecture LPM_SYN of LPM_ADD_SUB_SIGNED
+Info: # -- Compiling entity LPM_ADD_SUB_UNSIGNED
+Info: # -- Compiling architecture LPM_SYN of LPM_ADD_SUB_UNSIGNED
+Info: # -- Loading entity LPM_ADD_SUB_SIGNED
+Info: # -- Loading entity LPM_ADD_SUB_UNSIGNED
+Info: # -- Compiling entity LPM_ADD_SUB
+Info: # -- Compiling architecture LPM_SYN of LPM_ADD_SUB
+Info: # -- Compiling entity LPM_COMPARE_SIGNED
+Info: # -- Compiling architecture LPM_SYN of LPM_COMPARE_SIGNED
+Info: # -- Compiling entity LPM_COMPARE_UNSIGNED
+Info: # -- Compiling architecture LPM_SYN of LPM_COMPARE_UNSIGNED
+Info: # -- Loading entity LPM_COMPARE_SIGNED
+Info: # -- Loading entity LPM_COMPARE_UNSIGNED
+Info: # -- Compiling entity LPM_COMPARE
+Info: # -- Compiling architecture LPM_SYN of LPM_COMPARE
+Info: # -- Loading package LPM_HINT_EVALUATION
+Info: # -- Compiling entity LPM_MULT
+Info: # -- Compiling architecture LPM_SYN of LPM_MULT
+Info: # -- Compiling entity LPM_DIVIDE
+Info: # -- Compiling architecture behave of lpm_divide
+Info: # -- Compiling entity lpm_abs
+Info: # -- Compiling architecture LPM_SYN of LPM_ABS
+Info: # -- Loading package LPM_COMMON_CONVERSION
+Info: # -- Compiling entity LPM_COUNTER
+Info: # -- Compiling architecture LPM_SYN of LPM_COUNTER
+Info: # -- Compiling entity LPM_LATCH
+Info: # -- Compiling architecture LPM_SYN of LPM_LATCH
+Info: # -- Compiling entity LPM_FF
+Info: # -- Compiling architecture LPM_SYN of LPM_FF
+Info: # -- Compiling entity LPM_SHIFTREG
+Info: # -- Compiling architecture LPM_SYN of LPM_SHIFTREG
+Info: # -- Loading package LPM_DEVICE_FAMILIES
+Info: # -- Compiling entity LPM_RAM_DQ
+Info: # -- Compiling architecture LPM_SYN of lpm_ram_dq
+Info: # -- Compiling entity LPM_RAM_DP
+Info: # -- Compiling architecture LPM_SYN of LPM_RAM_DP
+Info: # -- Compiling entity LPM_RAM_IO
+Info: # -- Compiling architecture LPM_SYN of lpm_ram_io
+Info: # -- Compiling entity LPM_ROM
+Info: # -- Compiling architecture LPM_SYN of lpm_rom
+Info: # -- Compiling entity LPM_FIFO
+Info: # -- Compiling architecture behavior of LPM_FIFO
+Info: # -- Compiling entity LPM_FIFO_DC_DFFPIPE
+Info: # -- Compiling architecture behavior of LPM_FIFO_DC_DFFPIPE
+Info: # -- Compiling entity LPM_FIFO_DC_FEFIFO
+Info: # -- Compiling architecture behavior of LPM_FIFO_DC_FEFIFO
+Info: # -- Loading entity LPM_FIFO_DC_FEFIFO
+Info: # -- Loading entity LPM_FIFO_DC_DFFPIPE
+Info: # -- Compiling entity LPM_FIFO_DC_ASYNC
+Info: # -- Compiling architecture behavior of LPM_FIFO_DC_ASYNC
+Info: # -- Loading entity LPM_FIFO_DC_ASYNC
+Info: # -- Compiling entity LPM_FIFO_DC
+Info: # -- Compiling architecture behavior of LPM_FIFO_DC
+Info: # -- Compiling entity LPM_INpad
+Info: # -- Compiling architecture LPM_SYN of LPM_INpad
+Info: # -- Compiling entity LPM_OUTpad
+Info: # -- Compiling architecture LPM_SYN of LPM_OUTpad
+Info: # -- Compiling entity LPM_BIpad
+Info: # -- Compiling architecture LPM_SYN of LPM_BIpad
+Info: # Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+Info: # -- Loading package STANDARD
+Info: # -- Loading package TEXTIO
+Info: # -- Loading package std_logic_1164
+Info: # -- Compiling package sgate_pack
+Info: # -- Compiling package body sgate_pack
+Info: # -- Loading package sgate_pack
+Info: # Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+Info: # -- Loading package STANDARD
+Info: # -- Loading package TEXTIO
+Info: # -- Loading package std_logic_1164
+Info: # -- Loading package std_logic_arith
+Info: # -- Loading package STD_LOGIC_SIGNED
+Info: # -- Compiling entity oper_add
+Info: # -- Compiling architecture sim_arch of oper_add
+Info: # -- Compiling entity oper_addsub
+Info: # -- Compiling architecture sim_arch of oper_addsub
+Info: # -- Compiling entity mux21
+Info: # -- Compiling architecture sim_arch of mux21
+Info: # -- Compiling entity io_buf_tri
+Info: # -- Compiling architecture sim_arch of io_buf_tri
+Info: # -- Compiling entity io_buf_opdrn
+Info: # -- Compiling architecture sim_arch of io_buf_opdrn
+Info: # -- Compiling entity tri_bus
+Info: # -- Compiling architecture sim_arch of tri_bus
+Info: # -- Compiling entity oper_mult
+Info: # -- Compiling architecture sim_arch of oper_mult
+Info: # -- Loading package LPM_COMPONENTS
+Info: # -- Compiling entity oper_div
+Info: # -- Compiling architecture sim_arch of oper_div
+Info: # -- Compiling entity oper_mod
+Info: # -- Compiling architecture sim_arch of oper_mod
+Info: # -- Loading package STD_LOGIC_UNSIGNED
+Info: # -- Compiling entity oper_left_shift
+Info: # -- Compiling architecture sim_arch of oper_left_shift
+Info: # -- Compiling entity oper_right_shift
+Info: # -- Compiling architecture sim_arch of oper_right_shift
+Info: # -- Compiling entity oper_rotate_left
+Info: # -- Compiling architecture sim_arch of oper_rotate_left
+Info: # -- Compiling entity oper_rotate_right
+Info: # -- Compiling architecture sim_arch of oper_rotate_right
+Info: # -- Compiling entity oper_less_than
+Info: # -- Compiling architecture sim_arch of oper_less_than
+Info: # -- Loading package sgate_pack
+Info: # -- Compiling entity oper_mux
+Info: # -- Compiling architecture sim_arch of oper_mux
+Info: # -- Compiling entity oper_selector
+Info: # -- Compiling architecture sim_arch of oper_selector
+Info: # -- Compiling entity oper_prio_selector
+Info: # -- Compiling architecture sim_arch of oper_prio_selector
+Info: # -- Compiling entity oper_decoder
+Info: # -- Compiling architecture sim_arch of oper_decoder
+Info: # -- Compiling entity oper_bus_mux
+Info: # -- Compiling architecture sim_arch of oper_bus_mux
+Info: # -- Compiling entity oper_latch
+Info: # -- Compiling architecture sim_arch of oper_latch
+Info: # Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+Info: # -- Loading package STANDARD
+Info: # -- Loading package TEXTIO
+Info: # -- Loading package std_logic_1164
+Info: # -- Compiling package altera_mf_components
+Info: # Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+Info: # -- Loading package STANDARD
+Info: # -- Loading package TEXTIO
+Info: # -- Loading package std_logic_1164
+Info: # -- Compiling entity LCELL
+Info: # -- Compiling architecture BEHAVIOR of LCELL
+Info: # -- Compiling package ALTERA_COMMON_CONVERSION
+Info: # -- Compiling package body ALTERA_COMMON_CONVERSION
+Info: # -- Loading package ALTERA_COMMON_CONVERSION
+Info: # -- Compiling package ALTERA_MF_HINT_EVALUATION
+Info: # -- Compiling package body ALTERA_MF_HINT_EVALUATION
+Info: # -- Loading package ALTERA_MF_HINT_EVALUATION
+Info: # -- Compiling package ALTERA_DEVICE_FAMILIES
+Info: # -- Compiling package body ALTERA_DEVICE_FAMILIES
+Info: # -- Loading package ALTERA_DEVICE_FAMILIES
+Info: # -- Compiling package MF_pllpack
+Info: # -- Compiling package body MF_pllpack
+Info: # -- Loading package MF_pllpack
+Info: # -- Compiling entity DFFP
+Info: # -- Compiling architecture behave of DFFP
+Info: # -- Compiling entity pll_iobuf
+Info: # -- Compiling architecture BEHAVIOR of pll_iobuf
+Info: # -- Compiling entity MF_m_cntr
+Info: # -- Compiling architecture behave of MF_m_cntr
+Info: # -- Compiling entity MF_n_cntr
+Info: # -- Compiling architecture behave of MF_n_cntr
+Info: # -- Compiling entity stx_scale_cntr
+Info: # -- Compiling architecture behave of stx_scale_cntr
+Info: # -- Compiling entity MF_pll_reg
+Info: # -- Compiling architecture behave of MF_pll_reg
+Info: # -- Loading package MF_pllpack
+Info: # -- Loading entity MF_m_cntr
+Info: # -- Loading entity MF_n_cntr
+Info: # -- Loading entity stx_scale_cntr
+Info: # -- Loading entity DFFP
+Info: # -- Loading entity MF_pll_reg
+Info: # -- Compiling entity MF_stratix_pll
+Info: # -- Compiling architecture vital_pll of MF_stratix_pll
+Info: # -- Compiling entity arm_m_cntr
+Info: # -- Compiling architecture behave of arm_m_cntr
+Info: # -- Compiling entity arm_n_cntr
+Info: # -- Compiling architecture behave of arm_n_cntr
+Info: # -- Compiling entity arm_scale_cntr
+Info: # -- Compiling architecture behave of arm_scale_cntr
+Info: # -- Loading entity arm_m_cntr
+Info: # -- Loading entity arm_n_cntr
+Info: # -- Loading entity arm_scale_cntr
+Info: # -- Compiling entity MF_stratixii_pll
+Info: # -- Compiling architecture vital_pll of MF_stratixii_pll
+Info: # -- Loading package std_logic_arith
+Info: # -- Loading package STD_LOGIC_UNSIGNED
+Info: # -- Compiling entity MF_ttn_mn_cntr
+Info: # -- Compiling architecture behave of MF_ttn_mn_cntr
+Info: # -- Compiling entity MF_ttn_scale_cntr
+Info: # -- Compiling architecture behave of MF_ttn_scale_cntr
+Info: # -- Loading entity MF_ttn_mn_cntr
+Info: # -- Loading entity MF_ttn_scale_cntr
+Info: # -- Compiling entity MF_stratixiii_pll
+Info: # -- Compiling architecture vital_pll of MF_stratixiii_pll
+Info: # -- Compiling entity MF_cda_mn_cntr
+Info: # -- Compiling architecture behave of MF_cda_mn_cntr
+Info: # -- Compiling entity MF_cda_scale_cntr
+Info: # -- Compiling architecture behave of MF_cda_scale_cntr
+Info: # -- Loading entity MF_cda_mn_cntr
+Info: # -- Loading entity MF_cda_scale_cntr
+Info: # -- Compiling entity MF_cycloneiii_pll
+Info: # -- Compiling architecture vital_pll of MF_cycloneiii_pll
+Info: # -- Compiling entity MF_stingray_mn_cntr
+Info: # -- Compiling architecture behave of MF_stingray_mn_cntr
+Info: # -- Compiling entity MF_stingray_post_divider
+Info: # -- Compiling architecture behave of MF_stingray_post_divider
+Info: # -- Compiling entity MF_stingray_scale_cntr
+Info: # -- Compiling architecture behave of MF_stingray_scale_cntr
+Info: # -- Loading entity MF_stingray_mn_cntr
+Info: # -- Loading entity MF_stingray_scale_cntr
+Info: # -- Compiling entity MF_cycloneiiigl_pll
+Info: # -- Compiling architecture vital_pll of MF_cycloneiiigl_pll
+Info: # -- Loading package ALTERA_DEVICE_FAMILIES
+Info: # -- Loading entity MF_stratix_pll
+Info: # -- Loading entity MF_stratixii_pll
+Info: # -- Loading entity MF_stratixiii_pll
+Info: # -- Loading entity MF_cycloneiii_pll
+Info: # -- Loading entity MF_cycloneiiigl_pll
+Info: # -- Loading entity pll_iobuf
+Info: # -- Compiling entity altpll
+Info: # -- Compiling architecture behavior of altpll
+Info: # -- Compiling entity altaccumulate
+Info: # -- Compiling architecture behaviour of altaccumulate
+Info: # -- Compiling entity altmult_accum
+Info: # -- Compiling architecture behaviour of altmult_accum
+Info: # -- Compiling entity altmult_add
+Info: # -- Compiling architecture behaviour of altmult_add
+Info: # -- Loading package ALTERA_COMMON_CONVERSION
+Info: # -- Compiling entity altfp_mult
+Info: # -- Compiling architecture behavior of altfp_mult
+Info: # -- Compiling entity altsqrt
+Info: # -- Compiling architecture behavior of altsqrt
+Info: # -- Compiling entity altclklock
+Info: # -- Compiling architecture behavior of altclklock
+Info: # -- Compiling entity altddio_in
+Info: # -- Compiling architecture behave of altddio_in
+Info: # -- Compiling entity altddio_out
+Info: # -- Compiling architecture behave of altddio_out
+Info: # -- Loading entity altddio_in
+Info: # -- Loading entity altddio_out
+Info: # -- Compiling entity altddio_bidir
+Info: # -- Compiling architecture struct of altddio_bidir
+Info: # -- Compiling entity stratixii_lvds_rx
+Info: # -- Compiling architecture behavior of stratixii_lvds_rx
+Info: # -- Compiling entity flexible_lvds_rx
+Info: # -- Compiling architecture behavior of flexible_lvds_rx
+Info: # -- Compiling entity stratixiii_lvds_rx_dpa
+Info: # -- Compiling architecture behavior of stratixiii_lvds_rx_dpa
+Info: # -- Compiling entity stratixv_local_clk_divider
+Info: # -- Compiling architecture behavior of stratixv_local_clk_divider
+Info: # -- Loading entity stratixiii_lvds_rx_dpa
+Info: # -- Loading entity stratixv_local_clk_divider
+Info: # -- Compiling entity stratixiii_lvds_rx_channel
+Info: # -- Compiling architecture behavior of stratixiii_lvds_rx_channel
+Info: # -- Loading entity stratixiii_lvds_rx_channel
+Info: # -- Compiling entity stratixiii_lvds_rx
+Info: # -- Compiling architecture behavior of stratixiii_lvds_rx
+Info: # -- Loading entity stratixii_lvds_rx
+Info: # -- Loading entity flexible_lvds_rx
+Info: # -- Loading entity stratixiii_lvds_rx
+Info: # -- Compiling entity altlvds_rx
+Info: # -- Compiling architecture behavior of altlvds_rx
+Info: # -- Compiling entity stratix_tx_outclk
+Info: # -- Compiling architecture behavior of stratix_tx_outclk
+Info: # -- Compiling entity stratixii_tx_outclk
+Info: # -- Compiling architecture behavior of stratixii_tx_outclk
+Info: # -- Compiling entity flexible_lvds_tx
+Info: # -- Compiling architecture behavior of flexible_lvds_tx
+Info: # -- Loading entity stratix_tx_outclk
+Info: # -- Loading entity stratixii_tx_outclk
+Info: # -- Loading entity flexible_lvds_tx
+Info: # -- Compiling entity altlvds_tx
+Info: # -- Compiling architecture behavior of altlvds_tx
+Info: # -- Compiling entity altdpram
+Info: # -- Compiling architecture behavior of altdpram
+Info: # -- Compiling entity altsyncram
+Info: # -- Compiling architecture translated of altsyncram
+Info: # -- Loading entity altsyncram
+Info: # -- Loading package ALTERA_MF_HINT_EVALUATION
+Info: # -- Compiling entity alt3pram
+Info: # -- Compiling architecture behavior of alt3pram
+Info: # -- Loading package altera_mf_components
+Info: # -- Compiling entity parallel_add
+Info: # -- Compiling architecture behaviour of parallel_add
+Info: # -- Compiling entity SCFIFO
+Info: # -- Compiling architecture behavior of SCFIFO
+Info: # -- Compiling entity DCFIFO_DFFPIPE
+Info: # -- Compiling architecture behavior of DCFIFO_DFFPIPE
+Info: # -- Compiling entity DCFIFO_FEFIFO
+Info: # -- Compiling architecture behavior of DCFIFO_FEFIFO
+Info: # -- Loading entity DCFIFO_FEFIFO
+Info: # -- Loading entity DCFIFO_DFFPIPE
+Info: # -- Compiling entity DCFIFO_ASYNC
+Info: # -- Compiling architecture behavior of DCFIFO_ASYNC
+Info: # -- Compiling entity DCFIFO_SYNC
+Info: # -- Compiling architecture behavior of DCFIFO_SYNC
+Info: # -- Compiling entity DCFIFO_LOW_LATENCY
+Info: # -- Compiling architecture behavior of DCFIFO_LOW_LATENCY
+Info: # -- Loading entity DCFIFO_ASYNC
+Info: # -- Loading entity DCFIFO_SYNC
+Info: # -- Loading entity DCFIFO_LOW_LATENCY
+Info: # -- Compiling entity DCFIFO_MIXED_WIDTHS
+Info: # -- Compiling architecture behavior of DCFIFO_MIXED_WIDTHS
+Info: # -- Loading entity DCFIFO_MIXED_WIDTHS
+Info: # -- Compiling entity DCFIFO
+Info: # -- Compiling architecture behavior of DCFIFO
+Info: # -- Compiling entity altshift_taps
+Info: # -- Compiling architecture behavioural of altshift_taps
+Info: # -- Compiling entity A_GRAYCOUNTER
+Info: # -- Compiling architecture behavior of A_GRAYCOUNTER
+Info: # -- Compiling entity altsquare
+Info: # -- Compiling architecture altsquare_syn of altsquare
+Info: # -- Compiling entity altera_std_synchronizer
+Info: # -- Compiling architecture behavioral of altera_std_synchronizer
+Info: # -- Compiling entity altera_std_synchronizer_bundle
+Info: # -- Compiling architecture behavioral of altera_std_synchronizer_bundle
+Info: # -- Compiling entity alt_cal
+Info: # -- Compiling architecture RTL of alt_cal
+Info: # -- Compiling entity alt_cal_mm
+Info: # -- Compiling architecture RTL of alt_cal_mm
+Info: # -- Compiling entity alt_cal_c3gxb
+Info: # -- Compiling architecture RTL of alt_cal_c3gxb
+Info: # -- Compiling entity alt_cal_sv
+Info: # -- Compiling architecture RTL of alt_cal_sv
+Info: # -- Compiling entity alt_cal_av
+Info: # -- Compiling architecture RTL of alt_cal_av
+Info: # -- Compiling package alt_aeq_s4_func
+Info: # -- Compiling package body alt_aeq_s4_func
+Info: # -- Loading package alt_aeq_s4_func
+Info: # -- Loading package alt_aeq_s4_func
+Info: # -- Compiling entity alt_aeq_s4
+Info: # -- Compiling architecture trans of alt_aeq_s4
+Info: # -- Compiling package alt_eyemon_func
+Info: # -- Compiling package body alt_eyemon_func
+Info: # -- Loading package alt_eyemon_func
+Info: # -- Loading package alt_eyemon_func
+Info: # -- Compiling entity alt_eyemon
+Info: # -- Compiling architecture trans of alt_eyemon
+Info: # -- Compiling package alt_dfe_func
+Info: # -- Compiling package body alt_dfe_func
+Info: # -- Loading package alt_dfe_func
+Info: # -- Loading package alt_dfe_func
+Info: # -- Compiling entity alt_dfe
+Info: # -- Compiling architecture trans of alt_dfe
+Info: # -- Compiling package SLD_NODE
+Info: # -- Compiling package body SLD_NODE
+Info: # -- Loading package SLD_NODE
+Info: # -- Loading package SLD_NODE
+Info: # -- Compiling entity signal_gen
+Info: # -- Compiling architecture simModel of signal_gen
+Info: # -- Compiling entity jtag_tap_controller
+Info: # -- Compiling architecture FSM of jtag_tap_controller
+Info: # -- Compiling entity dummy_hub
+Info: # -- Compiling architecture behavior of dummy_hub
+Info: # -- Loading entity signal_gen
+Info: # -- Loading entity jtag_tap_controller
+Info: # -- Loading entity dummy_hub
+Info: # -- Compiling entity sld_virtual_jtag
+Info: # -- Compiling architecture structural of sld_virtual_jtag
+Info: # -- Compiling entity sld_signaltap
+Info: # -- Compiling architecture sim_sld_signaltap of sld_signaltap
+Info: # -- Compiling entity altstratixii_oct
+Info: # -- Compiling architecture sim_altstratixii_oct of altstratixii_oct
+Info: # -- Compiling entity altparallel_flash_loader
+Info: # -- Compiling architecture sim_altparallel_flash_loader of altparallel_flash_loader
+Info: # -- Compiling entity altserial_flash_loader
+Info: # -- Compiling architecture sim_altserial_flash_loader of altserial_flash_loader
+Info: # -- Compiling entity alt_fault_injection
+Info: # -- Compiling architecture sim_alt_fault_injection of alt_fault_injection
+Info: # -- Compiling entity sld_virtual_jtag_basic
+Info: # -- Compiling architecture sim_sld_virtual_jtag_basic of sld_virtual_jtag_basic
+Info: # -- Compiling entity altsource_probe
+Info: # -- Compiling architecture sim_altsource_probe of altsource_probe
+Info: # Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+Info: # 
+Info: # Top level modules:
+Info: # Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+Info: # -- Loading package STANDARD
+Info: # -- Loading package TEXTIO
+Info: # -- Loading package std_logic_1164
+Info: # -- Compiling package altera_lnsim_components
+Info: Successfully compiled the libraries

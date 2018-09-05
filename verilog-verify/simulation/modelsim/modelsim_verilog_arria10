@@ -1,0 +1,241 @@
+Info: Changing the current directory to output directory E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/simulation/modelsim ..
+Info: Using Path D:/modeltech64_10.1c/win64 that was set in EDA Simulation Library Compiler Options
+Info: Generating commands to compile library twentynm_ver ...
+Info: Generating commands to compile library twentynm_hssi_ver ...
+Info: Generating commands to compile library twentynm_hip_ver ...
+Info: Executing command file containing library compilation commands
+Info: Reading D:/modeltech64_10.1c/tcl/vsim/pref.tcl 
+Info: # 10.1c
+Info: # do temp_simlib_comp.tmp 
+Info: # Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+Info: # -- Compiling UDP TWENTYNM_PRIM_DFFE
+Info: # -- Compiling UDP TWENTYNM_PRIM_DFFEAS
+Info: # -- Compiling UDP TWENTYNM_PRIM_DFFEAS_HIGH
+Info: # -- Compiling module twentynm_dffe
+Info: # -- Compiling module twentynm_mux21
+Info: # -- Compiling module twentynm_mux41
+Info: # -- Compiling module twentynm_and1
+Info: # -- Compiling module twentynm_and16
+Info: # -- Compiling module twentynm_bmux21
+Info: # -- Compiling module twentynm_b17mux21
+Info: # -- Compiling module twentynm_nmux21
+Info: # -- Compiling module twentynm_b5mux21
+Info: # -- Compiling module twentynm_ff
+Info: # -- Compiling module twentynm_lcell_comb
+Info: # -- Compiling module twentynm_routing_wire
+Info: # -- Compiling module twentynm_ram_block
+Info: # -- Compiling module twentynm_mlab_cell
+Info: # -- Compiling module twentynm_io_ibuf
+Info: # -- Compiling module twentynm_io_obuf
+Info: # -- Compiling module twentynm_pseudo_diff_out
+Info: # -- Compiling module twentynm_prblock
+Info: # -- Compiling module twentynm_io_pad
+Info: # -- Compiling module twentynm_bias_logic
+Info: # -- Compiling module twentynm_bias_generator
+Info: # -- Compiling module twentynm_bias_block
+Info: # -- Compiling module twentynm_clk_phase_select
+Info: # -- Compiling module twentynm_clkena
+Info: # -- Compiling module twentynm_clkselect
+Info: # -- Compiling module twentynm_delay_chain
+Info: # -- Compiling module twentynm_dll_offset_ctrl
+Info: # -- Compiling module twentynm_dll
+Info: # -- Compiling module twentynm_dqs_config
+Info: # -- Compiling module twentynm_dqs_delay_chain
+Info: # -- Compiling module twentynm_dqs_enable_ctrl
+Info: # -- Compiling module twentynm_duty_cycle_adjustment
+Info: # -- Compiling module twentynm_half_rate_input
+Info: # -- Compiling module twentynm_input_phase_alignment
+Info: # -- Compiling module twentynm_io_clock_divider
+Info: # -- Compiling module twentynm_io_config
+Info: # -- Compiling module twentynm_leveling_delay_chain
+Info: # -- Compiling module twentynm_termination_logic
+Info: # -- Compiling module twentynm_termination
+Info: # -- Compiling module twentynm_asmiblock
+Info: # -- Compiling module twentynm_crcblock
+Info: # -- Compiling module twentynm_opregblock
+Info: # -- Compiling module twentynm_jtag
+Info: # -- Compiling module twentynm_jtagblock
+Info: # -- Compiling module twentynm_rublock
+Info: # -- Compiling module twentynm_tsdblock
+Info: # -- Compiling module twentynm_vsblock
+Info: # -- Compiling module twentynm_read_fifo
+Info: # -- Compiling module twentynm_read_fifo_read_enable
+Info: # -- Compiling module twentynm_phy_clkbuf
+Info: # -- Compiling module twentynm_io_serdes_dpa
+Info: # -- Compiling module twentynm_lvds_clock_tree
+Info: # -- Compiling module twentynm_ir_fifo_userdes
+Info: # -- Compiling module twentynm_read_fifo_read_clock_select
+Info: # -- Compiling module twentynm_lfifo
+Info: # -- Compiling module twentynm_vfifo
+Info: # -- Compiling module twentynm_fp_mac
+Info: # -- Compiling module twentynm_mac
+Info: # -- Compiling module twentynm_mem_phy
+Info: # -- Compiling module twentynm_oscillator
+Info: # -- Compiling module twentynm_iopll
+Info: # -- Compiling module twentynm_io_12_lane
+Info: # -- Compiling module twentynm_tile_ctrl
+Info: # -- Compiling module twentynm_refclk_input
+Info: # -- Compiling module twentynm_io_aux
+Info: # -- Compiling module twentynm_ddio_in
+Info: # -- Compiling module twentynm_ddio_out
+Info: # 
+Info: # Top level modules:
+Info: # 	twentynm_dffe
+Info: # 	twentynm_mux21
+Info: # 	twentynm_mux41
+Info: # 	twentynm_and1
+Info: # 	twentynm_and16
+Info: # 	twentynm_bmux21
+Info: # 	twentynm_b17mux21
+Info: # 	twentynm_nmux21
+Info: # 	twentynm_b5mux21
+Info: # 	twentynm_ff
+Info: # 	twentynm_lcell_comb
+Info: # 	twentynm_routing_wire
+Info: # 	twentynm_ram_block
+Info: # 	twentynm_mlab_cell
+Info: # 	twentynm_io_ibuf
+Info: # 	twentynm_io_obuf
+Info: # 	twentynm_pseudo_diff_out
+Info: # 	twentynm_prblock
+Info: # 	twentynm_io_pad
+Info: # 	twentynm_bias_block
+Info: # 	twentynm_clk_phase_select
+Info: # 	twentynm_clkena
+Info: # 	twentynm_clkselect
+Info: # 	twentynm_delay_chain
+Info: # 	twentynm_dll_offset_ctrl
+Info: # 	twentynm_dll
+Info: # 	twentynm_dqs_config
+Info: # 	twentynm_dqs_delay_chain
+Info: # 	twentynm_dqs_enable_ctrl
+Info: # 	twentynm_duty_cycle_adjustment
+Info: # 	twentynm_half_rate_input
+Info: # 	twentynm_input_phase_alignment
+Info: # 	twentynm_io_clock_divider
+Info: # 	twentynm_io_config
+Info: # 	twentynm_leveling_delay_chain
+Info: # 	twentynm_termination_logic
+Info: # 	twentynm_termination
+Info: # 	twentynm_asmiblock
+Info: # 	twentynm_crcblock
+Info: # 	twentynm_opregblock
+Info: # 	twentynm_jtag
+Info: # 	twentynm_jtagblock
+Info: # 	twentynm_rublock
+Info: # 	twentynm_tsdblock
+Info: # 	twentynm_vsblock
+Info: # 	twentynm_read_fifo
+Info: # 	twentynm_read_fifo_read_enable
+Info: # 	twentynm_phy_clkbuf
+Info: # 	twentynm_io_serdes_dpa
+Info: # 	twentynm_lvds_clock_tree
+Info: # 	twentynm_ir_fifo_userdes
+Info: # 	twentynm_read_fifo_read_clock_select
+Info: # 	twentynm_lfifo
+Info: # 	twentynm_vfifo
+Info: # 	twentynm_fp_mac
+Info: # 	twentynm_mac
+Info: # 	twentynm_mem_phy
+Info: # 	twentynm_oscillator
+Info: # 	twentynm_iopll
+Info: # 	twentynm_io_12_lane
+Info: # 	twentynm_tile_ctrl
+Info: # 	twentynm_refclk_input
+Info: # 	twentynm_io_aux
+Info: # 	twentynm_ddio_in
+Info: # 	twentynm_ddio_out
+Info: # Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+Info: # 
+Info: # Top level modules:
+Info: # Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+Info: # 
+Info: # Top level modules:
+Info: # Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+Info: # -- Compiling module twentynm_atx_pll
+Info: # -- Compiling module twentynm_cmu_fpll_refclk_select
+Info: # -- Compiling module twentynm_cmu_fpll
+Info: # -- Compiling module twentynm_hssi_10g_rx_pcs
+Info: # -- Compiling module twentynm_hssi_10g_tx_pcs
+Info: # -- Compiling module twentynm_hssi_8g_rx_pcs
+Info: # -- Compiling module twentynm_hssi_8g_tx_pcs
+Info: # -- Compiling module twentynm_hssi_common_pcs_pma_interface
+Info: # -- Compiling module twentynm_hssi_common_pld_pcs_interface
+Info: # -- Compiling module twentynm_hssi_fifo_rx_pcs
+Info: # -- Compiling module twentynm_hssi_fifo_tx_pcs
+Info: # -- Compiling module twentynm_hssi_gen3_rx_pcs
+Info: # -- Compiling module twentynm_hssi_gen3_tx_pcs
+Info: # -- Compiling module twentynm_hssi_krfec_rx_pcs
+Info: # -- Compiling module twentynm_hssi_krfec_tx_pcs
+Info: # -- Compiling module twentynm_hssi_pipe_gen1_2
+Info: # -- Compiling module twentynm_hssi_pipe_gen3
+Info: # -- Compiling module twentynm_hssi_pma_adaptation
+Info: # -- Compiling module twentynm_hssi_pma_aux
+Info: # -- Compiling module twentynm_hssi_pma_cdr_refclk_select_mux
+Info: # -- Compiling module twentynm_hssi_pma_cgb_master
+Info: # -- Compiling module twentynm_hssi_pma_channel_pll
+Info: # -- Compiling module twentynm_hssi_pma_lc_refclk_select_mux
+Info: # -- Compiling module twentynm_hssi_pma_rx_buf
+Info: # -- Compiling module twentynm_hssi_pma_rx_deser
+Info: # -- Compiling module twentynm_hssi_pma_rx_dfe
+Info: # -- Compiling module twentynm_hssi_pma_rx_odi
+Info: # -- Compiling module twentynm_hssi_pma_rx_sd
+Info: # -- Compiling module twentynm_hssi_pma_tx_buf
+Info: # -- Compiling module twentynm_hssi_pma_tx_cgb
+Info: # -- Compiling module twentynm_hssi_pma_tx_ser
+Info: # -- Compiling module twentynm_hssi_pma_uc
+Info: # -- Compiling module twentynm_hssi_refclk_divider
+Info: # -- Compiling module twentynm_hssi_rx_pcs_pma_interface
+Info: # -- Compiling module twentynm_hssi_rx_pld_pcs_interface
+Info: # -- Compiling module twentynm_hssi_tx_pcs_pma_interface
+Info: # -- Compiling module twentynm_hssi_tx_pld_pcs_interface
+Info: # -- Compiling module twentynm_hssi_avmm_if
+Info: # 
+Info: # Top level modules:
+Info: # 	twentynm_atx_pll
+Info: # 	twentynm_cmu_fpll_refclk_select
+Info: # 	twentynm_cmu_fpll
+Info: # 	twentynm_hssi_10g_rx_pcs
+Info: # 	twentynm_hssi_10g_tx_pcs
+Info: # 	twentynm_hssi_8g_rx_pcs
+Info: # 	twentynm_hssi_8g_tx_pcs
+Info: # 	twentynm_hssi_common_pcs_pma_interface
+Info: # 	twentynm_hssi_common_pld_pcs_interface
+Info: # 	twentynm_hssi_fifo_rx_pcs
+Info: # 	twentynm_hssi_fifo_tx_pcs
+Info: # 	twentynm_hssi_gen3_rx_pcs
+Info: # 	twentynm_hssi_gen3_tx_pcs
+Info: # 	twentynm_hssi_krfec_rx_pcs
+Info: # 	twentynm_hssi_krfec_tx_pcs
+Info: # 	twentynm_hssi_pipe_gen1_2
+Info: # 	twentynm_hssi_pipe_gen3
+Info: # 	twentynm_hssi_pma_adaptation
+Info: # 	twentynm_hssi_pma_aux
+Info: # 	twentynm_hssi_pma_cdr_refclk_select_mux
+Info: # 	twentynm_hssi_pma_cgb_master
+Info: # 	twentynm_hssi_pma_channel_pll
+Info: # 	twentynm_hssi_pma_lc_refclk_select_mux
+Info: # 	twentynm_hssi_pma_rx_buf
+Info: # 	twentynm_hssi_pma_rx_deser
+Info: # 	twentynm_hssi_pma_rx_dfe
+Info: # 	twentynm_hssi_pma_rx_odi
+Info: # 	twentynm_hssi_pma_rx_sd
+Info: # 	twentynm_hssi_pma_tx_buf
+Info: # 	twentynm_hssi_pma_tx_cgb
+Info: # 	twentynm_hssi_pma_tx_ser
+Info: # 	twentynm_hssi_pma_uc
+Info: # 	twentynm_hssi_refclk_divider
+Info: # 	twentynm_hssi_rx_pcs_pma_interface
+Info: # 	twentynm_hssi_rx_pld_pcs_interface
+Info: # 	twentynm_hssi_tx_pcs_pma_interface
+Info: # 	twentynm_hssi_tx_pld_pcs_interface
+Info: # 	twentynm_hssi_avmm_if
+Info: # Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+Info: # 
+Info: # Top level modules:
+Info: # Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+Info: # -- Compiling module twentynm_hssi_gen3_x8_pcie_hip
+Info: # 
+Info: # Top level modules:
+Info: # 	twentynm_hssi_gen3_x8_pcie_hip
+Info: Successfully compiled the libraries

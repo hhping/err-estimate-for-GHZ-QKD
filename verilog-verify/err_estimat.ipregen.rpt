@@ -1,0 +1,277 @@
+IP Upgrade report for err_estimat
+Mon Jul 02 14:06:08 2018
+Quartus Prime Version 16.1.0 Build 196 10/24/2016 SJ Standard Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. IP Upgrade Summary
+  3. Successfully Upgraded IP Components
+  4. IP Upgrade Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2016  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Intel and sold by Intel or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++--------------------------------------------------------------------------------+
+; IP Upgrade Summary                                                             ;
++------------------------------+-------------------------------------------------+
+; IP Components Upgrade Status ; Failed - Mon Jul 02 14:06:08 2018               ;
+; Quartus Prime Version        ; 16.1.0 Build 196 10/24/2016 SJ Standard Edition ;
+; Revision Name                ; err_estimat                                     ;
+; Top-level Entity Name        ; err_estimat                                     ;
+; Family                       ; Arria 10                                        ;
++------------------------------+-------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------+
+; Successfully Upgraded IP Components                                                                                                             ;
++-------------+---------------------+---------+-----------------------------------+-----------------------------------+-----------------+---------+
+; Entity Name ; Component Name      ; Version ; Original Source File              ; Generation File Path              ; New Source File ; Message ;
++-------------+---------------------+---------+-----------------------------------+-----------------------------------+-----------------+---------+
+; log2_fun    ; altera_fp_functions ; 14.1    ; core/log2_fun/log2_fun.qsys       ; core/log2_fun/log2_fun.qsys       ;                 ;         ;
+; fp_mult_fun ; altera_fp_functions ; 14.1    ; core/fp_mult_fun/fp_mult_fun.qsys ; core/fp_mult_fun/fp_mult_fun.qsys ;                 ;         ;
++-------------+---------------------+---------+-----------------------------------+-----------------------------------+-----------------+---------+
+
+
++---------------------+
+; IP Upgrade Messages ;
++---------------------+
+Info (11902): Backing up file "core/log2_fun/log2_fun.qsys" to "core/log2_fun/log2_fun.BAK.qsys"
+Info (11902): Backing up file "core/log2_fun/log2_fun/synth/log2_fun.v" to "core/log2_fun/log2_fun.BAK.v"
+Info (11837): Started upgrading IP component altera_fp_functions with file "core/log2_fun/log2_fun.qsys"
+Info: 2018.07.02.14:05:32 Info: Starting to upgrade the IP cores in the Qsys system
+Info: 2018.07.02.14:05:32 Info: Finished upgrading the ip cores
+Info: 2018.07.02.14:05:38 Info: Saving generation log to G:/QKD_1GHZ/verilog/err_estimat_4Q16/core/log2_fun/log2_fun
+Info: 2018.07.02.14:05:38 Info: Starting: Create simulation model
+Info: 2018.07.02.14:05:38 Info: qsys-generate G:\QKD_1GHZ\verilog\err_estimat_4Q16\core\log2_fun\log2_fun.qsys --simulation=VERILOG --allow-mixed-language-simulation --output-directory=G:\QKD_1GHZ\verilog\err_estimat_4Q16\core\log2_fun\log2_fun --family="Arria 10" --part=10AX066H2F34I2LP
+Info: 2018.07.02.14:05:38 Info: Loading log2_fun
+Info: 2018.07.02.14:05:38 Info: Reading input file
+Info: 2018.07.02.14:05:38 Info: Adding fp_functions_0 [altera_fp_functions 16.1]
+Info: 2018.07.02.14:05:38 Info: Parameterizing module fp_functions_0
+Info: 2018.07.02.14:05:38 Info: Building connections
+Info: 2018.07.02.14:05:38 Info: Parameterizing connections
+Info: 2018.07.02.14:05:38 Info: Validating
+Info: 2018.07.02.14:05:40 Info: Done reading input file
+Info: 2018.07.02.14:05:41 Info: log2_fun.fp_functions_0: D:/quartus161/quartus/dspba/backend/windows64
+Info: 2018.07.02.14:05:41 Info: log2_fun.fp_functions_0: D:/quartus161/quartus/dspba/backend/windows64
+Info: 2018.07.02.14:05:41 Info: log2_fun: "Transforming system: log2_fun"
+Info: 2018.07.02.14:05:41 Info: log2_fun: Running transform generation_view_transform
+Info: 2018.07.02.14:05:41 Info: log2_fun: Running transform generation_view_transform took 0.000s
+Info: 2018.07.02.14:05:41 Info: fp_functions_0: Running transform generation_view_transform
+Info: 2018.07.02.14:05:41 Info: fp_functions_0: Running transform generation_view_transform took 0.000s
+Info: 2018.07.02.14:05:41 Info: log2_fun: Running transform merlin_avalon_transform
+Info: 2018.07.02.14:05:41 Info: log2_fun: Running transform merlin_avalon_transform took 0.046s
+Info: 2018.07.02.14:05:41 Info: log2_fun: "Naming system components in system: log2_fun"
+Info: 2018.07.02.14:05:41 Info: log2_fun: "Processing generation queue"
+Info: 2018.07.02.14:05:41 Info: log2_fun: "Generating: log2_fun"
+Info: 2018.07.02.14:05:41 Info: log2_fun: "Generating: log2_fun_altera_fp_functions_161_f7x7wfy"
+Info: 2018.07.02.14:05:41 Info: fp_functions_0: D:/quartus161/quartus/dspba/backend/windows64
+Info: 2018.07.02.14:05:41 Info: fp_functions_0: Latency on Arria 10 is 14 cycles
+Info: 2018.07.02.14:05:41 Info: fp_functions_0: DSP Blocks Used: 4
+Info: 2018.07.02.14:05:41 Info: fp_functions_0: LUTs Used: 1103
+Info: 2018.07.02.14:05:41 Info: fp_functions_0: Memory Bits Used: 0
+Info: 2018.07.02.14:05:41 Info: fp_functions_0: Memory Blocks Used: 0
+Info: 2018.07.02.14:05:41 Info: log2_fun: Done "log2_fun" with 2 modules, 4 files
+Info: 2018.07.02.14:05:42 Info: qsys-generate succeeded.
+Info: 2018.07.02.14:05:42 Info: Finished: Create simulation model
+Info: 2018.07.02.14:05:42 Info: Starting: Create Modelsim Project.
+Info: 2018.07.02.14:05:42 Info: sim-script-gen --spd=G:\QKD_1GHZ\verilog\err_estimat_4Q16\core\log2_fun\log2_fun\log2_fun.spd --output-directory=G:/QKD_1GHZ/verilog/err_estimat_4Q16/core/log2_fun/log2_fun/sim
+Info: 2018.07.02.14:05:42 Info: Doing: ip-make-simscript --spd=G:\QKD_1GHZ\verilog\err_estimat_4Q16\core\log2_fun\log2_fun\log2_fun.spd --output-directory=G:/QKD_1GHZ/verilog/err_estimat_4Q16/core/log2_fun/log2_fun/sim
+Info: 2018.07.02.14:05:42 Info: Generating the following file(s) for MODELSIM simulator in G:/QKD_1GHZ/verilog/err_estimat_4Q16/core/log2_fun/log2_fun/sim
+Info: 2018.07.02.14:05:42 Info:     mentor
+Info: 2018.07.02.14:05:42 Info: Skipping VCS script generation since VHDL file $QUARTUS_INSTALL_DIR/eda/sim_lib
+Info: 2018.07.02.14:05:42 Info: Generating the following file(s) for VCSMX simulator in G:/QKD_1GHZ/verilog/err_estimat_4Q16/core/log2_fun/log2_fun/sim
+Info: 2018.07.02.14:05:42 Info:     synopsys/vcsmx
+Info: 2018.07.02.14:05:42 Info:     synopsys/vcsmx
+Info: 2018.07.02.14:05:42 Info: Generating the following file(s) for NCSIM simulator in G:/QKD_1GHZ/verilog/err_estimat_4Q16/core/log2_fun/log2_fun/sim
+Info: 2018.07.02.14:05:42 Info:     cadence
+Info: 2018.07.02.14:05:42 Info:     cadence
+Info: 2018.07.02.14:05:42 Info:     cadence
+Info: 2018.07.02.14:05:42 Info:     1 .cds.lib files in cadence/cds_libs
+Info: 2018.07.02.14:05:42 Info: Generating the following file(s) for RIVIERA simulator in G:/QKD_1GHZ/verilog/err_estimat_4Q16/core/log2_fun/log2_fun/sim
+Info: 2018.07.02.14:05:42 Info:     aldec
+Info: 2018.07.02.14:05:42 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under G:/QKD_1GHZ/verilog/err_estimat_4Q16/core/log2_fun/log2_fun/sim
+Info: 2018.07.02.14:05:42 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info: 2018.07.02.14:05:42 Info: Finished: Create Modelsim Project.
+Info: 2018.07.02.14:05:42 Info: Starting: Create block symbol file (.bsf)
+Info: 2018.07.02.14:05:42 Info: qsys-generate G:\QKD_1GHZ\verilog\err_estimat_4Q16\core\log2_fun\log2_fun.qsys --block-symbol-file --output-directory=G:\QKD_1GHZ\verilog\err_estimat_4Q16\core\log2_fun\log2_fun --family="Arria 10" --part=10AX066H2F34I2LP
+Info: 2018.07.02.14:05:42 Info: Loading log2_fun
+Info: 2018.07.02.14:05:42 Info: Reading input file
+Info: 2018.07.02.14:05:42 Info: Adding fp_functions_0 [altera_fp_functions 16.1]
+Info: 2018.07.02.14:05:42 Info: Parameterizing module fp_functions_0
+Info: 2018.07.02.14:05:42 Info: Building connections
+Info: 2018.07.02.14:05:42 Info: Parameterizing connections
+Info: 2018.07.02.14:05:42 Info: Validating
+Info: 2018.07.02.14:05:44 Info: Done reading input file
+Info: 2018.07.02.14:05:45 Info: log2_fun.fp_functions_0: D:/quartus161/quartus/dspba/backend/windows64
+Info: 2018.07.02.14:05:45 Info: log2_fun.fp_functions_0: D:/quartus161/quartus/dspba/backend/windows64
+Info: 2018.07.02.14:05:45 Info: qsys-generate succeeded.
+Info: 2018.07.02.14:05:45 Info: Finished: Create block symbol file (.bsf)
+Info: 2018.07.02.14:05:45 Info:
+Info: 2018.07.02.14:05:45 Info: Starting: Create HDL design files for synthesis
+Info: 2018.07.02.14:05:45 Info: qsys-generate G:\QKD_1GHZ\verilog\err_estimat_4Q16\core\log2_fun\log2_fun.qsys --synthesis=VERILOG --output-directory=G:\QKD_1GHZ\verilog\err_estimat_4Q16\core\log2_fun\log2_fun --family="Arria 10" --part=10AX066H2F34I2LP
+Info: 2018.07.02.14:05:45 Info: Loading log2_fun
+Info: 2018.07.02.14:05:45 Info: Reading input file
+Info: 2018.07.02.14:05:45 Info: Adding fp_functions_0 [altera_fp_functions 16.1]
+Info: 2018.07.02.14:05:45 Info: Parameterizing module fp_functions_0
+Info: 2018.07.02.14:05:45 Info: Building connections
+Info: 2018.07.02.14:05:45 Info: Parameterizing connections
+Info: 2018.07.02.14:05:45 Info: Validating
+Info: 2018.07.02.14:05:46 Info: Done reading input file
+Info: 2018.07.02.14:05:47 Info: log2_fun.fp_functions_0: D:/quartus161/quartus/dspba/backend/windows64
+Info: 2018.07.02.14:05:47 Info: log2_fun.fp_functions_0: D:/quartus161/quartus/dspba/backend/windows64
+Info: 2018.07.02.14:05:47 Info: log2_fun: "Transforming system: log2_fun"
+Info: 2018.07.02.14:05:47 Info: log2_fun: Running transform generation_view_transform
+Info: 2018.07.02.14:05:47 Info: log2_fun: Running transform generation_view_transform took 0.000s
+Info: 2018.07.02.14:05:47 Info: fp_functions_0: Running transform generation_view_transform
+Info: 2018.07.02.14:05:47 Info: fp_functions_0: Running transform generation_view_transform took 0.000s
+Info: 2018.07.02.14:05:47 Info: log2_fun: Running transform merlin_avalon_transform
+Info: 2018.07.02.14:05:47 Info: log2_fun: Running transform merlin_avalon_transform took 0.012s
+Info: 2018.07.02.14:05:47 Info: log2_fun: "Naming system components in system: log2_fun"
+Info: 2018.07.02.14:05:47 Info: log2_fun: "Processing generation queue"
+Info: 2018.07.02.14:05:47 Info: log2_fun: "Generating: log2_fun"
+Info: 2018.07.02.14:05:47 Info: log2_fun: "Generating: log2_fun_altera_fp_functions_161_f7x7wfy"
+Info: 2018.07.02.14:05:47 Info: fp_functions_0: D:/quartus161/quartus/dspba/backend/windows64
+Info: 2018.07.02.14:05:47 Info: fp_functions_0: Latency on Arria 10 is 14 cycles
+Info: 2018.07.02.14:05:47 Info: fp_functions_0: DSP Blocks Used: 4
+Info: 2018.07.02.14:05:47 Info: fp_functions_0: LUTs Used: 1103
+Info: 2018.07.02.14:05:47 Info: fp_functions_0: Memory Bits Used: 0
+Info: 2018.07.02.14:05:47 Info: fp_functions_0: Memory Blocks Used: 0
+Info: 2018.07.02.14:05:48 Info: log2_fun: Done "log2_fun" with 2 modules, 5 files
+Info: 2018.07.02.14:05:48 Info: qsys-generate succeeded.
+Info: 2018.07.02.14:05:48 Info: Finished: Create HDL design files for synthesis
+Info (11902): Backing up file "core/fp_mult_fun/fp_mult_fun.qsys" to "core/fp_mult_fun/fp_mult_fun.BAK.qsys"
+Info (11902): Backing up file "core/fp_mult_fun/fp_mult_fun/synth/fp_mult_fun.v" to "core/fp_mult_fun/fp_mult_fun.BAK.v"
+Info (11837): Started upgrading IP component altera_fp_functions with file "core/fp_mult_fun/fp_mult_fun.qsys"
+Info: 2018.07.02.14:05:54 Info: Starting to upgrade the IP cores in the Qsys system
+Info: 2018.07.02.14:05:54 Info: Finished upgrading the ip cores
+Info: 2018.07.02.14:05:59 Info: Saving generation log to G:/QKD_1GHZ/verilog/err_estimat_4Q16/core/fp_mult_fun/fp_mult_fun
+Info: 2018.07.02.14:05:59 Info: Starting: Create simulation model
+Info: 2018.07.02.14:05:59 Info: qsys-generate G:\QKD_1GHZ\verilog\err_estimat_4Q16\core\fp_mult_fun\fp_mult_fun.qsys --simulation=VERILOG --allow-mixed-language-simulation --output-directory=G:\QKD_1GHZ\verilog\err_estimat_4Q16\core\fp_mult_fun\fp_mult_fun --family="Arria 10" --part=10AX066H2F34I2LP
+Info: 2018.07.02.14:05:59 Info: Loading fp_mult_fun
+Info: 2018.07.02.14:05:59 Info: Reading input file
+Info: 2018.07.02.14:05:59 Info: Adding fp_functions_0 [altera_fp_functions 16.1]
+Info: 2018.07.02.14:05:59 Info: Parameterizing module fp_functions_0
+Info: 2018.07.02.14:05:59 Info: Building connections
+Info: 2018.07.02.14:05:59 Info: Parameterizing connections
+Info: 2018.07.02.14:05:59 Info: Validating
+Info: 2018.07.02.14:06:00 Info: Done reading input file
+Info: 2018.07.02.14:06:01 Info: fp_mult_fun.fp_functions_0: D:/quartus161/quartus/dspba/backend/windows64
+Info: 2018.07.02.14:06:01 Info: fp_mult_fun.fp_functions_0: D:/quartus161/quartus/dspba/backend/windows64
+Info: 2018.07.02.14:06:02 Info: fp_mult_fun: "Transforming system: fp_mult_fun"
+Info: 2018.07.02.14:06:02 Info: fp_mult_fun: Running transform generation_view_transform
+Info: 2018.07.02.14:06:02 Info: fp_mult_fun: Running transform generation_view_transform took 0.000s
+Info: 2018.07.02.14:06:02 Info: fp_functions_0: Running transform generation_view_transform
+Info: 2018.07.02.14:06:02 Info: fp_functions_0: Running transform generation_view_transform took 0.000s
+Info: 2018.07.02.14:06:02 Info: fp_mult_fun: Running transform merlin_avalon_transform
+Info: 2018.07.02.14:06:02 Info: fp_mult_fun: Running transform merlin_avalon_transform took 0.043s
+Info: 2018.07.02.14:06:02 Info: fp_mult_fun: "Naming system components in system: fp_mult_fun"
+Info: 2018.07.02.14:06:02 Info: fp_mult_fun: "Processing generation queue"
+Info: 2018.07.02.14:06:02 Info: fp_mult_fun: "Generating: fp_mult_fun"
+Info: 2018.07.02.14:06:02 Info: fp_mult_fun: "Generating: fp_mult_fun_altera_fp_functions_161_kajft6a"
+Info: 2018.07.02.14:06:02 Info: fp_functions_0: D:/quartus161/quartus/dspba/backend/windows64
+Info: 2018.07.02.14:06:02 Info: fp_functions_0: Latency on Arria 10 is 3 cycles
+Info: 2018.07.02.14:06:02 Info: fp_functions_0: DSP Blocks Used: 2
+Info: 2018.07.02.14:06:02 Info: fp_functions_0: LUTs Used: 0
+Info: 2018.07.02.14:06:02 Info: fp_functions_0: Memory Bits Used: 0
+Info: 2018.07.02.14:06:02 Info: fp_functions_0: Memory Blocks Used: 0
+Info: 2018.07.02.14:06:02 Info: fp_mult_fun: Done "fp_mult_fun" with 2 modules, 4 files
+Info: 2018.07.02.14:06:02 Info: qsys-generate succeeded.
+Info: 2018.07.02.14:06:02 Info: Finished: Create simulation model
+Info: 2018.07.02.14:06:02 Info: Starting: Create Modelsim Project.
+Info: 2018.07.02.14:06:02 Info: sim-script-gen --spd=G:\QKD_1GHZ\verilog\err_estimat_4Q16\core\fp_mult_fun\fp_mult_fun\fp_mult_fun.spd --output-directory=G:/QKD_1GHZ/verilog/err_estimat_4Q16/core/fp_mult_fun/fp_mult_fun/sim
+Info: 2018.07.02.14:06:02 Info: Doing: ip-make-simscript --spd=G:\QKD_1GHZ\verilog\err_estimat_4Q16\core\fp_mult_fun\fp_mult_fun\fp_mult_fun.spd --output-directory=G:/QKD_1GHZ/verilog/err_estimat_4Q16/core/fp_mult_fun/fp_mult_fun/sim
+Info: 2018.07.02.14:06:03 Info: Generating the following file(s) for MODELSIM simulator in G:/QKD_1GHZ/verilog/err_estimat_4Q16/core/fp_mult_fun/fp_mult_fun/sim
+Info: 2018.07.02.14:06:03 Info:     mentor
+Info: 2018.07.02.14:06:03 Info: Skipping VCS script generation since VHDL file $QUARTUS_INSTALL_DIR/eda/sim_lib
+Info: 2018.07.02.14:06:03 Info: Generating the following file(s) for VCSMX simulator in G:/QKD_1GHZ/verilog/err_estimat_4Q16/core/fp_mult_fun/fp_mult_fun/sim
+Info: 2018.07.02.14:06:03 Info:     synopsys/vcsmx
+Info: 2018.07.02.14:06:03 Info:     synopsys/vcsmx
+Info: 2018.07.02.14:06:03 Info: Generating the following file(s) for NCSIM simulator in G:/QKD_1GHZ/verilog/err_estimat_4Q16/core/fp_mult_fun/fp_mult_fun/sim
+Info: 2018.07.02.14:06:03 Info:     cadence
+Info: 2018.07.02.14:06:03 Info:     cadence
+Info: 2018.07.02.14:06:03 Info:     cadence
+Info: 2018.07.02.14:06:03 Info:     1 .cds.lib files in cadence/cds_libs
+Info: 2018.07.02.14:06:03 Info: Generating the following file(s) for RIVIERA simulator in G:/QKD_1GHZ/verilog/err_estimat_4Q16/core/fp_mult_fun/fp_mult_fun/sim
+Info: 2018.07.02.14:06:03 Info:     aldec
+Info: 2018.07.02.14:06:03 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under G:/QKD_1GHZ/verilog/err_estimat_4Q16/core/fp_mult_fun/fp_mult_fun/sim
+Info: 2018.07.02.14:06:03 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info: 2018.07.02.14:06:03 Info: Finished: Create Modelsim Project.
+Info: 2018.07.02.14:06:03 Info: Starting: Create block symbol file (.bsf)
+Info: 2018.07.02.14:06:03 Info: qsys-generate G:\QKD_1GHZ\verilog\err_estimat_4Q16\core\fp_mult_fun\fp_mult_fun.qsys --block-symbol-file --output-directory=G:\QKD_1GHZ\verilog\err_estimat_4Q16\core\fp_mult_fun\fp_mult_fun --family="Arria 10" --part=10AX066H2F34I2LP
+Info: 2018.07.02.14:06:03 Info: Loading fp_mult_fun
+Info: 2018.07.02.14:06:03 Info: Reading input file
+Info: 2018.07.02.14:06:03 Info: Adding fp_functions_0 [altera_fp_functions 16.1]
+Info: 2018.07.02.14:06:03 Info: Parameterizing module fp_functions_0
+Info: 2018.07.02.14:06:03 Info: Building connections
+Info: 2018.07.02.14:06:03 Info: Parameterizing connections
+Info: 2018.07.02.14:06:03 Info: Validating
+Info: 2018.07.02.14:06:04 Info: Done reading input file
+Info: 2018.07.02.14:06:05 Info: fp_mult_fun.fp_functions_0: D:/quartus161/quartus/dspba/backend/windows64
+Info: 2018.07.02.14:06:05 Info: fp_mult_fun.fp_functions_0: D:/quartus161/quartus/dspba/backend/windows64
+Info: 2018.07.02.14:06:05 Info: qsys-generate succeeded.
+Info: 2018.07.02.14:06:05 Info: Finished: Create block symbol file (.bsf)
+Info: 2018.07.02.14:06:05 Info:
+Info: 2018.07.02.14:06:05 Info: Starting: Create HDL design files for synthesis
+Info: 2018.07.02.14:06:05 Info: qsys-generate G:\QKD_1GHZ\verilog\err_estimat_4Q16\core\fp_mult_fun\fp_mult_fun.qsys --synthesis=VERILOG --output-directory=G:\QKD_1GHZ\verilog\err_estimat_4Q16\core\fp_mult_fun\fp_mult_fun --family="Arria 10" --part=10AX066H2F34I2LP
+Info: 2018.07.02.14:06:05 Info: Loading fp_mult_fun
+Info: 2018.07.02.14:06:06 Info: Reading input file
+Info: 2018.07.02.14:06:06 Info: Adding fp_functions_0 [altera_fp_functions 16.1]
+Info: 2018.07.02.14:06:06 Info: Parameterizing module fp_functions_0
+Info: 2018.07.02.14:06:06 Info: Building connections
+Info: 2018.07.02.14:06:06 Info: Parameterizing connections
+Info: 2018.07.02.14:06:06 Info: Validating
+Info: 2018.07.02.14:06:07 Info: Done reading input file
+Info: 2018.07.02.14:06:07 Info: fp_mult_fun.fp_functions_0: D:/quartus161/quartus/dspba/backend/windows64
+Info: 2018.07.02.14:06:07 Info: fp_mult_fun.fp_functions_0: D:/quartus161/quartus/dspba/backend/windows64
+Info: 2018.07.02.14:06:07 Info: fp_mult_fun: "Transforming system: fp_mult_fun"
+Info: 2018.07.02.14:06:07 Info: fp_mult_fun: Running transform generation_view_transform
+Info: 2018.07.02.14:06:07 Info: fp_mult_fun: Running transform generation_view_transform took 0.000s
+Info: 2018.07.02.14:06:07 Info: fp_functions_0: Running transform generation_view_transform
+Info: 2018.07.02.14:06:07 Info: fp_functions_0: Running transform generation_view_transform took 0.000s
+Info: 2018.07.02.14:06:07 Info: fp_mult_fun: Running transform merlin_avalon_transform
+Info: 2018.07.02.14:06:07 Info: fp_mult_fun: Running transform merlin_avalon_transform took 0.014s
+Info: 2018.07.02.14:06:07 Info: fp_mult_fun: "Naming system components in system: fp_mult_fun"
+Info: 2018.07.02.14:06:07 Info: fp_mult_fun: "Processing generation queue"
+Info: 2018.07.02.14:06:07 Info: fp_mult_fun: "Generating: fp_mult_fun"
+Info: 2018.07.02.14:06:07 Info: fp_mult_fun: "Generating: fp_mult_fun_altera_fp_functions_161_kajft6a"
+Info: 2018.07.02.14:06:07 Info: fp_functions_0: D:/quartus161/quartus/dspba/backend/windows64
+Info: 2018.07.02.14:06:08 Info: fp_functions_0: Latency on Arria 10 is 3 cycles
+Info: 2018.07.02.14:06:08 Info: fp_functions_0: DSP Blocks Used: 2
+Info: 2018.07.02.14:06:08 Info: fp_functions_0: LUTs Used: 0
+Info: 2018.07.02.14:06:08 Info: fp_functions_0: Memory Bits Used: 0
+Info: 2018.07.02.14:06:08 Info: fp_functions_0: Memory Blocks Used: 0
+Info: 2018.07.02.14:06:08 Info: fp_mult_fun: Done "fp_mult_fun" with 2 modules, 5 files
+Info: 2018.07.02.14:06:08 Info: qsys-generate succeeded.
+Info: 2018.07.02.14:06:08 Info: Finished: Create HDL design files for synthesis
+Info (11131): Completed upgrading IP component altera_fp_functions with file "core/log2_fun/log2_fun.qsys"
+Info (11131): Completed upgrading IP component altera_fp_functions with file "core/fp_mult_fun/fp_mult_fun.qsys"
+Info (23030): Evaluation of Tcl script d:/quartus161/quartus/common/tcl/internal/ip_regen/ip_regen.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4939 megabytes
+    Info: Processing ended: Mon Jul 02 14:06:08 2018
+    Info: Elapsed time: 00:00:52
+    Info: Total CPU time (on all processors): 00:01:35
+
+

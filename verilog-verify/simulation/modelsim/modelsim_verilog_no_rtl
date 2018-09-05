@@ -1,0 +1,408 @@
+Info: Changing the current directory to output directory E:/QKD_1GHZ/verilog/err_estimat_5Q16_newpara/simulation/modelsim ..
+Info: Using Path D:/modeltech64_10.1c/win64 that was set in EDA Simulation Library Compiler Options
+Info: Generating commands to compile library altera_ver ...
+Info: Generating commands to compile library lpm_ver ...
+Info: Generating commands to compile library sgate_ver ...
+Info: Generating commands to compile library altera_mf_ver ...
+Info: Generating commands to compile library altera_lnsim_ver ...
+Info: Executing command file containing library compilation commands
+Info: Reading D:/modeltech64_10.1c/tcl/vsim/pref.tcl 
+Info: # 10.1c
+Info: # do temp_simlib_comp.tmp 
+Info: # Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+Info: # -- Compiling module global
+Info: # -- Compiling module carry
+Info: # -- Compiling module cascade
+Info: # -- Compiling module carry_sum
+Info: # -- Compiling module exp
+Info: # -- Compiling module soft
+Info: # -- Compiling module opndrn
+Info: # -- Compiling module row_global
+Info: # -- Compiling module TRI
+Info: # -- Compiling module lut_input
+Info: # -- Compiling module lut_output
+Info: # -- Compiling module latch
+Info: # -- Compiling module dlatch
+Info: # -- Compiling module prim_gdff
+Info: # -- Compiling module dff
+Info: # -- Compiling module dffe
+Info: # -- Compiling module dffea
+Info: # -- Compiling module dffeas
+Info: # -- Compiling module dffeas_pr
+Info: # -- Compiling module prim_gtff
+Info: # -- Compiling module tff
+Info: # -- Compiling module tffe
+Info: # -- Compiling module prim_gjkff
+Info: # -- Compiling module jkff
+Info: # -- Compiling module jkffe
+Info: # -- Compiling module prim_gsrff
+Info: # -- Compiling module srff
+Info: # -- Compiling module srffe
+Info: # -- Compiling module clklock
+Info: # -- Compiling module alt_inbuf
+Info: # -- Compiling module alt_outbuf
+Info: # -- Compiling module alt_outbuf_tri
+Info: # -- Compiling module alt_iobuf
+Info: # -- Compiling module alt_inbuf_diff
+Info: # -- Compiling module alt_outbuf_diff
+Info: # -- Compiling module alt_outbuf_tri_diff
+Info: # -- Compiling module alt_iobuf_diff
+Info: # -- Compiling module alt_bidir_diff
+Info: # -- Compiling module alt_bidir_buf
+Info: # -- Compiling UDP PRIM_GDFF_LOW
+Info: # -- Compiling UDP PRIM_GDFF_LOW_SCLR_PRIORITY
+Info: # -- Compiling UDP PRIM_GDFF_HIGH
+Info: # -- Compiling UDP PRIM_GDFF_HIGH_SCLR_PRIORITY
+Info: # 
+Info: # Top level modules:
+Info: # 	global
+Info: # 	carry
+Info: # 	cascade
+Info: # 	carry_sum
+Info: # 	exp
+Info: # 	soft
+Info: # 	opndrn
+Info: # 	row_global
+Info: # 	TRI
+Info: # 	lut_input
+Info: # 	lut_output
+Info: # 	latch
+Info: # 	dlatch
+Info: # 	dff
+Info: # 	dffe
+Info: # 	dffea
+Info: # 	dffeas
+Info: # 	dffeas_pr
+Info: # 	tff
+Info: # 	tffe
+Info: # 	jkff
+Info: # 	jkffe
+Info: # 	srff
+Info: # 	srffe
+Info: # 	clklock
+Info: # 	alt_inbuf
+Info: # 	alt_outbuf
+Info: # 	alt_outbuf_tri
+Info: # 	alt_iobuf
+Info: # 	alt_inbuf_diff
+Info: # 	alt_outbuf_diff
+Info: # 	alt_outbuf_tri_diff
+Info: # 	alt_iobuf_diff
+Info: # 	alt_bidir_diff
+Info: # 	alt_bidir_buf
+Info: # Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+Info: # -- Compiling module LPM_MEMORY_INITIALIZATION
+Info: # -- Compiling module LPM_HINT_EVALUATION
+Info: # -- Compiling module LPM_DEVICE_FAMILIES
+Info: # -- Compiling module lpm_constant
+Info: # -- Compiling module lpm_inv
+Info: # -- Compiling module lpm_and
+Info: # -- Compiling module lpm_or
+Info: # -- Compiling module lpm_xor
+Info: # -- Compiling module lpm_bustri
+Info: # -- Compiling module lpm_mux
+Info: # -- Compiling module lpm_decode
+Info: # -- Compiling module lpm_clshift
+Info: # -- Compiling module lpm_add_sub
+Info: # -- Compiling module lpm_compare
+Info: # -- Compiling module lpm_mult
+Info: # -- Compiling module lpm_divide
+Info: # -- Compiling module lpm_abs
+Info: # -- Compiling module lpm_counter
+Info: # -- Compiling module lpm_latch
+Info: # -- Compiling module lpm_ff
+Info: # -- Compiling module lpm_shiftreg
+Info: # -- Compiling module lpm_ram_dq
+Info: # -- Compiling module lpm_ram_dp
+Info: # -- Compiling module lpm_ram_io
+Info: # -- Compiling module lpm_rom
+Info: # -- Compiling module lpm_fifo
+Info: # -- Compiling module lpm_fifo_dc_dffpipe
+Info: # -- Compiling module lpm_fifo_dc_fefifo
+Info: # -- Compiling module lpm_fifo_dc_async
+Info: # -- Compiling module lpm_fifo_dc
+Info: # -- Compiling module lpm_inpad
+Info: # -- Compiling module lpm_outpad
+Info: # -- Compiling module lpm_bipad
+Info: # 
+Info: # Top level modules:
+Info: # 	lpm_constant
+Info: # 	lpm_inv
+Info: # 	lpm_and
+Info: # 	lpm_or
+Info: # 	lpm_xor
+Info: # 	lpm_bustri
+Info: # 	lpm_mux
+Info: # 	lpm_decode
+Info: # 	lpm_clshift
+Info: # 	lpm_add_sub
+Info: # 	lpm_compare
+Info: # 	lpm_mult
+Info: # 	lpm_divide
+Info: # 	lpm_abs
+Info: # 	lpm_counter
+Info: # 	lpm_latch
+Info: # 	lpm_ff
+Info: # 	lpm_shiftreg
+Info: # 	lpm_ram_dq
+Info: # 	lpm_ram_dp
+Info: # 	lpm_ram_io
+Info: # 	lpm_rom
+Info: # 	lpm_fifo
+Info: # 	lpm_fifo_dc
+Info: # 	lpm_inpad
+Info: # 	lpm_outpad
+Info: # 	lpm_bipad
+Info: # Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+Info: # -- Compiling module oper_add
+Info: # -- Compiling module oper_addsub
+Info: # -- Compiling module mux21
+Info: # -- Compiling module io_buf_tri
+Info: # -- Compiling module io_buf_opdrn
+Info: # -- Compiling module oper_mult
+Info: # -- Compiling module tri_bus
+Info: # -- Compiling module oper_div
+Info: # -- Compiling module oper_mod
+Info: # -- Compiling module oper_left_shift
+Info: # -- Compiling module oper_right_shift
+Info: # -- Compiling module oper_rotate_left
+Info: # -- Compiling module oper_rotate_right
+Info: # -- Compiling module oper_less_than
+Info: # -- Compiling module oper_mux
+Info: # -- Compiling module oper_selector
+Info: # -- Compiling module oper_decoder
+Info: # -- Compiling module oper_bus_mux
+Info: # -- Compiling module oper_latch
+Info: # 
+Info: # Top level modules:
+Info: # 	oper_add
+Info: # 	oper_addsub
+Info: # 	mux21
+Info: # 	io_buf_tri
+Info: # 	io_buf_opdrn
+Info: # 	oper_mult
+Info: # 	tri_bus
+Info: # 	oper_div
+Info: # 	oper_mod
+Info: # 	oper_left_shift
+Info: # 	oper_right_shift
+Info: # 	oper_rotate_left
+Info: # 	oper_rotate_right
+Info: # 	oper_less_than
+Info: # 	oper_mux
+Info: # 	oper_selector
+Info: # 	oper_decoder
+Info: # 	oper_bus_mux
+Info: # 	oper_latch
+Info: # Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+Info: # -- Compiling module lcell
+Info: # -- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
+Info: # -- Compiling module ALTERA_MF_HINT_EVALUATION
+Info: # -- Compiling module ALTERA_DEVICE_FAMILIES
+Info: # -- Compiling module dffp
+Info: # -- Compiling module pll_iobuf
+Info: # -- Compiling module stx_m_cntr
+Info: # -- Compiling module stx_n_cntr
+Info: # -- Compiling module stx_scale_cntr
+Info: # -- Compiling module MF_pll_reg
+Info: # -- Compiling module MF_stratix_pll
+Info: # -- Compiling module arm_m_cntr
+Info: # -- Compiling module arm_n_cntr
+Info: # -- Compiling module arm_scale_cntr
+Info: # -- Compiling module MF_stratixii_pll
+Info: # -- Compiling module ttn_m_cntr
+Info: # -- Compiling module ttn_n_cntr
+Info: # -- Compiling module ttn_scale_cntr
+Info: # -- Compiling module MF_stratixiii_pll
+Info: # -- Compiling module cda_m_cntr
+Info: # -- Compiling module cda_n_cntr
+Info: # -- Compiling module cda_scale_cntr
+Info: # -- Compiling module MF_cycloneiii_pll
+Info: # -- Compiling module MF_cycloneiiigl_m_cntr
+Info: # -- Compiling module MF_cycloneiiigl_n_cntr
+Info: # -- Compiling module MF_cycloneiiigl_scale_cntr
+Info: # -- Compiling module cycloneiiigl_post_divider
+Info: # -- Compiling module MF_cycloneiiigl_pll
+Info: # -- Compiling module altpll
+Info: # -- Compiling module altlvds_rx
+Info: # -- Compiling module stratix_lvds_rx
+Info: # -- Compiling module stratixgx_dpa_lvds_rx
+Info: # -- Compiling module stratixii_lvds_rx
+Info: # -- Compiling module flexible_lvds_rx
+Info: # -- Compiling module stratixiii_lvds_rx
+Info: # -- Compiling module stratixiii_lvds_rx_channel
+Info: # -- Compiling module stratixiii_lvds_rx_dpa
+Info: # -- Compiling module altlvds_tx
+Info: # -- Compiling module stratixv_local_clk_divider
+Info: # -- Compiling module stratix_tx_outclk
+Info: # -- Compiling module stratixii_tx_outclk
+Info: # -- Compiling module flexible_lvds_tx
+Info: # -- Compiling module dcfifo_dffpipe
+Info: # -- Compiling module dcfifo_fefifo
+Info: # -- Compiling module dcfifo_async
+Info: # -- Compiling module dcfifo_sync
+Info: # -- Compiling module dcfifo_low_latency
+Info: # -- Compiling module dcfifo_mixed_widths
+Info: # -- Compiling module dcfifo
+Info: # -- Compiling module altera_syncram_derived
+Info: # -- Compiling module altera_syncram_derived_forwarding_logic
+Info: # -- Compiling module altaccumulate
+Info: # -- Compiling module altmult_accum
+Info: # -- Compiling module altmult_add
+Info: # -- Compiling module altfp_mult
+Info: # -- Compiling module altsqrt
+Info: # -- Compiling module altclklock
+Info: # -- Compiling module altddio_in
+Info: # -- Compiling module altddio_out
+Info: # -- Compiling module altddio_bidir
+Info: # -- Compiling module altdpram
+Info: # -- Compiling module altsyncram
+Info: # -- Compiling module altsyncram_body
+Info: # -- Compiling module alt3pram
+Info: # -- Compiling module parallel_add
+Info: # -- Compiling module scfifo
+Info: # -- Compiling module altshift_taps
+Info: # -- Compiling module a_graycounter
+Info: # -- Compiling module altsquare
+Info: # -- Compiling module altera_std_synchronizer
+Info: # -- Compiling module altera_std_synchronizer_bundle
+Info: # -- Compiling module alt_cal
+Info: # -- Compiling module alt_cal_mm
+Info: # -- Compiling module alt_cal_c3gxb
+Info: # -- Compiling module alt_cal_sv
+Info: # -- Compiling module alt_cal_av
+Info: # -- Compiling module alt_aeq_s4
+Info: # -- Compiling module alt_eyemon
+Info: # -- Compiling module alt_dfe
+Info: # -- Compiling module signal_gen
+Info: # -- Compiling module jtag_tap_controller
+Info: # -- Compiling module dummy_hub
+Info: # -- Compiling module sld_virtual_jtag
+Info: # -- Compiling module sld_signaltap
+Info: # -- Compiling module altstratixii_oct
+Info: # -- Compiling module altparallel_flash_loader
+Info: # -- Compiling module altserial_flash_loader
+Info: # -- Compiling module alt_fault_injection
+Info: # -- Compiling module sld_virtual_jtag_basic
+Info: # -- Compiling module altsource_probe
+Info: # 
+Info: # Top level modules:
+Info: # 	lcell
+Info: # 	altpll
+Info: # 	altlvds_rx
+Info: # 	altlvds_tx
+Info: # 	dcfifo
+Info: # 	altaccumulate
+Info: # 	altmult_accum
+Info: # 	altmult_add
+Info: # 	altfp_mult
+Info: # 	altsqrt
+Info: # 	altclklock
+Info: # 	altddio_bidir
+Info: # 	altdpram
+Info: # 	alt3pram
+Info: # 	parallel_add
+Info: # 	scfifo
+Info: # 	altshift_taps
+Info: # 	a_graycounter
+Info: # 	altsquare
+Info: # 	altera_std_synchronizer_bundle
+Info: # 	alt_cal
+Info: # 	alt_cal_mm
+Info: # 	alt_cal_c3gxb
+Info: # 	alt_cal_sv
+Info: # 	alt_cal_av
+Info: # 	alt_aeq_s4
+Info: # 	alt_eyemon
+Info: # 	alt_dfe
+Info: # 	sld_virtual_jtag
+Info: # 	sld_signaltap
+Info: # 	altstratixii_oct
+Info: # 	altparallel_flash_loader
+Info: # 	altserial_flash_loader
+Info: # 	alt_fault_injection
+Info: # 	sld_virtual_jtag_basic
+Info: # 	altsource_probe
+Info: # Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+Info: # -- Compiling package altera_lnsim_functions
+Info: # -- Compiling package altera_generic_pll_functions
+Info: # -- Compiling module generic_pll
+Info: # -- Importing package altera_lnsim_functions
+Info: # -- Importing package altera_generic_pll_functions
+Info: # -- Compiling module generic_cdr
+Info: # -- Compiling module common_28nm_ram_pulse_generator
+Info: # -- Compiling module common_28nm_ram_register
+Info: # -- Compiling module common_28nm_ram_block
+Info: # -- Compiling module generic_m20k
+Info: # -- Compiling module generic_m10k
+Info: # -- Compiling module common_28nm_mlab_cell_pulse_generator
+Info: # -- Compiling module common_28nm_mlab_latch
+Info: # -- Compiling module common_28nm_mlab_cell_core
+Info: # -- Compiling module common_porta_latches
+Info: # -- Compiling module generic_28nm_hp_mlab_cell_impl
+Info: # -- Compiling module common_porta_registers
+Info: # -- Compiling module generic_28nm_lc_mlab_cell_impl
+Info: # -- Compiling module common_28nm_lutram_register
+Info: # -- Compiling module generic_14nm_mlab_cell_impl
+Info: # -- Compiling module common_14nm_lutram_register
+Info: # -- Compiling module generic_mux
+Info: # -- Compiling module generic_device_pll
+Info: # -- Compiling module altera_mult_add
+Info: # -- Compiling module altera_mult_add_rtl
+Info: # -- Compiling module ama_signed_extension_function
+Info: # -- Compiling module ama_dynamic_signed_function
+Info: # -- Compiling module ama_register_function
+Info: # -- Compiling module ama_register_with_ext_function
+Info: # -- Compiling module ama_data_split_reg_ext_function
+Info: # -- Compiling module ama_coef_reg_ext_function
+Info: # -- Compiling module ama_adder_function
+Info: # -- Compiling module ama_multiplier_function
+Info: # -- Compiling module ama_preadder_function
+Info: # -- Compiling module ama_chainout_adder_accumulator_function
+Info: # -- Compiling module ama_systolic_adder_function
+Info: # -- Compiling module ama_scanchain
+Info: # -- Compiling module ama_latency_function
+Info: # -- Compiling module altera_pll_reconfig_tasks
+Info: # -- Compiling module altera_syncram
+Info: # -- Compiling module altera_syncram_forwarding_logic
+Info: # -- Compiling module ALTERA_LNSIM_MEMORY_INITIALIZATION
+Info: # -- Compiling module altera_stratixv_pll
+Info: # -- Compiling module altera_arriav_pll
+Info: # -- Compiling module altera_arriavgz_pll
+Info: # -- Compiling module altera_cyclonev_pll
+Info: # -- Compiling module altera_pll
+Info: # -- Compiling module dps_extra_kick
+Info: # -- Compiling module dprio_init
+Info: # -- Compiling module dps_pulse_gen
+Info: # -- Compiling module altera_iopll
+Info: # -- Compiling module dps_pulse_gen_iopll
+Info: # -- Compiling module twentynm_iopll_arlol
+Info: # -- Compiling module fourteennm_altera_iopll
+Info: # -- Compiling module dps_pulse_gen_fourteennm_iopll
+Info: # -- Compiling package fourteennm_iopll_functions
+Info: # -- Compiling module fourteennm_simple_iopll
+Info: # -- Importing package fourteennm_iopll_functions
+Info: # -- Compiling module fourteennm_sub_iopll
+Info: # -- Compiling module twentynm_iopll_ip
+Info: # -- Compiling module altera_iopll_rotation_lcells
+Info: # -- Compiling module altera_pll_dps_lcell_comb
+Info: # -- Compiling module iopll_bootstrap
+Info: # 
+Info: # Top level modules:
+Info: # 	generic_cdr
+Info: # 	generic_m20k
+Info: # 	generic_m10k
+Info: # 	common_porta_latches
+Info: # 	generic_28nm_hp_mlab_cell_impl
+Info: # 	generic_28nm_lc_mlab_cell_impl
+Info: # 	generic_14nm_mlab_cell_impl
+Info: # 	generic_mux
+Info: # 	generic_device_pll
+Info: # 	altera_mult_add
+Info: # 	altera_pll_reconfig_tasks
+Info: # 	altera_syncram
+Info: # 	altera_pll
+Info: # 	altera_iopll
+Info: # 	fourteennm_altera_iopll
+Info: # 	fourteennm_simple_iopll
+Info: Successfully compiled the libraries

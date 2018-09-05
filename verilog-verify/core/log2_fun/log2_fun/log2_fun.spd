@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="altera_fp_functions_161/sim/dspba_library_package.vhd"
+   type="VHDL"
+   library="log2_fun_altera_fp_functions_161" />
+ <file
+   path="altera_fp_functions_161/sim/dspba_library.vhd"
+   type="VHDL"
+   library="log2_fun_altera_fp_functions_161" />
+ <file
+   path="altera_fp_functions_161/sim/log2_fun_altera_fp_functions_161_f7x7wfy.vhd"
+   type="VHDL"
+   library="log2_fun_altera_fp_functions_161" />
+ <file path="sim/log2_fun.v" type="VERILOG" hasInlineConfiguration="true" />
+ <topLevel name="log2_fun" />
+ <deviceFamily name="arria10" />
+</simPackage>

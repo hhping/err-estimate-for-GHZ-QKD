@@ -1,0 +1,78 @@
+Info: Starting: Create simulation model
+Info: ip-generate --project-directory=G:\QKD_1GHZ\verilog\err_estimat_3\core\fp_mult_fun --output-directory=G:\QKD_1GHZ\verilog\err_estimat_3\core\fp_mult_fun\fp_mult_fun --file-set=SIM_VERILOG --report-file=html:G:\QKD_1GHZ\verilog\err_estimat_3\core\fp_mult_fun\fp_mult_fun\fp_mult_fun.html --report-file=sopcinfo:G:\QKD_1GHZ\verilog\err_estimat_3\core\fp_mult_fun\fp_mult_fun.sopcinfo --report-file=csv:G:\QKD_1GHZ\verilog\err_estimat_3\core\fp_mult_fun\fp_mult_fun\fp_mult_fun.csv --report-file=spd:G:\QKD_1GHZ\verilog\err_estimat_3\core\fp_mult_fun\fp_mult_fun\fp_mult_fun.spd --report-file=cmp:G:\QKD_1GHZ\verilog\err_estimat_3\core\fp_mult_fun\fp_mult_fun\fp_mult_fun.cmp --report-file=sip:G:\QKD_1GHZ\verilog\err_estimat_3\core\fp_mult_fun\fp_mult_fun\fp_mult_fun.sip --system-info=DEVICE_FAMILY="Arria 10" --system-info=DEVICE=10AX066H2F34I2LP --system-info=DEVICE_SPEEDGRADE=2 --component-file=G:\QKD_1GHZ\verilog\err_estimat_3\core\fp_mult_fun\fp_mult_fun.qsys --generator=extensible --remove-qsys-generate-warning
+Progress: Loading fp_mult_fun/fp_mult_fun.qsys
+Progress: Reading input file
+Progress: Adding fp_functions_0 [altera_fp_functions 14.1]
+Progress: Parameterizing module fp_functions_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: fp_mult_fun: "Transforming system: fp_mult_fun"
+Info: fp_mult_fun: Running transform generation_view_transform
+Info: fp_mult_fun: Running transform generation_view_transform took 0.000s
+Info: fp_functions_0: Running transform generation_view_transform
+Info: fp_functions_0: Running transform generation_view_transform took 0.000s
+Info: fp_mult_fun: Running transform merlin_avalon_transform
+Info: fp_mult_fun: Running transform merlin_avalon_transform took 0.036s
+Info: fp_mult_fun: "Naming system components in system: fp_mult_fun"
+Info: fp_mult_fun: "Processing generation queue"
+Info: fp_mult_fun: "Generating: fp_mult_fun"
+Info: fp_mult_fun: "Generating: fp_mult_fun_altera_fp_functions_141_ds63a3a"
+Info: fp_functions_0: Latency on Arria 10 is 3 cycles
+Info: fp_functions_0: DSP Blocks Used: 2
+Info: fp_functions_0: LUTs Used: 0
+Info: fp_functions_0: Memory Bits Used: 0
+Info: fp_functions_0: Memory Blocks Used: 0
+Warning: Using design file fp_mult_fun_altera_fp_functions_141_ds63a3a.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+Info: fp_mult_fun: Done "fp_mult_fun" with 2 modules, 2 files
+Info: ip-generate succeeded.
+Info: Finished: Create simulation model
+Info: Starting: Create Modelsim Project.
+Info: sim-script-gen --spd=G:\QKD_1GHZ\verilog\err_estimat_3\core\fp_mult_fun\fp_mult_fun\fp_mult_fun.spd --output-directory=G:/QKD_1GHZ/verilog/err_estimat_3/core/fp_mult_fun/fp_mult_fun/sim/ --use-relative-paths=true
+Info: Doing: ip-make-simscript --spd=G:\QKD_1GHZ\verilog\err_estimat_3\core\fp_mult_fun\fp_mult_fun\fp_mult_fun.spd --output-directory=G:/QKD_1GHZ/verilog/err_estimat_3/core/fp_mult_fun/fp_mult_fun/sim/ --use-relative-paths=true
+Info: Generating the following file(s) for MODELSIM simulator in G:/QKD_1GHZ/verilog/err_estimat_3/core/fp_mult_fun/fp_mult_fun/sim/ directory:
+Info: 	mentor/msim_setup.tcl
+Info: Generating the following file(s) for VCS simulator in G:/QKD_1GHZ/verilog/err_estimat_3/core/fp_mult_fun/fp_mult_fun/sim/ directory:
+Info: 	synopsys/vcs/vcs_setup.sh
+Info: Generating the following file(s) for VCSMX simulator in G:/QKD_1GHZ/verilog/err_estimat_3/core/fp_mult_fun/fp_mult_fun/sim/ directory:
+Info: 	synopsys/vcsmx/synopsys_sim.setup
+Info: 	synopsys/vcsmx/vcsmx_setup.sh
+Info: Generating the following file(s) for NCSIM simulator in G:/QKD_1GHZ/verilog/err_estimat_3/core/fp_mult_fun/fp_mult_fun/sim/ directory:
+Info: 	cadence/cds.lib
+Info: 	cadence/hdl.var
+Info: 	cadence/ncsim_setup.sh
+Info: 	1 .cds.lib files in cadence/cds_libs/ directory
+Info: Generating the following file(s) for RIVIERA simulator in G:/QKD_1GHZ/verilog/err_estimat_3/core/fp_mult_fun/fp_mult_fun/sim/ directory:
+Info: 	aldec/rivierapro_setup.tcl
+Info: Finished: Create Modelsim Project.
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: ip-generate --project-directory=G:\QKD_1GHZ\verilog\err_estimat_3\core\fp_mult_fun --output-directory=G:\QKD_1GHZ\verilog\err_estimat_3\core\fp_mult_fun\fp_mult_fun --file-set=QUARTUS_SYNTH --report-file=html:G:\QKD_1GHZ\verilog\err_estimat_3\core\fp_mult_fun\fp_mult_fun\fp_mult_fun.html --report-file=sopcinfo:G:\QKD_1GHZ\verilog\err_estimat_3\core\fp_mult_fun\fp_mult_fun.sopcinfo --report-file=cmp:G:\QKD_1GHZ\verilog\err_estimat_3\core\fp_mult_fun\fp_mult_fun\fp_mult_fun.cmp --report-file=qip:G:\QKD_1GHZ\verilog\err_estimat_3\core\fp_mult_fun\fp_mult_fun\fp_mult_fun.qip --report-file=svd:G:\QKD_1GHZ\verilog\err_estimat_3\core\fp_mult_fun\fp_mult_fun\fp_mult_fun.svd --report-file=regmap:G:\QKD_1GHZ\verilog\err_estimat_3\core\fp_mult_fun\fp_mult_fun\fp_mult_fun.regmap --report-file=xml:G:\QKD_1GHZ\verilog\err_estimat_3\core\fp_mult_fun\fp_mult_fun\fp_mult_fun.xml --report-file=debuginfo:G:\QKD_1GHZ\verilog\err_estimat_3\core\fp_mult_fun\fp_mult_fun\fp_mult_fun.debuginfo --system-info=DEVICE_FAMILY="Arria 10" --system-info=DEVICE=10AX066H2F34I2LP --system-info=DEVICE_SPEEDGRADE=2 --component-file=G:\QKD_1GHZ\verilog\err_estimat_3\core\fp_mult_fun\fp_mult_fun.qsys --generator=extensible --remove-qsys-generate-warning --language=VERILOG
+Progress: Loading fp_mult_fun/fp_mult_fun.qsys
+Progress: Reading input file
+Progress: Adding fp_functions_0 [altera_fp_functions 14.1]
+Progress: Parameterizing module fp_functions_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: fp_mult_fun: "Transforming system: fp_mult_fun"
+Info: fp_mult_fun: Running transform generation_view_transform
+Info: fp_mult_fun: Running transform generation_view_transform took 0.000s
+Info: fp_functions_0: Running transform generation_view_transform
+Info: fp_functions_0: Running transform generation_view_transform took 0.000s
+Info: fp_mult_fun: Running transform merlin_avalon_transform
+Info: fp_mult_fun: Running transform merlin_avalon_transform took 0.017s
+Info: fp_mult_fun: "Naming system components in system: fp_mult_fun"
+Info: fp_mult_fun: "Processing generation queue"
+Info: fp_mult_fun: "Generating: fp_mult_fun"
+Info: fp_mult_fun: "Generating: fp_mult_fun_altera_fp_functions_141_ds63a3a"
+Info: fp_functions_0: Latency on Arria 10 is 3 cycles
+Info: fp_functions_0: DSP Blocks Used: 2
+Info: fp_functions_0: LUTs Used: 0
+Info: fp_functions_0: Memory Bits Used: 0
+Info: fp_functions_0: Memory Blocks Used: 0
+Info: fp_mult_fun: Done "fp_mult_fun" with 2 modules, 5 files
+Info: ip-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

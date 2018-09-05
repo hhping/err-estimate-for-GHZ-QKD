@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="altera_fp_functions_141/sim/log2_fun_altera_fp_functions_141_dehmhdi.vo"
+   type="VERILOG"
+   library="log2_fun_altera_fp_functions_141" />
+ <file path="sim/log2_fun.v" type="VERILOG" hasInlineConfiguration="true" />
+ <topLevel name="log2_fun" />
+ <deviceFamily name="arria10" />
+</simPackage>
